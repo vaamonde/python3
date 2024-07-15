@@ -49,8 +49,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 
 #Quarto exemplo: criando variáveis estáticas
->>> vaamonde="Robson Vaamonde"   #Valor de uma variável estática
->>> vaamonde   #Imprimindo na saída padrão o valor da variável estática
+>>> vaamonde="Robson Vaamonde"   #Declarando o Valor de uma variável estática
+>>> vaamonde                     #Imprimindo na saída padrão o valor da variável estática
 'Robson Vaamonde'
 >>>
 
