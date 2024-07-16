@@ -31,41 +31,41 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 ```python
-#Pressionar Ctrl + L limpa o Shell Python facilitando a digitação
+#Pressionar Ctrl + L limpa o Shell do Python facilitando a digitação
 
-#Primeiro exemplo: imprimindo o valor exato
->>> 10   #Imprimindo na saída padrão a Representação de valor exato
+#Primeiro exemplo: enviando dados do valor exato
+>>> 10   #Enviando dados na saída padrão da Representação de valor exato
 10
 >>>
 
 #Segundo exemplo: função de aritmética
 >>> 3 + 4   #Função Aritmética simples de adição (símbolo + mais)
-7
+7           #Resultado da adição
 >>> 
 
-#Terceiro exemplo: imprimindo strings de texto
->>> "Robson Vaamonde"   #Imprimindo da saída padrão o valor da String de Texto 
+#Terceiro exemplo: digitando strings de texto
+>>> "Robson Vaamonde"   #Enviando os dados na saída padrão do valor da String de Texto 
 'Robson Vaamonde'
 >>>
 
 #Quarto exemplo: criando variáveis estáticas
->>> vaamonde="Robson Vaamonde"   #Declarando o Valor de uma variável estática
->>> vaamonde                     #Imprimindo na saída padrão o valor da variável estática
+>>> vaamonde="Robson Vaamonde"   #Declarando o Valor de uma Variável Estática
+>>> vaamonde                     #Enviando os dados na saída padrão do valor da variável estática
 'Robson Vaamonde'
 >>>
 
 #Quint exemplo: concatenando string com variável
->>> "Eu sou: " + vaamonde   #Imprimindo na saída padrão o valor da String de Texto
+>>> "Eu sou: " + vaamonde   #Enviando os dados na saída padrão do valor da String de Texto
 'Eu sou: Robson Vaamonde'   #e concatenando com o valor da variável estática vaamonde
 >>>
 
-#Sexto exemplo: utilizando o comando print
->>> print("Robson Vaamonde")   #Imprimindo na saída padrão o valor do comando PRINT()
+#Sexto exemplo: utilizando o função print()
+>>> print("Robson Vaamonde")   #Enviando os dados na saída padrão do valor da função PRINT()
 Robson Vaamonde
 >>>
 
-#Sétimo exemplo: utilizando o comando print com duas opções
->>> print("Eu sou:", vaamonde)   #Imprimindo na saída padrão o valor do comando PRINT()
+#Sétimo exemplo: utilizando o função print() com duas opções
+>>> print("Eu sou:", vaamonde)   #Enviando os dados na saída padrão do valor do função PRINT()
 Eu sou: Robson Vaamonde          #mais o valor da variável estática vaamonde
 >>> 
 ```
