@@ -11,14 +11,9 @@
 #Versão: 0.01<br>
 
 Conteúdo estudado nessa aula:<br>
+#01_ Testando os Shells Python 3 no Linux Mint<br>
 
-Site Oficial do Python: https://www.python.org/
-
-Python é uma linguagem de programação de alto nível, interpretada de script, imperativa,<br>
-orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van <br>
-Rossum em 1991.
-
-#03_ Testando os Shells Python 3 no Linux Mint<br>
+#01_ Testando os Shells Python 3 no Linux Mint<br>
 ```bash
 #Utilizando o Shell Python 3 padrão
 python3

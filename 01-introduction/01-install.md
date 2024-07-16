@@ -11,6 +11,10 @@
 #Versão: 0.02<br>
 
 Conteúdo estudado nessa aula:<br>
+#01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
+#02_ Verificando a Versão o Python 3 instalado no Linux Mint<br>
+#03_ Testando os Shells do Python 3 no Linux Mint<br>
+#04_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
 
 Site Oficial do Python: https://www.python.org/
 
@@ -18,7 +22,7 @@ Python é uma linguagem de programação de alto nível, interpretada de script,
 orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van <br>
 Rossum em 1991.
 
-#01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES) <br>
+#01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
 #Atualizando as listas do Apt
 sudo apt update
@@ -76,5 +80,5 @@ VSCode
   Extensões
     Pesquisar:
 	  Python (Microsoft) <Instalar>
-	  Python Debugger (Micrsoft) <Instalar>
+	  Python Debugger (Microsoft) <Instalar>
 ```

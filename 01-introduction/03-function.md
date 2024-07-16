@@ -11,16 +11,15 @@
 #Versão: 0.01<br>
 
 Conteúdo estudado nessa aula:<br>
+#01_ Função Print() do Python 3 no Linux Mint<br>
+#02_ Função Input() do Python 3 no Linux Mint<br>
+#03_ Função Int() e Float() do Python 3 no Linux Mint<br>
 
-Site Oficial do Python: https://www.python.org/
-
-Python é uma linguagem de programação de alto nível, interpretada de script, imperativa,<br>
-orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van <br>
-Rossum em 1991.
-
-#03_ Função Print() do Python 3 no Linux Mint<br>
+#01_ Função Print() do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_print.asp
 ```python
 #Pressionar Ctrl + L limpa o Shell do Python facilitando a digitação
+#Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
 
 #Primeiro exemplo: utilizando o função print()
 >>> print("Robson Vaamonde")   #Enviando os dados na saída padrão do valor da função PRINT()
@@ -30,7 +29,11 @@ Robson Vaamonde                #e criando uma nova linha
 #Segundo exemplo: utilizando a função print() junto com end
 >>> print("Robson Vaamonde", end = "")  #Enviado os dados na saída padrão do valor da função PRINT()
 Robson Vaamonde>>>                      #e continuando na mesma linha com a expressão END
+```
 
+#02_ Função Input() do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_input.asp
+```python
 #Terceiro exemplo: utilizando variável estática e a função input()
 >>> nome = input("Digite o seu nome: ")   #Criando a variável estática e recebendo o argumento da função INPUT()
 Digite o seu nome: Robson Vaamonde        #Processamento da função INPUT() e digitando o valor a ser atribuído na variável
@@ -43,7 +46,12 @@ Qual a sua Cidade: São Paulo                #Processamento da função INPUT() 
 >>> print(cidade)                           #Enviando os dados na saída padrão do valor da função PRINT()
 São Paulo
 >>>
+```
 
+#03_ Função Int() e Float() do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_int.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_float.asp
+```python
 #Quinto exemplo: utilizando variáveis estáticas junto com as funções int(), input() e print() para cálculo de aritmética
 >>> anoatual = 2024   #Criando a variável estática e recebendo o valor inteiro/numérico
 >>> suaidade = int(input("Qual ano você nasceu? "))  #Criando a variável estática e recebendo o argumento da função INPUT() convertendo para Inteiro com a função INT()
