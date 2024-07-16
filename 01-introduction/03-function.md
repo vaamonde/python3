@@ -62,8 +62,8 @@ Sua idade é: 45 anos
 
 #Sexto exemplo: utilizando variáveis estáticas junto com as funções float(), input e print para cálculo de aritmética
 >>> produto = 10.50   #Criando a variável estática e recebendo o valor numérico de ponto flutuante (decimal)
->>> recebido = float(input("Qual valor for recebido? "))   #Criando a variável estática e recebendo o argumento da função INPUT() convertendo para Decimal com a função FLOAT()
-Qual valor for recebido? 20.00   #Processamento da função INPUT() digitando o valor a ser convertido para decimal FLOAT() e atribuído na variável
+>>> recebido = float(input("Qual valor foi recebido? "))   #Criando a variável estática e recebendo o argumento da função INPUT() convertendo para Decimal com a função FLOAT()
+Qual valor foi recebido? 20.00   #Processamento da função INPUT() digitando o valor a ser convertido para decimal FLOAT() e atribuído na variável
 >>> print("Troco: ", produto - recebido)   #Enviando os dados na saída padrão da função PRINT()
 Troco:  -9.5
 >>>
