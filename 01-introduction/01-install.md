@@ -16,7 +16,8 @@ Conteúdo estudado nessa aula:<br>
 #03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
 #04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
 #05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
-#06_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
+#06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
+#07_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do IPython: https://ipython.org/<br>
@@ -37,13 +38,18 @@ BPython é um intérprete interativo para Python, similar ao IPython, mas com fo
 e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe,<br>
 Histórico de comandos e Inserção de argumentos.
 
+IDLE é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde<br>
+a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE<br>
+multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas<br>
+distribuições Linux.
+
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
 #Atualizando as listas do Apt
 sudo apt update
 
 #Instalando o Python na versão 3
-sudo apt install python3 ipython3 bpython git vim
+sudo apt install python3 idle-python3.10 ipython3 bpython git vim
 ```
 
 #02_ Verificando a Versão o Python 3 instalado no Linux Mint<br>
@@ -92,7 +98,13 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 >>>
 ```
 
-#06_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
+#06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
+```bash
+#Utilizando o IDLE padrão do Python 3
+idle-python3.10
+```
+
+#07_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
 
 A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:<br>
 Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
