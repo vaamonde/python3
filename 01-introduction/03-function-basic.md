@@ -22,12 +22,12 @@ Link de apoio: https://www.w3schools.com/python/ref_func_print.asp
 #Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
 
 #Primeiro exemplo: utilizando o função print()
->>> print("Robson Vaamonde")   #Enviando os dados na saída padrão do valor da função PRINT()
+>>> print("Robson Vaamonde")   #Imprimindo os dados na saída padrão do valor da função PRINT()
 Robson Vaamonde                #e criando uma nova linha
 >>>
 
 #Segundo exemplo: utilizando a função print() junto com end
->>> print("Robson Vaamonde", end = "")  #Enviado os dados na saída padrão do valor da função PRINT()
+>>> print("Robson Vaamonde", end = "")  #Imprimindo os dados na saída padrão do valor da função PRINT()
 Robson Vaamonde>>>                      #e continuando na mesma linha com a expressão END
 ```
 
@@ -43,7 +43,7 @@ Digite o seu nome: Robson Vaamonde        #Processamento da função INPUT() e d
 #Quarto exemplo: utilizando variável estática junto com as funções input() e print()
 >>> cidade = input("Qual a sua Cidade? ")   #Criando a variável estática e recebendo o argumento da função INPUT()
 Qual a sua Cidade: São Paulo                #Processamento da função INPUT() digitando o valor a ser atribuído na variável
->>> print(cidade)                           #Enviando os dados na saída padrão do valor da função PRINT()
+>>> print(cidade)                           #Imprimindo os dados na saída padrão do valor da função PRINT()
 São Paulo
 >>>
 ```
@@ -56,7 +56,7 @@ Link de apoio: https://www.w3schools.com/python/ref_func_float.asp
 >>> anoatual = 2024                                     #Criando a variável estática e recebendo o valor inteiro/numérico
 >>> suaidade = int(input("Qual ano você nasceu? "))     #Criando a variável estática e recebendo o argumento da função INPUT() convertendo para Inteiro com a função INT()
 Qual ano você nasceu? 1979                              #Processamento da função INPUT() digitando o valor a ser convertido para inteiro INT() e atribuído na variável
->>> print("Sua idade é:", anoatual - suaidade, "anos")  #Enviando os dados na saída padrão da função PRINT()
+>>> print("Sua idade é:", anoatual - suaidade, "anos")  #Imprimindo os dados na saída padrão da função PRINT()
 Sua idade é: 45 anos
 >>>
 
@@ -64,7 +64,7 @@ Sua idade é: 45 anos
 >>> produto = 10.50                                        #Criando a variável estática e recebendo o valor numérico de ponto flutuante (decimal)
 >>> recebido = float(input("Qual valor foi recebido? "))   #Criando a variável estática e recebendo o argumento da função INPUT() convertendo para Decimal com a função FLOAT()
 Qual valor foi recebido? 20.00                             #Processamento da função INPUT() digitando o valor a ser convertido para decimal FLOAT() e atribuído na variável
->>> print("Troco: ", produto - recebido)                   #Enviando os dados na saída padrão da função PRINT()
+>>> print("Troco: ", produto - recebido)                   #Imprimindo os dados na saída padrão da função PRINT()
 Troco:  -9.5
 >>>
 ```

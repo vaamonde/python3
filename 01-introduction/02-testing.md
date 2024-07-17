@@ -59,12 +59,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 
 #Sexto exemplo: utilizando o função print()
->>> print("Robson Vaamonde")   #Enviando os dados na saída padrão do valor da função PRINT()
+>>> print("Robson Vaamonde")   #Imprimindo os dados na saída padrão do valor da função PRINT()
 Robson Vaamonde
 >>>
 
 #Sétimo exemplo: utilizando o função print() com duas opções
->>> print("Eu sou:", vaamonde)   #Enviando os dados na saída padrão do valor do função PRINT()
+>>> print("Eu sou:", vaamonde)   #Imprimindo os dados na saída padrão do valor do função PRINT()
 Eu sou: Robson Vaamonde          #mais o valor da variável estática vaamonde
 >>> 
 ```
