@@ -19,6 +19,7 @@ Conteúdo estudado nessa aula:<br>
 #06_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
 #07_ Cálculo do Resto da Divisão (Dividir %) no Python 3 no Linux Mint<br>
 #08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
+#09_ Regra de Sinais (Positivo e Negativo) no Python 3 no Linux Mint<br>
 
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
 ```python
@@ -43,35 +44,48 @@ Conteúdo estudado nessa aula:<br>
 
 #04_ Cálculo de Divisão (Dividir /) no Python 3 no Linux Mint<br>
 ```python
->>> 15 / 4   #Dividir dois valores utilizando o caractere: / (barra oblíqua)
-3.75         #Resultado do cálculo de divisão
+>>> 15 / 4    #Dividir dois valores utilizando o caractere: / (barra oblíqua)
+3.75          #Resultado do cálculo de divisão
 >>>
 ```
 
 #05_ Cálculo de Divisão (Dividir /) do Número Inteiro (Resto) no Python 3 no Linux Mint<br>
 ```python
->>> 15 // 4  #Dividir dois valores utilizando os caracteres: // (duas barra oblíqua)
-3            #Resultado do cálculo de divisão
+>>> 15 // 4   #Dividir dois valores utilizando os caracteres: // (duas barras oblíqua)
+3             #Resultado do cálculo de divisão
 >>>
 ```
 
 #06_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
 ```python
->>> 15 ** 2  #Valor base elevado pelo expoente (2=quadrado) utilizando os caracteres: ** (dois asterisco)
-225          #Resultado do cálculo de exponenciação
+>>> 15 ** 2   #Valor base elevado pelo expoente (2=quadrado) utilizando os caracteres: ** (dois asterisco)
+225           #Resultado do cálculo de exponenciação
 >>>
 ```
 
 #07_ Cálculo do Resto da Divisão (Dividir %) no Python 3 no Linux Mint<br>
 ```python
->>> 15 % 4   #Dividir dois valores utilizando o caractere: % (porcentagem)
-1            #Resultado do cálculo de resto da divisão
+>>> 15 % 4    #Dividir dois valores utilizando o caractere: % (porcentagem)
+1             #Resultado do cálculo de resto da divisão
 >>>
 ```
 
 #08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
 ```python
->>> (1500 + (1500 * (5 / 100))) #Utilizar sempre os caracteres: () (parênteses) para quebrar a ordem da precedência
-1575.0                          #Matemática, 1=divisão, 2=multiplicação e 3=adição
+>>> (1500 + (1500 * (5 / 100)))   #Utilizar sempre os caracteres: () (parênteses) para quebrar a ordem da precedência
+1575.0                            #Matemática, 1=divisão, 2=multiplicação e 3=adição (IGUAL AO MICROSOFT OFFICE EXCEL)
+>>>
+```
+
+#09_ Regra de Sinais (Positivo e Negativo) no Python 3 no Linux Mint<br>
+```python
+>>> +10 + +10    #Sinal Positivo (mais) + Sinal Positivo (mais) = Positivo (mais)
+20
+>>> +10 + -10    #Sinal Positivo (mais) - Sinal Negativo (menos) = Negativo (menos)
+0
+>>> -+10 + +10   #Sinal Negativo (menos) + Sinal Positivo (mais) = Negativo (menos)
+0
+>>> --10 - -10   #Sinal Negativo (menos) - Sinal Negativo (menos)= Positivo (mais)
+20
 >>>
 ```
