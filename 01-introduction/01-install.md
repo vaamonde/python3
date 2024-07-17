@@ -7,20 +7,35 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 16/07/2024<br>
-#Versão: 0.02<br>
+#Data de atualização: 17/07/2024<br>
+#Versão: 0.03<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 #02_ Verificando a Versão o Python 3 instalado no Linux Mint<br>
-#03_ Testando os Shells do Python 3 no Linux Mint<br>
-#04_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
+#03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
+#04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
+#05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
+#06_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
 
-Site Oficial do Python: https://www.python.org/
+Site Oficial do Python: https://www.python.org/<br>
+Site Oficial do IPython: https://ipython.org/<br>
+Site Oficial do BPython: https://bpython-interpreter.org/<br>
+Site Oficial do VSCode: https://code.visualstudio.com/<br>
+Site Oficial do Marketing Place do VSCode: https://marketplace.visualstudio.com/vscode<br>
+Extensão Oficial do Python para VSCode: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
 Python é uma linguagem de programação de alto nível, interpretada de script, imperativa,<br>
 orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van <br>
 Rossum em 1991.
+
+IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar,<br>
+Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com<br>
+Jupyter Notebook.
+
+BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade<br>
+e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe,<br>
+Histórico de comandos e Inserção de argumentos.
 
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
@@ -37,7 +52,7 @@ sudo apt install python3 ipython3 bpython git vim
 sudo python3 --version
 ```
 
-#03_ Testando os Shells do Python 3 no Linux Mint<br>
+#03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
 ```bash
 #Utilizando o Shell Python3 padrão
 python3
@@ -49,6 +64,8 @@ Python 3.10.12 (main, Mar 22 2024, 16:50:05) [GCC 11.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+
+#04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
 ```bash
 #Utilizando o Shell IPython (Interactive Python)
 ipython3
@@ -62,6 +79,8 @@ IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
 
 In [1]:
 ```
+
+#05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
 ```bash
 #Utilizando o Shell BPython
 bpython
@@ -73,7 +92,11 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 >>>
 ```
 
-#04_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
+#06_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
+
+A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:<br>
+Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
+
 ```bash
 #Instalando a Extensões do Python no VSCode
 VSCode
