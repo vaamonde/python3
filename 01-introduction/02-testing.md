@@ -37,18 +37,18 @@ Type "help", "copyright", "credits" or "license" for more information.
 10
 >>>
 
-#Segundo exemplo: função de aritmética
->>> 3 + 4   #Função Aritmética simples de adição (símbolo + mais)
+#Segundo exemplo: cálculo de aritmética
+>>> 3 + 4   #Cálculo de Aritmética simples de adição (símbolo + mais)
 7           #Resultado da adição
 >>> 
 
 #Terceiro exemplo: digitando strings de texto
->>> "Robson Vaamonde"   #Enviando os dados na saída padrão do valor da String de Texto 
+>>> "Robson Vaamonde"   #Enviando dados na saída padrão do valor da String de Texto 
 'Robson Vaamonde'
 >>>
 
 #Quarto exemplo: criando variáveis estáticas
->>> vaamonde="Robson Vaamonde"   #Declarando o Valor de uma Variável Estática
+>>> vaamonde="Robson Vaamonde"   #Atribuindo o Valor de uma Variável Estática
 >>> vaamonde                     #Enviando os dados na saída padrão do valor da variável estática
 'Robson Vaamonde'
 >>>
@@ -91,7 +91,7 @@ In [1]: 10
 Out[1]: 10
 In [2]:
 
-#Segundo exemplo: função de aritmética
+#Segundo exemplo: cálculo de aritmética
 In [2]: 3 + 4
 Out[2]: 7
 In [3]:
@@ -142,7 +142,7 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 10
 >>>
 
-#Segundo exemplo: função de aritmética
+#Segundo exemplo: cálculo de aritmética
 >>> 3 + 4
 7
 >>>
@@ -181,7 +181,7 @@ escrito na linguagem Python e podem ser executados pelo interpretador Python par
 realizar tarefas.
 
 ```python
-#Criando um novo arquivo (Ctrl+N) no VSCode chamado: teste.py
+#Criando um novo arquivo (Ctrl + N) no VSCode chamado: teste.py
 #Código simples do Python utilizando a função PRINT()
 print("Robson Vaamonde")
 
@@ -197,12 +197,12 @@ Ctrl+F5
 
 #05_ Testando um arquivo Python com Extensão .py no Terminal<br>
 ```python
-#Criando o arquivo de script em Python no VSCode (mais simples): Ctrl+N
+#Criando o arquivo de script em Python no VSCode (mais simples): Ctrl + N
 #Cálculo simples de área de um retângulo utilizando as funções INT(), INPUT() e PRINT()
-largura = int(input("Digite a largura: "))
-altura = int(input("Digite a altura: "))
-area = largura * altura
-print("A área é", area, "unidades quadradas")
+largura = int(input("Digite a largura: "))          #Obtendo o valor da largura e atribuindo a variável largura
+altura = int(input("Digite a altura: "))            #Obtendo o valor da altura e atribuindo a variável altura
+area = largura * altura                             #Calculando a área do retângulo e atribuindo a variável area
+print("A área é", area, "unidades quadradas")       #Imprimindo o valor na area na saída padrão
 
 #Salvando o arquivo de script em Python no VSCode: Ctrl+S
 #Nome do arquivo do script em Python: arearetangulo.py

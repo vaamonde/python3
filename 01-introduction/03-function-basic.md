@@ -36,13 +36,13 @@ Link de apoio: https://www.w3schools.com/python/ref_func_input.asp
 ```python
 #Terceiro exemplo: utilizando variável estática e a função input()
 >>> nome = input("Digite o seu nome: ")   #Criando a variável estática e recebendo o argumento da função INPUT()
-Digite o seu nome: Robson Vaamonde        #Processamento da função INPUT() e digitando o valor a ser atribuído na variável
+Digite o seu nome: Robson Vaamonde        #Processamento da função INPUT() e digitando do valor a ser atribuído na variável nome
 >>> nome                                  #Enviando os dados na saída padrão do valor da variável estática
 'Robson Vaamonde'
 
 #Quarto exemplo: utilizando variável estática junto com as funções input() e print()
 >>> cidade = input("Qual a sua Cidade? ")   #Criando a variável estática e recebendo o argumento da função INPUT()
-Qual a sua Cidade: São Paulo                #Processamento da função INPUT() digitando o valor a ser atribuído na variável
+Qual a sua Cidade: São Paulo                #Processamento da função INPUT() e digitando o valor a ser atribuído na variável cidade
 >>> print(cidade)                           #Imprimindo os dados na saída padrão do valor da função PRINT()
 São Paulo
 >>>
@@ -53,18 +53,18 @@ Link de apoio: https://www.w3schools.com/python/ref_func_int.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_float.asp
 ```python
 #Quinto exemplo: utilizando variáveis estáticas junto com as funções int(), input() e print() para cálculo de aritmética
->>> anoatual = 2024                                     #Criando a variável estática e recebendo o valor inteiro/numérico
+>>> anoatual = 2024                                     #Criando a variável estática e atribuindo o valor inteiro/numérico
 >>> suaidade = int(input("Qual ano você nasceu? "))     #Criando a variável estática e recebendo o argumento da função INPUT() convertendo para Inteiro com a função INT()
-Qual ano você nasceu? 1979                              #Processamento da função INPUT() digitando o valor a ser convertido para inteiro INT() e atribuído na variável
->>> print("Sua idade é:", anoatual - suaidade, "anos")  #Imprimindo os dados na saída padrão da função PRINT()
+Qual ano você nasceu? 1979                              #Processamento da função INPUT() e digitando o valor a ser convertido para inteiro INT() e atribuído na variável suaidade
+>>> print("Sua idade é:", anoatual - suaidade, "anos")  #Imprimindo os dados na saída padrão da função PRINT() e subtraindo as variáveis anoatual - suaidade
 Sua idade é: 45 anos
 >>>
 
 #Sexto exemplo: utilizando variáveis estáticas junto com as funções float(), input e print para cálculo de aritmética
->>> produto = 10.50                                        #Criando a variável estática e recebendo o valor numérico de ponto flutuante (decimal)
+>>> produto = 10.50                                        #Criando a variável estática e atribuindo o valor numérico de ponto flutuante (decimal)
 >>> recebido = float(input("Qual valor foi recebido? "))   #Criando a variável estática e recebendo o argumento da função INPUT() convertendo para Decimal com a função FLOAT()
-Qual valor foi recebido? 20.00                             #Processamento da função INPUT() digitando o valor a ser convertido para decimal FLOAT() e atribuído na variável
->>> print("Troco: ", produto - recebido)                   #Imprimindo os dados na saída padrão da função PRINT()
+Qual valor foi recebido? 20.00                             #Processamento da função INPUT() e digitando o valor a ser convertido para decimal FLOAT() e atribuído na variável recebido
+>>> print("Troco: ", produto - recebido)                   #Imprimindo os dados na saída padrão da função PRINT() e subtraindo as variáveis produto - recebido
 Troco:  -9.5
 >>>
 ```

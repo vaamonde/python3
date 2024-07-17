@@ -20,7 +20,7 @@ Conteúdo estudado nessa aula:<br>
 
 #01_ Analisando Erros de Recuo Inesperado no Python 3 no Linux Mint<br>
 ```python
-#Primeiro exemplo: nome de variável errada (utilizar o VSCode mais simples)
+#Primeiro exemplo: recuo/alinhamento errado (utilizar o VSCode mais simples)
 #Salvar o arquivo de script com o nome: erro_variavel.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 comprimento = int(input("Digite o comprimento: "))
