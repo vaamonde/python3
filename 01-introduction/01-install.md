@@ -49,7 +49,7 @@ distribuições Linux.
 sudo apt update
 
 #Instalando o Python na versão 3
-sudo apt install python3 idle-python3.10 ipython3 bpython git vim
+sudo apt install python3 idle-python3.10 ipython3 bpython git vim pip
 ```
 
 #02_ Verificando a Versão o Python 3 instalado no Linux Mint<br>
