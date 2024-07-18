@@ -14,9 +14,11 @@ Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Variáveis Simples/Estáticas do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Variáveis Simples/Estáticas com Nomes no Python 3 no Linux Mint<br>
 #03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
-#04_ Trabalhando com Variáveis, Entradas INPUT() e Quebras de Linhas SEP do Python 3 no Linux Mint<br>
+#04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
+#05_ Trabalhando com Variáveis Lógicas/Booleanas do Python no Linux Mint<br>
 
 #01_ Trabalhando com Variáveis Simples/Estáticas do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Criando variáveis Simples/Estáticas e atribuindo valores
 a = 5          #Atribuindo o valor 5 a variável a
@@ -25,6 +27,7 @@ print(a + b)   #Imprimindo na saída padrão o resultado da adição de A + B co
 ```
 
 #02_ Trabalhando com Variáveis Simples/Estáticas com Nomes no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Criando variáveis Simples/Estáticas com Nomes Fácies e atribuindo valores
 salario = 1500   #Atribuindo o valor 1500 a variável salario
@@ -34,6 +37,7 @@ print("Salário atual:", salario, "Salário com aumento:", (salario + (salario *
 ```
 
 #03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Criando variáveis e atribuindo valores com a função INPUT()
 salario = int(input("Digite o seu salário: "))            #Atribuindo o valor inteiro da entrada na variável salario
@@ -42,7 +46,8 @@ novosalario = (salario + (salario * (aumento / 100)))     #Calculando o percentu
 print("Seu novo salário é: ", novosalario)                #Imprimindo na tela o valor do aumento do novo salário
 ```
 
-#04_ Trabalhando com Variáveis, Entradas INPUT() e Quebras de Linhas SEP do Python 3 no Linux Mint<br>
+#04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Criando um formulário simples e atribuindo valores com a função INPUT()
 nome = input("Qual o seu Nome: ")             #Atribuindo o valor da entrada na variável nome
@@ -56,4 +61,12 @@ print("Endereço: " + endereco,                #Imprimindo na saída padrão os 
       "Cidade: " + cidade, sep="\n")
 ```
 
-
+#05_ Trabalhando com Variáveis Lógicas/Booleanas do Python no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_variables.asp
+```python
+#Criando variáveis booleanas no Python
+aprovado = True                            #Atribuindo o valor booleano True (Verdadeiro) na variável aprovado
+recuperacao = False                        #Atribuindo o valor booleano False (Falso) na variável recuperacao
+resultado = aprovado == recuperacao        #Atribuindo o valor da comparação lógica na variável resultado
+print("Status do Resultado: ", resultado)  #Imprimindo na tela o Teste Lógico de Comparação de Igualdade
+```

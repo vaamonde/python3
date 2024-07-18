@@ -22,6 +22,7 @@ Conteúdo estudado nessa aula:<br>
 #09_ Regra de Sinais (Positivo e Negativo) no Python 3 no Linux Mint<br>
 
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 + 15   #Somar dois valores utilizando o caractere: + (mais)
 30            #Resultado do cálculo de adição
@@ -29,6 +30,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #02_ Cálculo de Subtração (Subtrair -) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 - 15   #Subtrair dois valores utilizando o caractere: - (menos)
 0             #Resultado do cálculo de subtração
@@ -36,6 +38,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #03_ Cálculo de Multiplicação (Multiplicar *) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 * 15   #Multiplicar dois valores utilizando o caractere: * (asterisco)
 225           #Resultado do cálculo de multiplicação
@@ -43,6 +46,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #04_ Cálculo de Divisão (Dividir /) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 / 4    #Dividir dois valores utilizando o caractere: / (barra oblíqua)
 3.75          #Resultado do cálculo de divisão
@@ -50,6 +54,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #05_ Cálculo de Divisão (Dividir /) do Número Inteiro (Resto) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 // 4   #Dividir dois valores utilizando os caracteres: // (duas barras oblíqua)
 3             #Resultado do cálculo de divisão
@@ -57,6 +62,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #06_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 ** 2   #Valor base elevado pelo expoente (2=quadrado) utilizando os caracteres: ** (dois asterisco)
 225           #Resultado do cálculo de exponenciação
@@ -64,6 +70,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #07_ Cálculo do Resto da Divisão (Dividir %) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 % 4    #Dividir dois valores utilizando o caractere: % (porcentagem)
 1             #Resultado do cálculo de resto da divisão
@@ -71,6 +78,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> (1500 + (1500 * (5 / 100)))   #Utilizar sempre os caracteres: () (parênteses) para quebrar a ordem da precedência
 1575.0                            #Matemática, 1=divisão, 2=multiplicação e 3=adição (IGUAL AO MICROSOFT OFFICE EXCEL)
@@ -78,6 +86,7 @@ Conteúdo estudado nessa aula:<br>
 ```
 
 #09_ Regra de Sinais (Positivo e Negativo) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> +10 + +10    #Sinal Positivo (mais) + Sinal Positivo (mais) = Positivo (mais)
 20
