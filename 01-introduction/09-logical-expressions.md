@@ -17,6 +17,8 @@ Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.asp
 ```python
+#CENÁRIO 01: Calculando o IMC (Índice de Massa Corpórea) com base no Peso e Altura
+
 #Instalando o módulo: Tabulate (Tabulador) do Python: pip install tabulate
 #Importando a Função Tabulate do Módulo Tabulate para o projeto do Python
 from tabulate import tabulate
@@ -53,10 +55,48 @@ print(tabulate(tabela_imc, headers="firstrow", tablefmt="grid", stralign="center
 ```
 
 #02_ Trabalhando com Módulos, Comparação e Expressões Lógicas do Python no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_round.asp
 ```python
-#CENÁRIO 01:
-```
+#CENÁRIO 02: Calculando a Média Aritmética e Ponderada das Provas e Trabalhos
 
-```python
-#CENÁRIO 02:
+#Declaração das Variáveis Estáticas das Provas, Trabalhos, Faltas e Aulas
+provas = 7.0      #Atribuindo o valor da média aritmética de aprovação das Provas
+trabalhos = 6.0   #Atribuindo o valor da média aritmética de aprovação dos Trabalhos
+faltas = 0.75     #Atribuindo o valor de percentual de faltas no curso de 25%
+aulas = 10        #Atribuindo o valor de total de alunos do curso
+
+#Bloco de digitação das Notas das Provas
+print("Digite as Notas das Provas 01, 02 e 03", end='\n\n')
+prova01 = float(input("Digite a nota da Prova 01: "))
+prova02 = float(input("Digite a nota da Prova 02: "))
+prova03 = float(input("Digite a noa da Prova 03: "))
+print()
+
+#Bloco de digitação das Notas dos Trabalhos
+print("Digite as Notas dos Trabalhos 01 e 02", end='\n\n')
+trabalho01 = float(input("Digite a nota do Trabalho 01 com Peso 2: "))
+trabalho02 = float(input("Digite a nota do Trabalho 02 com Peso 3: "))
+print()
+
+#Bloco de digitação do Total de Frequência do Aluno
+print("Digite o Total de Frequência do Aluno: ", end='\n\n')
+presencas = int(input("Digite o total de Frequência do Aluno: "))
+print()
+
+#Bloco de processamento das notas das Provas, Trabalhos e Frequência
+resultado_provas = float(((prova01 + prova02 + prova03) / 3))
+resultado_trabalhos = float(((trabalho01 * 2) + (trabalho02 * 3)) / 5) 
+resultado_presencas = float((presencas / aulas))
+
+#Bloco do Resultado do processamento das Provas, Trabalhos e Frequência
+print("Média Aritmética das Provas........: ", round(resultado_provas, 1))
+print("Média Ponderada dos Trabalhos......: ", round(resultado_trabalhos, 1))
+print("Percentual de Frequência nas Aulas.: ", int((resultado_presencas * 100)),"%")
+print()
+
+#Bloco Final do Resultado se foi aprovado nas Provas, Trabalhos e Frequência 
+print("Resultado Final das Provas, Trabalhos e Frequência (TRUE=Aprovado | FALSE=Reprovado)")
+print("Resultado das Provas......:", (resultado_provas >= provas))
+print("Resultado dos Trabalhos...:", (resultado_trabalhos >= trabalhos))
+print("Resultado das Frequências.:", (resultado_presencas >= faltas))
 ```
