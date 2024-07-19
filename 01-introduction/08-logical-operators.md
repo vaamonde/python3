@@ -21,7 +21,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 #Criando variáveis Simples/Estáticas e trabalhando com operadores lógicos
 nota01 = 5                              #Atribuindo o valor 5 a variável nota01
 nota02 = 3                              #Atribuindo o valor 3 a variável nota02
-resultado = not(nota01 > nota02)        #Comprando Logicamente os Valores e alterado seu valor Lógico
+resultado = not(nota01 > nota02)        #Comparando Logicamente os Valores e alterado seu valor Lógico
 print("Resultado do NOT ", resultado)   #Imprimindo na saída padrão o resultado da operação lógica NOT
 ```
 
@@ -31,7 +31,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 #Criando variáveis Simples/Estáticas e trabalhando com operadores lógicos
 nota01 = 5                                #Atribuindo o valor 5 a variável nota01
 nota02 = 3                                #Atribuindo o valor 3 a variável nota02
-resultado = (nota01 > 7 and nota02 > 5)   #Comprando Logicamente os Valores e mantendo o valor Lógico
+resultado = (nota01 > 7 and nota02 > 5)   #Comparando Logicamente os Valores e mantendo o valor Lógico
 print("Resultado do AND ", resultado)     #Imprimindo na saída padrão o resultado da operação lógica AND
 ```
 
@@ -41,6 +41,6 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 #Criando variáveis Simples/Estáticas e trabalhando com operadores lógicos
 nota01 = 5                               #Atribuindo o valor 5 a variável nota01
 nota02 = 3                               #Atribuindo o valor 3 a variável nota02
-resultado = (nota01 > 7 or nota02 > 5)   #Comprando Logicamente os Valores e mantendo o valor Lógico
-print("Resultado do AND ", resultado)    #Imprimindo na saída padrão o resultado da operação lógica OR
+resultado = (nota01 > 7 or nota02 > 5)   #Comparando Logicamente os Valores e mantendo o valor Lógico
+print("Resultado do OR ", resultado)     #Imprimindo na saída padrão o resultado da operação lógica OR
 ```

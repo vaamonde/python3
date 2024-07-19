@@ -12,6 +12,7 @@
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Módulos, Comparação e Expressões Lógicas do Python no Linux Mint<br>
 
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.asp
