@@ -16,20 +16,22 @@ Conteúdo estudado nessa aula:<br>
 #03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
 #04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
 #05_ Trabalhando com Variáveis Lógicas/Booleanas do Python no Linux Mint<br>
+#06_ Trabalhando com Variáveis de String do Python no Linux Mint<br>
+#07_ Trabalhando com Variáveis de String e Índices do Python no Linux Mint<br>
 
-#01_ Trabalhando com Variáveis Simples/Estáticas do Python 3 no Linux Mint<br>
+#01_ Trabalhando com Variáveis Simples/Estáticas Numéricas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
-#Criando variáveis Simples/Estáticas e atribuindo valores
+#Criando variáveis Simples/Estáticas e atribuindo valores numéricos
 a = 5          #Atribuindo o valor 5 a variável a
 b = 3          #Atribuindo o valor 3 a variável b
 print(a + b)   #Imprimindo na saída padrão o resultado da adição de A + B com a função PRINT()
 ```
 
-#02_ Trabalhando com Variáveis Simples/Estáticas com Nomes no Python 3 no Linux Mint<br>
+#02_ Trabalhando com Variáveis de Nomes Numéricas no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
-#Criando variáveis Simples/Estáticas com Nomes Fácies e atribuindo valores
+#Criando variáveis com Nomes de Fácil Entendimento e atribuindo valores numéricos
 salario = 1500   #Atribuindo o valor 1500 a variável salario
 aumento = 5      #Atribuindo o valor 5 a variável aumento
 #Imprimindo na tela o valor do salário atual e calculando o valor do salário com aumento
@@ -39,7 +41,7 @@ print("Salário atual:", salario, "Salário com aumento:", (salario + (salario *
 #03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
-#Criando variáveis e atribuindo valores com a função INPUT()
+#Criando variáveis e atribuindo valores númericos com a função INPUT()
 salario = int(input("Digite o seu salário: "))            #Atribuindo o valor inteiro da entrada na variável salario
 aumento = int(input("Digite o percentual de aumento: "))  #Atribuindo o valor inteiro da entrada na variável aumento
 novosalario = (salario + (salario * (aumento / 100)))     #Calculando o percentual de aumento na variável novosalario
@@ -49,7 +51,7 @@ print("Seu novo salário é: ", novosalario)                #Imprimindo na tela 
 #04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
-#Criando um formulário simples e atribuindo valores com a função INPUT()
+#Criando um formulário simples e atribuindo valores as variáveis de String com a função INPUT()
 nome = input("Qual o seu Nome: ")             #Atribuindo o valor da entrada na variável nome
 endereco = input("Qual o seu Endereço: ")     #Atribuindo o valor da entrada na variável endereco 
 bairro = input("Qual o seu Bairro: ")         #Atribuindo o valor da entrada na variável bairro
@@ -69,4 +71,29 @@ aprovado = True                            #Atribuindo o valor booleano True (Ve
 recuperacao = False                        #Atribuindo o valor booleano False (Falso) na variável recuperacao
 resultado = aprovado == recuperacao        #Atribuindo o valor da comparação lógica na variável resultado
 print("Status do Resultado: ", resultado)  #Imprimindo na tela o Teste Lógico de Comparação de Igualdade
+```
+
+#06_ Trabalhando com Variáveis de String do Python no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_variables.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_len.asp
+```python
+#Criando variáveis de String e calculando a quantidade de caracteres no Python
+nome = input("Digite o seu Nome e Sobrenome: ")                         #Atribuindo o valor de String com a Função INPUT() na variável nome
+caracteres = len(nome)                                                  #Atribuindo o valor numérico inteiro com a Função LEN() na variável caracteres
+print("Total de caracteres do seu nome é:", caracteres, "com espaço")   #Imprimindo na tela a contagem de caracteres
+```
+
+#07_ Trabalhando com Variáveis de String e Índices do Python no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_variables.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_strings.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_strings_slicing.asp
+```python
+#Criando variáveis de String e imprimindo o valor do Índices no Python
+nome = input("Digite o seu Nome e Sobrenome: ")                         #Atribuindo o valor de String com a Função INPUT() na variável nome
+caracteres = len(nome)                                                  #Atribuindo o valor numérico inteiro com a Função LEN() na variável caracteres
+print("Total de caracteres do seu nome é:", caracteres, "com espaço")   #Imprimindo na tela a contagem de caracteres
+#Imprimindo na tela a subtração da quantidade de caracteres para o número correto do Índice
+print("Total de Índices do seu nome é:", caracteres -1, "começando sempre com 0 (zero)")
+#Imprimindo na tela as letras correspondente aos números do índices de cada carácter
+print("Primeira letra do seu nome é:", nome[0], "Segunda letra do seu nome é:", nome[7])
 ```

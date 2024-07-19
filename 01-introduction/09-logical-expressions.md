@@ -35,17 +35,27 @@ seu_peso = float(input("Digite o seu peso: "))
 sua_altura = float(input("Digite a sua altura: "))
 
 #Imprimindo na Tela os Valores das Variáveis
-print("Seus dados são:", seu_peso, "de peso", "e", sua_altura, "de altura")
-
+print("Seus dados são:", seu_peso, "de peso", "e", sua_altura, "de altura.")
+print()
 #Calculando o IMC com base nos Valores das Variáveis
 imc = int(seu_peso / (sua_altura ** 2))
 
-#Imprimindo na Tela do Valor do Cálculo do IMC
-print("Seu IMC é:", imc, "Veja a Tabela de IMC para saber mais")
+#Imprimindo na Tela do Valor do Cálculo do IMC e usando o parâmetro END para criar
+#uma quebra de duas linhas sem precisar a função PRINT()
+print("Seu IMC é:", imc, "Veja a Tabela de IMC para saber mais.", end='\n\n')
 
 #Imprimindo na Tela da Tabela do IMC utilizando a Função Tabulate
 #A Função TABULATE() chama os valores da variável: tabela_imc e passa os parâmetros
-#de: headers="firstrow" que usa a primeira linha como cabeçalho e: tablefmt="grid"
-#que formata a tabela com bordas.
-print(tabulate(tabela_imc, headers="firstrow", tablefmt="grid"))
+#de: headers="firstrow" que usa a primeira linha como cabeçalho, tablefmt="grid"
+#que formata a tabela com bordas e stralign="center" que centraliza o Texto.
+print(tabulate(tabela_imc, headers="firstrow", tablefmt="grid", stralign="center"))
+```
+
+#02_ Trabalhando com Módulos, Comparação e Expressões Lógicas do Python no Linux Mint<br>
+```python
+#CENÁRIO 01:
+```
+
+```python
+#CENÁRIO 02:
 ```
