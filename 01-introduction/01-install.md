@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 17/07/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 20/07/2024<br>
+#Versão: 0.04<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -64,25 +64,25 @@ sudo pip --version
 
 #03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
 ```bash
-#Utilizando o Shell Python3 padrão
+#Utilizando o Shell Prompt Padrão Python 3 padrão
 python3
 ```
 ```python
 #Prompt Shell padrão do Python 3 no Linux Mint
-#Para sair do Prompt Shell do Python pressione: Ctrl + D
+#Para sair do Prompt Shell do Python 3 pressione: Ctrl + D
 Python 3.10.12 (main, Mar 22 2024, 16:50:05) [GCC 11.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-#04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
+#04_ Testando o Shell (Prompt) do IPython 3 do Python 3 no Linux<br>
 ```bash
-#Utilizando o Shell IPython (Interactive Python)
+#Utilizando o Shell Prompt do IPython 3 (Interactive Python)
 ipython3
 ```
 ```python
-#Prompt Shell do IPython3 no Linux Mint
-#Para sair do Prompt Shell do IPython3 pressione: Ctrl + D ou digite: exit ou quit
+#Prompt Shell do IPython 3 no Linux Mint
+#Para sair do Prompt Shell do IPython 3 pressione: Ctrl + D ou digite: exit ou quit
 Python 3.10.12 (main, Mar 22 2024, 16:50:05) [GCC 11.4.0]
 Type 'copyright', 'credits' or 'license' for more information
 IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
@@ -92,12 +92,12 @@ In [1]:
 
 #05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
 ```bash
-#Utilizando o Shell BPython
+#Utilizando o Shell Prompt do BPython
 bpython
 ```
 ```python
 #Prompt Shell do BPython no Linux Mint
-#Para sair do Prompt Shell do IPython3 pressione: Ctrl + D ou digite: exit() ou quit()
+#Para sair do Prompt Shell do BPython pressione: Ctrl + D ou digite: exit() ou quit()
 bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 >>>
 ```
@@ -108,13 +108,13 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 idle-python3.10
 ```
 
-#07_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
+#07_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 
 A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:<br>
 Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
 
 ```bash
-#Instalando a Extensões do Python no VSCode
+#Instalando as Extensões do Python 3 no VSCode
 VSCode
   Extensões
     Pesquisar:

@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 17/07/2024<br>
-#Versão: 0.01<br>
+#Data de atualização: 20/07/2024<br>
+#Versão: 0.02<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Variáveis Simples/Estáticas do Python 3 no Linux Mint<br>
@@ -31,6 +31,8 @@ print(a + b)   #Imprimindo na saída padrão o resultado da adição de A + B co
 #02_ Trabalhando com Variáveis de Nomes Numéricas no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
+#Salvar o arquivo de script com o nome: 09-var_numerica.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis com Nomes de Fácil Entendimento e atribuindo valores numéricos
 salario = 1500   #Atribuindo o valor 1500 a variável salario
 aumento = 5      #Atribuindo o valor 5 a variável aumento
@@ -41,7 +43,9 @@ print("Salário atual:", salario, "Salário com aumento:", (salario + (salario *
 #03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
-#Criando variáveis e atribuindo valores númericos com a função INPUT()
+#Salvar o arquivo de script com o nome: 10-var_int.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
+#Criando variáveis e atribuindo valores numéricos com a função INPUT()
 salario = int(input("Digite o seu salário: "))            #Atribuindo o valor inteiro da entrada na variável salario
 aumento = int(input("Digite o percentual de aumento: "))  #Atribuindo o valor inteiro da entrada na variável aumento
 novosalario = (salario + (salario * (aumento / 100)))     #Calculando o percentual de aumento na variável novosalario
@@ -51,6 +55,8 @@ print("Seu novo salário é: ", novosalario)                #Imprimindo na tela 
 #04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
+#Salvar o arquivo de script com o nome: 11-var_string.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando um formulário simples e atribuindo valores as variáveis de String com a função INPUT()
 nome = input("Qual o seu Nome: ")             #Atribuindo o valor da entrada na variável nome
 endereco = input("Qual o seu Endereço: ")     #Atribuindo o valor da entrada na variável endereco 
@@ -66,6 +72,8 @@ print("Endereço: " + endereco,                #Imprimindo na saída padrão os 
 #05_ Trabalhando com Variáveis Lógicas/Booleanas do Python no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
+#Salvar o arquivo de script com o nome: 12-var_booleana.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis booleanas no Python
 aprovado = True                            #Atribuindo o valor booleano True (Verdadeiro) na variável aprovado
 recuperacao = False                        #Atribuindo o valor booleano False (Falso) na variável recuperacao
@@ -77,6 +85,8 @@ print("Status do Resultado: ", resultado)  #Imprimindo na tela o Teste Lógico d
 Link de apoio: https://www.w3schools.com/python/python_variables.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_len.asp
 ```python
+#Salvar o arquivo de script com o nome: 13-var_len.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis de String e calculando a quantidade de caracteres no Python
 nome = input("Digite o seu Nome e Sobrenome: ")                         #Atribuindo o valor de String com a Função INPUT() na variável nome
 caracteres = len(nome)                                                  #Atribuindo o valor numérico inteiro com a Função LEN() na variável caracteres
@@ -88,6 +98,8 @@ Link de apoio: https://www.w3schools.com/python/python_variables.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_strings.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_strings_slicing.asp
 ```python
+#Salvar o arquivo de script com o nome: 14-var_indice.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis de String e imprimindo o valor do Índices no Python
 nome = input("Digite o seu Nome e Sobrenome: ")                         #Atribuindo o valor de String com a Função INPUT() na variável nome
 caracteres = len(nome)                                                  #Atribuindo o valor numérico inteiro com a Função LEN() na variável caracteres

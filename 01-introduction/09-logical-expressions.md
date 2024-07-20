@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 17/07/2024<br>
-#Versão: 0.01<br>
+#Data de atualização: 20/07/2024<br>
+#Versão: 0.02<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
@@ -18,6 +18,9 @@ Conteúdo estudado nessa aula:<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.asp
 ```python
 #CENÁRIO 01: Calculando o IMC (Índice de Massa Corpórea) com base no Peso e Altura
+
+#Salvar o arquivo de script com o nome: 15-imc.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #Instalando o módulo: Tabulate (Tabulador) do Python: pip install tabulate
 #Importando a Função Tabulate do Módulo Tabulate para o projeto do Python
@@ -58,6 +61,9 @@ print(tabulate(tabela_imc, headers="firstrow", tablefmt="grid", stralign="center
 Link de apoio: https://www.w3schools.com/python/ref_func_round.asp
 ```python
 #CENÁRIO 02: Calculando a Média Aritmética e Ponderada das Provas e Trabalhos
+
+#Salvar o arquivo de script com o nome: 16-notas.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #Declaração das Variáveis Estáticas das Provas, Trabalhos, Faltas e Aulas
 provas = 7.0      #Atribuindo o valor da média aritmética de aprovação das Provas

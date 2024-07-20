@@ -7,18 +7,18 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 16/07/2024<br>
-#Versão: 0.01<br>
+#Data de atualização: 20/07/2024<br>
+#Versão: 0.02<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Função Print() do Python 3 no Linux Mint<br>
 #02_ Função Input() do Python 3 no Linux Mint<br>
-#03_ Função Int() e Float() do Python 3 no Linux Mint<br>
+#03_ Funções Int() e Float() do Python 3 no Linux Mint<br>
 
 #01_ Função Print() do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_print.asp
 ```python
-#Pressionar Ctrl + L limpa o Shell do Python facilitando a digitação
+#Pressionar Ctrl + L limpa o Shell do Python 3 facilitando a digitação
 #Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
 
 #Primeiro exemplo: utilizando o função print()
@@ -48,7 +48,7 @@ São Paulo
 >>>
 ```
 
-#03_ Função Int() e Float() do Python 3 no Linux Mint<br>
+#03_ Funções Int() e Float() do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_int.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_float.asp
 ```python

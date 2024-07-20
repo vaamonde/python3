@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 17/07/2024<br>
-#Versão: 0.01<br>
+#Data de atualização: 20/07/2024<br>
+#Versão: 0.02<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
