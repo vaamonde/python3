@@ -44,6 +44,11 @@ a versão 2.3. É completamente escrito em Python usando o kit de interface grá
 multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas<br>
 distribuições Linux.
 
+PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado<br>
+para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados<br>
+na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições<br>
+do Python vem com o pip pré-instalado.
+
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
 #Atualizando as listas do Apt
