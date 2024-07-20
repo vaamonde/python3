@@ -12,7 +12,7 @@
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
-#02_ Verificando a Versão o Python 3 instalado no Linux Mint<br>
+#02_ Verificando a Versão o Python 3 e PIP instalado no Linux Mint<br>
 #03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
 #04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
 #05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
@@ -20,6 +20,7 @@ Conteúdo estudado nessa aula:<br>
 #07_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
 
 Site Oficial do Python: https://www.python.org/<br>
+Site Oficial do PIP: https://pypi.org/<br>
 Site Oficial do IPython: https://ipython.org/<br>
 Site Oficial do BPython: https://bpython-interpreter.org/<br>
 Site Oficial do VSCode: https://code.visualstudio.com/<br>
@@ -52,10 +53,13 @@ sudo apt update
 sudo apt install python3 idle-python3.10 ipython3 bpython git vim pip
 ```
 
-#02_ Verificando a Versão o Python 3 instalado no Linux Mint<br>
+#02_ Verificando a Versão o Python 3 e do PIP instalado no Linux Mint<br>
 ```bash
 #Verificando a versão do Python 3
 sudo python3 --version
+
+#Verificando a versão do PIP (Package Installer for Python)
+sudo pip --version
 ```
 
 #03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
