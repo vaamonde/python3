@@ -19,7 +19,7 @@ Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.
 ```python
 #CENÁRIO 01: Calculando o IMC (Índice de Massa Corpórea) com base no Peso e Altura
 
-#Salvar o arquivo de script com o nome: 15-imc.py no diretório: ScriptsPython
+#Salvar o arquivo de script com o nome: 16-imc.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #Instalando o módulo: Tabulate (Tabulador) do Python: pip install tabulate
@@ -62,7 +62,7 @@ Link de apoio: https://www.w3schools.com/python/ref_func_round.asp
 ```python
 #CENÁRIO 02: Calculando a Média Aritmética e Ponderada das Provas e Trabalhos
 
-#Salvar o arquivo de script com o nome: 16-notas.py no diretório: ScriptsPython
+#Salvar o arquivo de script com o nome: 17-notas.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #Declaração das Variáveis Estáticas das Provas, Trabalhos, Faltas e Aulas
