@@ -23,6 +23,10 @@ Conteúdo estudado nessa aula:<br>
 
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+```bash
+#Utilizando o Shell Prompt Padrão do Python 3
+python3
+```
 ```python
 >>> 15 + 15   #Somar dois valores utilizando o caractere: + (mais)
 30            #Resultado do cálculo de adição

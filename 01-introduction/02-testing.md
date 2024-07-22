@@ -214,9 +214,9 @@ print("A área é", area, "unidades quadradas")       #Imprimindo o valor na are
 ```
 ```bash
 #Testando o arquivo de script em Python 3 no Terminal: Ctrl+Alt+T
-#Diretório dos scripts em Python: /home/vaamonde/Documentos/ScriptsPython
+#Diretório dos scripts em Python: /home/vaamonde/Documentos/python3/ScriptsPython
 #Acessando o diretório dos script em Python 3 no Linux Mint
-cd /home/vaamonde/Documentos/ScriptsPython
+cd /home/vaamonde/Documentos/python3/ScriptsPython
 
 #Executando o arquivo de script em Python 3 no Terminal
 python3 02-area_retangulo.py
@@ -242,9 +242,9 @@ print("Sua idade é:", idade, "anos")
 ```
 ```bash
 #Testando o arquivo de script em Python 3 no Terminal: Ctrl+Alt+T
-#Diretório dos scripts em Python: /home/vaamonde/Documentos/ScriptsPython
+#Diretório dos scripts em Python: /home/vaamonde/Documentos/python3/ScriptsPython
 #Acessando o diretório dos script em Python 3 no Linux Mint
-cd /home/vaamonde/Documentos/ScriptsPython
+cd /home/vaamonde/Documentos/python3/ScriptsPython
 
 #Executando o arquivo de script em Python 3 no Terminal
 bash 03-idade_simples.py

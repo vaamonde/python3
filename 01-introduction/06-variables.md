@@ -21,11 +21,17 @@ Conteúdo estudado nessa aula:<br>
 
 #01_ Trabalhando com Variáveis Simples/Estáticas Numéricas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
+```bash
+#Utilizando o Shell Prompt Padrão do Python 3
+python3
+```
 ```python
 #Criando variáveis Simples/Estáticas (Constantes) e atribuindo valores numéricos
-a = 5          #Atribuindo o valor 5 a variável a
-b = 3          #Atribuindo o valor 3 a variável b
-print(a + b)   #Imprimindo na saída padrão o resultado da adição de A + B com a função PRINT()
+>>> a = 5          #Atribuindo o valor 5 a variável a
+>>> b = 3          #Atribuindo o valor 3 a variável b
+>>> print(a + b)   #Imprimindo na saída padrão o resultado da adição de A + B com a função PRINT()
+8
+>>>
 ```
 
 #02_ Trabalhando com Variáveis Estáticas (Constantes) de Nomes Numéricas no Python 3 no Linux Mint<br>

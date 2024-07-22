@@ -22,6 +22,24 @@ Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.
 #Salvar o arquivo de script com o nome: 16-imc.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
+#!/usr/bin/python3
+# Autor: Robson Vaamonde
+# Site: www.procedimentosemti.com.br
+# Facebook: facebook.com/ProcedimentosEmTI
+# Facebook: facebook.com/BoraParaPratica
+# YouTube: youtube.com/BoraParaPratica
+# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
+# Github: https://github.com/vaamonde
+# Data de criação: 22/07/2024
+# Data de atualização: 22/07/2024
+# Versão: 0.01
+# Testado e homologado para a versão do Python 3.10.x
+
+# Primeiro software (programa) utilizando a linguagem de programação Python 3 que tem o
+# objetivo de calcular o IMC (Índice de Massa Corpórea) de Homens ou Mulheres, no final
+# será mostrado o valor com base no seu Peso e Altura para consultar na Tabela de IMC.
+
 #Instalando o módulo: Tabulate (Tabulador) do Python: pip install tabulate
 #Importando a Função Tabulate do Módulo Tabulate para o projeto do Python
 from tabulate import tabulate
@@ -64,6 +82,24 @@ Link de apoio: https://www.w3schools.com/python/ref_func_round.asp
 
 #Salvar o arquivo de script com o nome: 17-notas.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
+
+#!/usr/bin/python3
+# Autor: Robson Vaamonde
+# Site: www.procedimentosemti.com.br
+# Facebook: facebook.com/ProcedimentosEmTI
+# Facebook: facebook.com/BoraParaPratica
+# YouTube: youtube.com/BoraParaPratica
+# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
+# Github: https://github.com/vaamonde
+# Data de criação: 22/07/2024
+# Data de atualização: 22/07/2024
+# Versão: 0.01
+# Testado e homologado para a versão do Python 3.10.x
+
+# Segundo software (programa) utilizando a linguagem de programação Python 3 que tem o
+# objetivo de calcular as notas da Provas, Trabalhos e Faltas de um aluno do curso de
+# matemática utilizando cálculos de média aritmética, ponderada e porcentagem simples.
 
 #Declaração das Variáveis Estáticas das Provas, Trabalhos, Faltas e Aulas
 provas = 7.0      #Atribuindo o valor da média aritmética de aprovação das Provas
