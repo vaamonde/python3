@@ -43,11 +43,11 @@ sua_altura = float(input("Digite a sua altura: "))
 #Imprimindo na Tela os Valores das Variáveis
 print("Seus dados são:", seu_peso, "de peso", "e", sua_altura, "de altura.")
 print()
-#Calculando o IMC com base nos Valores das Variáveis
+#Calculando o IMC com base nos Valores das Variáveis (Peso dividido pela Altura elevada ao Quadrado)
 imc = int(seu_peso / (sua_altura ** 2))
 
 #Imprimindo na Tela do Valor do Cálculo do IMC e usando o parâmetro END para criar
-#uma quebra de duas linhas sem precisar a função PRINT()
+#uma quebra de duas linhas (\n\n) sem precisar usar mais uma função PRINT()
 print("Seu IMC é:", imc, "Veja a Tabela de IMC para saber mais.", end='\n\n')
 
 #Imprimindo na Tela da Tabela do IMC utilizando a Função Tabulate
