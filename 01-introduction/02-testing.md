@@ -47,13 +47,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 'Robson Vaamonde'
 >>>
 
-#Quarto exemplo: criando variáveis estáticas
->>> vaamonde="Robson Vaamonde"   #Atribuindo o Valor de uma Variável Estática
+#Quarto exemplo: criando variáveis estáticas (constantes)
+>>> vaamonde="Robson Vaamonde"   #Atribuindo o Valor de uma Variável Estática (constantes)
 >>> vaamonde                     #Enviando os dados na saída padrão do valor da variável estática
 'Robson Vaamonde'
 >>>
 
-#Quinto exemplo: concatenando string com variável
+#Quinto exemplo: concatenando string com variáveis estáticas (constantes)
 >>> "Eu sou: " + vaamonde   #Enviando os dados na saída padrão do valor da String de Texto
 'Eu sou: Robson Vaamonde'   #e concatenando com o valor da variável estática vaamonde
 >>>
@@ -101,13 +101,13 @@ In [3]: "Robson Vaamonde"
 Out[3]: 'Robson Vaamonde'
 In [4]:
 
-#Quarto exemplo: criando variáveis estáticas
+#Quarto exemplo: criando variáveis estáticas (constantes)
 In [4]: vaamonde="Robson Vaamonde"
 In [5]: vaamonde
 Out[5]: 'Robson Vaamonde'
 In [6]:
 
-#Quinto exemplo: concatenando string com variável
+#Quinto exemplo: concatenando string com variáveis estáticas (constantes)
 In [6]: "Eu sou: " + vaamonde
 Out[6]: 'Eu sou: Robson Vaamonde'
 In [7]:
@@ -152,13 +152,13 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 'Robson Vaamonde'
 >>>
 
-#Quarto exemplo: criando variáveis estáticas
+#Quarto exemplo: criando variáveis estáticas (constantes)
 >>> vaamonde="Robson Vaamonde"
 >>> vaamonde 
 'Robson Vaamonde'
 >>>
 
-#Quinto exemplo: concatenando string com variável
+#Quinto exemplo: concatenando string com variáveis estáticas (constantes)
 >>> "Eu sou: " + vaamonde
 'Eu sou: Robson Vaamonde'
 >>>

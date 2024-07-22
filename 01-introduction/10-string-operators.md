@@ -17,6 +17,7 @@ Conteúdo estudado nessa aula:<br>
 #04_ Trabalhando com Composição de String com a Função FORMAT() do Pytnon 3 no Linux Mint<br>
 #05_ Trabalhando com Composição de String e Formatação F-STRING do Pytnon 3 no Linux Mint<br>
 #06_ Trabalhando com Fatiamento de String do Pytnon 3 no Linux Mint<br>
+#07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
 
 #01_ Trabalhando com Concatenação de Adição (+) de String do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_strings_concatenate.asp
@@ -93,11 +94,23 @@ print(f"{seu_nome} tem {sua_idade} anos e R${seu_saldo:5.2f} no Banco.")
 Link de apoio: https://www.w3schools.com/python/ref_func_format.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_string_formatting.asp
 ```python
-#criando as variáveis e atribuindo os valores de string, inteiro e ponto flutuante (decimal)
+#criando as variáveis e atribuindo os valores de string
 seu_nome = "Robson Vaamonde"
 total_caracteres = len(seu_nome)
 
-#imprimindo na tela
+#imprimindo na tela a composição das variáveis String{} com as opções [0:6] e [7:15] que indica 
+#o início e fim dos caracteres que serão mostrados na saída padrão do comando PRINT().
 print(f"Total de caracteres do seu nome+espaço é: {total_caracteres}")
 print(f"Seu nome é: {seu_nome[0:6]} e Seu sobrenome é: {seu_nome[7:15]}")
 ```
+
+#07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_string_formatting.asp
+```python
+#imprimindo na tela um parágrafo utilizando 03 (três) Aspas Duplas
+print("""Ao escrever um literal de string no código Python que será exibido na tela como saída,
+você precisa determinar se quer gerar a saída da string como uma única linha ou como um parágrafo
+de várias linhas.""")
+```
+
+#08_ 

@@ -11,7 +11,7 @@
 #Versão: 0.02<br>
 
 Conteúdo estudado nessa aula:<br>
-#01_ Trabalhando com Variáveis Simples/Estáticas do Python 3 no Linux Mint<br>
+#01_ Trabalhando com Variáveis Simples/Estáticas (Constantes) do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Variáveis Simples/Estáticas com Nomes no Python 3 no Linux Mint<br>
 #03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
 #04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
@@ -22,13 +22,13 @@ Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Variáveis Simples/Estáticas Numéricas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
-#Criando variáveis Simples/Estáticas e atribuindo valores numéricos
+#Criando variáveis Simples/Estáticas (Constantes) e atribuindo valores numéricos
 a = 5          #Atribuindo o valor 5 a variável a
 b = 3          #Atribuindo o valor 3 a variável b
 print(a + b)   #Imprimindo na saída padrão o resultado da adição de A + B com a função PRINT()
 ```
 
-#02_ Trabalhando com Variáveis de Nomes Numéricas no Python 3 no Linux Mint<br>
+#02_ Trabalhando com Variáveis Estáticas (Constantes) de Nomes Numéricas no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Salvar o arquivo de script com o nome: 10-var_numerica.py no diretório: ScriptsPython
@@ -40,7 +40,7 @@ aumento = 5      #Atribuindo o valor 5 a variável aumento
 print("Salário atual:", salario, "Salário com aumento:", (salario + (salario * (aumento / 100))))
 ```
 
-#03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
+#03_ Trabalhando com Variáveis Dinâmicas, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Salvar o arquivo de script com o nome: 11-var_int.py no diretório: ScriptsPython
@@ -52,7 +52,7 @@ novosalario = (salario + (salario * (aumento / 100)))     #Calculando o percentu
 print("Seu novo salário é: ", novosalario)                #Imprimindo na tela o valor do aumento do novo salário
 ```
 
-#04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
+#04_ Trabalhando com Variáveis Dinâmicas, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Salvar o arquivo de script com o nome: 12-var_string.py no diretório: ScriptsPython
@@ -69,7 +69,7 @@ print("Endereço: " + endereco,                #Imprimindo na saída padrão os 
       "Cidade: " + cidade, sep="\n")
 ```
 
-#05_ Trabalhando com Variáveis Lógicas/Booleanas do Python no Linux Mint<br>
+#05_ Trabalhando com Variáveis Estáticas (Constantes) de Lógicas/Booleanas do Python no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp
 ```python
 #Salvar o arquivo de script com o nome: 13-var_booleana.py no diretório: ScriptsPython
@@ -81,7 +81,7 @@ resultado = aprovado == recuperacao        #Atribuindo o valor da comparação l
 print("Status do Resultado: ", resultado)  #Imprimindo na tela o Teste Lógico de Comparação de Igualdade
 ```
 
-#06_ Trabalhando com Variáveis de String do Python no Linux Mint<br>
+#06_ Trabalhando com Variáveis Dinâmicas de String do Python no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_len.asp
 ```python
@@ -93,7 +93,7 @@ caracteres = len(nome)                                                  #Atribui
 print("Total de caracteres do seu nome é:", caracteres, "com espaço")   #Imprimindo na tela a contagem de caracteres
 ```
 
-#07_ Trabalhando com Variáveis de String e Índices do Python no Linux Mint<br>
+#07_ Trabalhando com Variáveis Dinâmicas de String e Índices do Python no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_strings.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_strings_slicing.asp
@@ -107,5 +107,5 @@ print("Total de caracteres do seu nome é:", caracteres, "com espaço")   #Impri
 #Imprimindo na tela a subtração da quantidade de caracteres para o número correto do Índice
 print("Total de Índices do seu nome é:", caracteres -1, "começando sempre com 0 (zero)")
 #Imprimindo na tela as letras correspondente aos números do índices de cada carácter
-print("Primeira letra do seu nome é:", nome[0], "Segunda letra do seu nome é:", nome[7])
+print("Primeira letra do seu nome é:", nome[0], "Primeira letra do seu sobrenome é:", nome[7])
 ```
