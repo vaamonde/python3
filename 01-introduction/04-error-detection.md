@@ -18,6 +18,7 @@ Conteúdo estudado nessa aula:<br>
 #05_ Analisando Erros de Case-Sensitive no Python 3 no Linux Mint<br>
 #06_ Analisando Erros de Aspas no Python 3 no Linux Mint<br>
 #07_ Analisando Erros de Concatenação de String do Python 3 no Linux Mint<br>
+#08_ Analisado Erros de Algebra Aritmética com Cálculos de Divisão do Python 3 no Linux Mint<br>
 
 #01_ Analisando Erros de Recuo Inesperado do Python 3 no Linux Mint<br>
 ```python
@@ -58,7 +59,7 @@ SyntaxError: invalid syntax   #Indica que a sintaxe é inválida mostrando onde 
 
 #04_ Analisando Erros de Conversão do Python 3 no Linux Mint<br>
 ```python
-#Segundo exemplo: valor literal inválido (utilizar o VSCode mais simples)
+#Terceiro exemplo: valor literal inválido (utilizar o VSCode mais simples)
 #Salvar o arquivo de script com o nome: 06-erro_inteiro.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar no ícone: Run Python File
 suaidade = int(input("Digite a sua idade: ")) 
@@ -73,7 +74,7 @@ ValueError: invalid literal for int() with base 10: '45.5'   #Indica que é um v
 
 #05_ Analisando Erros de Case-Sensitive do Python 3 no Linux Mint<br>
 ```python
-#Terceiro exemplo: erro de digitação de Case-Sensitive (utilizar o VSCode mais simples)
+#Quarto exemplo: erro de digitação de Case-Sensitive (utilizar o VSCode mais simples)
 #Salvar o arquivo de script com o nome: 07-erro_case.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar no ícone: Run Python File
 import sys
@@ -88,7 +89,7 @@ NameError: name 'Print' is not defined. Did you mean: 'print'?   #Indica que o n
 
 #06_ Analisando Erros de Aspas do Python 3 no Linux Mint<br>
 ```python
-#Quarto exemplo: abrir e fechar Aspas (utilizar o VSCode mais simples)
+#Quinto exemplo: abrir e fechar Aspas (utilizar o VSCode mais simples)
 #Salvar o arquivo de script com o nome: 08-erro_aspas.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar no ícone: Run Python File
 suaidade = int(input(Digite a sua idade: )) 
@@ -103,7 +104,7 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?   #Indica que a sintaxe
 
 #07_ Analisando Erros de Concatenação de String do Python 3 no Linux Mint<br>
 ```python
-#Quinto exemplo: concatenar string do números (utilizar o VSCode mais simples)
+#Sexto exemplo: concatenar string do números (utilizar o VSCode mais simples)
 #Salvar o arquivo de script com o nome: 09-erro_concatenar.py no diretório: ScriptPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar no ícone: Run Python File
 seu_nome = "Robson Vaamonde"
@@ -116,3 +117,18 @@ Traceback (most recent call last):
     print("Seu nome e sua idade é: ", seu_nome+sua_idade)
 TypeError: can only concatenate str (not "int") to str   #Indica que a opção só pode concatenar com string
 ```
+
+#08_ Analisado Erros de Algebra Aritmética com Cálculos de Divisão do Python 3 no Linux Mint<br>
+```python
+#Sétimo exemplo: cálculo de divisão por 0 (zero) (utilizar o VSCode mais simples)
+#Salvar o arquivo de script com o nome: 10-erro_calculo.py no diretório: ScriptPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar no ícone: Run Python File
+salario = 1000
+prestacao = 0
+print("Seu salário é de: ", salario, "Você vai dividir em: ", prestacao, "vezes o valor de: ", (salario / prestacao))
+
+#Analisando a Mensagem de Erro do script em Python
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>   #Indica onde encontrou o erro e parou o script
+ZeroDivisionError: division by zero   #Indica que não pode dividir por zero
+>>>

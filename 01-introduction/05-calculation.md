@@ -16,8 +16,8 @@ Conteúdo estudado nessa aula:<br>
 #03_ Cálculo de Multiplicação (Multiplicar *) no Python 3 no Linux Mint<br>
 #04_ Cálculo de Divisão (Dividir /) no Python 3 no Linux Mint<br>
 #05_ Cálculo de Divisão (Dividir /) do Número Inteiro (Resto) no Python 3 no Linux Mint<br>
-#06_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
-#07_ Cálculo do Resto da Divisão (Dividir %) no Python 3 no Linux Mint<br>
+#06_ Cálculo de Divisão (Dividir %) do Resto (Módulo) no Python 3 no Linux Mint<br>
+#07_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
 #08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
 #09_ Regra de Sinais (Positivo e Negativo) no Python 3 no Linux Mint<br>
 
@@ -57,7 +57,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#05_ Cálculo de Divisão (Dividir /) do Número Inteiro (Resto) no Python 3 no Linux Mint<br>
+#05_ Cálculo de Divisão (Dividir /) do Número Inteiro (Quociente) no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 // 4   #Dividir dois valores utilizando os caracteres: // (duas barras oblíqua)
@@ -65,19 +65,19 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#06_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
-Link de apoio: https://www.w3schools.com/python/python_operators.asp
-```python
->>> 15 ** 2   #Valor base elevado pelo expoente (2=quadrado) utilizando os caracteres: ** (dois asterisco)
-225           #Resultado do cálculo de exponenciação
->>>
-```
-
-#07_ Cálculo do Resto da Divisão (Dividir %) no Python 3 no Linux Mint<br>
+#06_ Cálculo de Divisão (Dividir %) do Resto (Módulo) no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 >>> 15 % 4    #Dividir dois valores utilizando o caractere: % (porcentagem)
 1             #Resultado do cálculo de resto da divisão
+>>>
+```
+
+#07_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/python_operators.asp
+```python
+>>> 15 ** 2   #Valor base elevado pelo expoente (2=quadrado) utilizando os caracteres: ** (dois asterisco)
+225           #Resultado do cálculo de exponenciação
 >>>
 ```
 

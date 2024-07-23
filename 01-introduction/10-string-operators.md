@@ -18,6 +18,7 @@ Conteúdo estudado nessa aula:<br>
 #05_ Trabalhando com Composição de String e Formatação F-STRING do Pytnon 3 no Linux Mint<br>
 #06_ Trabalhando com Fatiamento de String do Pytnon 3 no Linux Mint<br>
 #07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
+#08_ Utilizando Conjuntos de Caracteres do Python 3 no Linux Mint<br>
 
 #01_ Trabalhando com Concatenação de Adição (+) de String do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_strings_concatenate.asp
@@ -107,10 +108,29 @@ print(f"Seu nome é: {seu_nome[0:6]} e Seu sobrenome é: {seu_nome[7:15]}")
 #07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_string_formatting.asp
 ```python
-#imprimindo na tela um parágrafo utilizando 03 (três) Aspas Duplas
+#imprimindo na tela um parágrafo utilizando 03 (três) Aspas Duplas e sequências de escape
+#como a Contra Barrar para permitir utilizar Aspas Duplas e Simples no Texto e \n para
+#criar uma nova linha ou utilizar Tabulação \t.
 print("""Ao escrever um literal de string no código Python que será exibido na tela como saída,
 você precisa determinar se quer gerar a saída da string como uma única linha ou como um parágrafo
-de várias linhas.""")
+de várias linhas. Utilizar \"ASPAS DUPLAS\" em String e Melhor pois você consegue usar \'ASPAS
+SIMPLES\' sem se preocupar.\nCriando um nova linha também é fácil.\n\tOu tabulando""")
 ```
 
-#08_ 
+#08_ Utilizando Conjuntos de Caracteres do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_chr.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_ord.asp
+```python
+#criando as variáveis e atribuindo os valores de string e inteiro
+numero_unicode = "@"
+unicode_numero = 64
+
+#imprimindo na tela o texto junto com as variáveis, fazendo a conversão do caractere @ (arroba)
+#para o código decimal da Tabela ASCII com a Função ORD() e o processo inverso com a Função
+#CHR(), utilizando a Função STR() para converter números Inteiros para String.
+print("Você quer saber o número Decimal da Tabela ASCII do caractere: " + numero_unicode,
+      "Você pode usar a Função ORD(): " + str(ord(numero_unicode)),
+	  "Você pode fazer o processo reverso, sabendo o número Decimal da Tabela ASCII do caractere: " + str(unicode_numero),
+	  "Você pode saber qual é o caractere com a Função CHR(): " + chr(unicode_numero), 
+	  sep="\n")
+```
