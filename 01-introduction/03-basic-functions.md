@@ -14,6 +14,7 @@ Conteúdo estudado nessa aula:<br>
 #01_ Função Print() do Python 3 no Linux Mint<br>
 #02_ Função Input() do Python 3 no Linux Mint<br>
 #03_ Funções Int() e Float() do Python 3 no Linux Mint<br>
+#04_ Funções ROUND() e STR() do Python 3 no Linux Mint<br>
 
 #01_ Função Print() do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_print.asp
@@ -60,11 +61,28 @@ Qual ano você nasceu? 1979                              #Processamento da funç
 Sua idade é: 45 anos
 >>>
 
-#Sexto exemplo: utilizando variáveis dinâmica junto com as funções float(), input e print para cálculo de aritmética
+#Sexto exemplo: utilizando variáveis dinâmica junto com as funções float(), input() e print() para cálculo de aritmética
 >>> produto = 10.50                                        #Criando a variável dinâmica e atribuindo o valor numérico de ponto flutuante (decimal)
 >>> recebido = float(input("Qual valor foi recebido? "))   #Criando a variável dinâmica e recebendo o argumento da função INPUT() convertendo para Decimal com a função FLOAT()
 Qual valor foi recebido? 20.00                             #Processamento da função INPUT() e digitando o valor a ser convertido para decimal FLOAT() e atribuído na variável recebido
 >>> print("Troco: ", produto - recebido)                   #Imprimindo os dados na saída padrão da função PRINT() e subtraindo as variáveis produto - recebido
 Troco:  -9.5
 >>>
+```
+
+#04_ Funções ROUND() e STR() do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_round.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_str.asp
+```python
+#Sétimo exemplo: utilizando variáveis constante e dinâmica junto com as funções float(), input(), print(), str(), round() e int() para cálculo de aritmética
+>>> saldo_inicial = 35.45                                          #Criando a variável constante e atribuindo o valor numérico de ponto flutuante (decimal)
+>>> deposito = float(input("Digite o valor a ser depositado: "))   #Criando a variável dinâmica e atribuindo o valor numérico de ponto flutuante (decimal)
+Digite o valor a ser depositado: 33.33                             #Processamento da função INPUT() e digitando o valor a ser convertido para decimal (FLOAT) e atribuído a variável deposito
+>>> saldo_final = (saldo_inicial + deposito)                       #Criando a variável dinâmica e atribuindo o cálculo aritmético de substração das variáveis
+>>> saldo_final                                                    #Processamento da variável e impressão do valores na tela
+68.78                                                              #Valor da variável dinâmica saldo_final
+#Imprimindo os dados na saída padrão da função PRINT() e convertendo para String com a função STR(), arredondado para maior com a função ROUND() e Inteiro com a função INT()
+>>> print("Seu saldo é:", "R$: " + str(saldo_final), "Arredondando para maior:", round(saldo_final), "Seu inteiro é:", int(saldo_final))
+Seu saldo é: R$: 68.78 Arredondado para maior: 69 Seu inteiro é: 68
+>>> 
 ```

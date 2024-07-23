@@ -13,6 +13,7 @@
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Módulos, Comparação e Expressões Lógicas do Python no Linux Mint<br>
+#03_  Trabalhando com Módulos, Funções Pi e de Raiz Quadrada do Python no Linux Mint<br>
 
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.asp
@@ -141,4 +142,46 @@ print("Resultado Final das Provas, Trabalhos e Frequência (TRUE=Aprovado | FALS
 print("Resultado das Provas......:", (resultado_provas >= provas))
 print("Resultado dos Trabalhos...:", (resultado_trabalhos >= trabalhos))
 print("Resultado das Frequências.:", (resultado_presencas >= faltas))
+```
+
+#03_  Trabalhando com Módulos, Funções Pi e de Raiz Quadrada do Python no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.asp
+```python
+#CENÁRIO 03: Calculando o Pi e Raiz Quadrada de Dois com o Módulo Math
+
+#Salvar o arquivo de script com o nome: 19-math.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
+
+#!/usr/bin/python3
+# Autor: Robson Vaamonde
+# Site: www.procedimentosemti.com.br
+# Facebook: facebook.com/ProcedimentosEmTI
+# Facebook: facebook.com/BoraParaPratica
+# YouTube: youtube.com/BoraParaPratica
+# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
+# Github: https://github.com/vaamonde
+# Data de criação: 22/07/2024
+# Data de atualização: 22/07/2024
+# Versão: 0.01
+# Testado e homologado para a versão do Python 3.10.x
+
+# Terceiro software (programa) utilizando a linguagem de programação Python 3 que tem o
+# objetivo de utilizar o valor de Pi (constante matemática da circunferência de um círculo
+# e seu diâmetro) e um cálculo simples de Raiz Quadrada de 2 utilizando o Módulo Math 
+
+#Importando as Funções Pi e Sqrt do Módulo Math para o projeto do Python
+from math import pi, sqrt
+
+#Declaração das Variáveis Dinâmicas 
+valor_pi = float(pi)     #Atribuindo o valor de Pi (constante matemática da circunferência de um círculo e seu diâmetro)
+valor_raiz = float(2.0)  #Atribuindo o valor para o cálculo de Raiz Quadrada
+
+#Bloco do Resultado do processamento dos Valores de Pi e Raiz Quadrada de Dois
+print("Se você precisar saber o valor do Pi, pode usar a Função math.pi que retorna o valor de:", valor_pi)
+print("Se você precisar saber o valor da Raiz Quadrada de: " + str(valor_raiz), ", pode usar a Função math.sqrt que retorna o valor de:", sqrt(valor_raiz))
+
+#Bloco do Resultado do Arredondamento dos Valores de Pi e Raiz Quadrada de Dois
+print("Se quiser o valor arredondado de Pi:", round(valor_pi,2))
+print("Ou o valor arredondado da Raiz Quadrada:", round(sqrt(valor_raiz),2))
 ```
