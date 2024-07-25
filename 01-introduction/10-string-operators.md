@@ -14,9 +14,9 @@ Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Concatenação de Adição (+) de String do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Concatenação de Multiplicação (*) de String do Python 3 no Linux Mint<br>
 #03_ Trabalhando com Composição de String do Python 3 no Linux Mint<br>
-#04_ Trabalhando com Composição de String com a Função FORMAT() do Pytnon 3 no Linux Mint<br>
-#05_ Trabalhando com Composição de String e Formatação F-STRING do Pytnon 3 no Linux Mint<br>
-#06_ Trabalhando com Fatiamento de String do Pytnon 3 no Linux Mint<br>
+#04_ Trabalhando com Composição de String com a Função FORMAT() do Python 3 no Linux Mint<br>
+#05_ Trabalhando com Composição de String e Formatação F-STRING do Python 3 no Linux Mint<br>
+#06_ Trabalhando com Fatiamento de String do Python 3 no Linux Mint<br>
 #07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
 #08_ Utilizando Conjuntos de Caracteres do Python 3 no Linux Mint<br>
 
@@ -61,7 +61,7 @@ seu_saldo = 135.45
 print("%s tem %d anos e R$%5.2f no Banco." % (seu_nome, sua_idade, seu_saldo))
 ```
 
-#04_ Trabalhando com Composição de String com a Função FORMAT() do Pytnon 3 no Linux Mint<br>
+#04_ Trabalhando com Composição de String com a Função FORMAT() do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_format.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_string_formatting.asp
 ```python
@@ -76,7 +76,7 @@ seu_saldo = 135.45
 print("{} tem {} anos e R${:5.2f} no Banco.".format(seu_nome, sua_idade, seu_saldo))
 ```
 
-#05_ Trabalhando com Composição de String e Formatação F-STRING do Pytnon 3 no Linux Mint<br>
+#05_ Trabalhando com Composição de String e Formatação F-STRING do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_format.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_string_formatting.asp
 ```python
@@ -91,7 +91,7 @@ seu_saldo = 135.45
 print(f"{seu_nome} tem {sua_idade} anos e R${seu_saldo:5.2f} no Banco.")
 ```
 
-#06_ Trabalhando com Fatiamento de String do Pytnon 3 no Linux Mint<br>
+#06_ Trabalhando com Fatiamento de String do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_format.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_string_formatting.asp
 ```python
