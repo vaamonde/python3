@@ -12,9 +12,9 @@
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Docstring, Help e Import do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Import e Cálculos do IRPF do Python 3 no Linux Mint<br>
 
-
-#01_ Trabalhando com Docstring, Help e Import do Python 3 no Linux Mint<br>
+#01_ Trabalhando com Docstring e Help() do Python 3 no Linux Mint<br>
 Link de apoio: 
 ```python
 #CENÁRIO 01: criando o arquivo de cálculo simples de IRPF
@@ -27,11 +27,11 @@ Link de apoio:
 """
 Programa: irpf.py
 Autor: Robson Vaamonde
-Descrição: Cálculo de Imposto de Rede Pessoa Física
+Descrição: Cálculo de Imposto de Renda Pessoa Física
 1. Constantes Significativas
-   Alíquota do Imposto
-   Dedução Padrão
-   Dedução por Dependente
+   Alíquota do Imposto de Renda
+   Dedução Padrão  do Imposto de Renda
+   Dedução por Dependente do Imposto de Renda
 2. Entrada dos Dados
    Renda Bruta Mensal
    Número de Dependentes
@@ -49,17 +49,54 @@ Descrição: Cálculo de Imposto de Rede Pessoa Física
 """
 
 #bloco de variáveis constantes
+#Link dos valores: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2024
 aliquota_irpf=float((0 + 7.5 + 15 + 22.5 + 27.5) / 5)
 deducao_irpf=float((0 + 169.44 + 381.44 + 662.77 + 896.0) / 5)
+deducao_dep=float(189.59)
+```
+
+#02_ Trabalhando com Import e Cálculos do IRPF do Python 3 no Linux Mint<br>
+```python
+#CENÁRIO 02: criando o arquivo para importar o cálculo simples de IRPF
 
 #Salvar o arquivo de script com o nome: 20-irpf.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #!/usr/bin/python3
-#Importando o Módulo do arquivo irpf.py para o projeto do Python
-import irpf
+#Importando os Módulos do arquivo irpf.py e Sistema sys para o projeto do Python
+import irpf, sys
 
-#bloco do Resultado do processamento dos Valores das Variáveis do Módulo IRPF
+#Bloco do Resultado do processamento dos Valores das Variáveis do Módulo IRPF
+print("Valores das Variáveis Constante do Módulo IRPF")
 print("Alíquota padrão (Média Aritmética) do IRPF:", str(irpf.aliquota_irpf)+"%")
-print("Dedução padrão (Média Aritmética) do IRPF:", "R$: "+str(irpf.deducao_irpf))
+print("Dedução padrão (Média Aritmética) do IRPF.:", "R$: "+str(irpf.deducao_irpf))
+print("Dedução padrão de Dependentes do IRPF.....:", "R$: "+str(irpf.deducao_dep), end="\n\n")
+
+#Bloco de digitação dos Valores para o Cálculo do IRPF
+print("Digite os valores para o Cálculo do IRPF")
+renda_bruta=float(input("Digite a sua Renda Bruta Mensal.....: "))
+numero_dep=int(input("Digite o número de dependentes......: "))
+despesas_escola=float(input("Digite o valor das Despesas Escolar.: "))
+despesas_saude=float(input("Digite o valor das Despesas em Saúde: "))
+pensao_alim=float(input("Digite o valor da Pensão Alimentícia: "))
+valor_fonte=float(input("Digite o valor Retido na Fonte......: "))
+print()
+
+#Bloco do Resultado do processamento dos Valores das Variáveis Dinâmicas
+print("Valores das Variáveis Dinâmicas Digitadas")
+print(f"Renda Bruta Mensal.....R$: {renda_bruta:5.2f}",
+      f"Número de Dependentes....: {numero_dep}",
+	  f"Despesas Escolar.......R$: {despesas_escola:5.2f}",
+	  f"Despesas Médicas.......R$: {despesas_saude:5.2f}",
+	  f"Pensão Alimentícia.....R$: {pensao_alim:5.2f}",
+	  f"Valor Retido na Fonte..R$: {valor_fonte:5.2f}",
+	  sep="\n", end="\n\n")
+
+#Bloco do Cálculo Matemática (Aritmética) do IRPF
+irpf2024=float(0.0)
+print(f"Valor do IRPF de 2024 é R$: {irpf2024:5.2f}", end="\n\n")
+
+#Bloco Final do Script em Python do IRPF com encerramento do Script.
+input("Pressione <Enter> para finalizar o script")
+sys.exit()
 ```

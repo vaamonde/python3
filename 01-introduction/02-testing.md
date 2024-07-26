@@ -203,10 +203,10 @@ Ctrl+F5
 ```python
 #Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl+N
 #Cálculo simples da área de um retângulo utilizando as funções INT(), INPUT() e PRINT()
-largura = int(input("Digite a largura: "))          #Obtendo o valor da largura e atribuindo a variável largura
-altura = int(input("Digite a altura: "))            #Obtendo o valor da altura e atribuindo a variável altura
-area = largura * altura                             #Calculando a área do retângulo e atribuindo a variável area
-print("A área é", area, "unidades quadradas")       #Imprimindo o valor na area na saída padrão
+base = int(input("Digite o valor da base: "))                #Obtendo o valor da base e atribuindo a variável base
+largura = int(input("Digite o valor da largura: "))          #Obtendo o valor da largura e atribuindo a variável largura
+area = base * largura                                        #Calculando a área do retângulo e atribuindo a variável area
+print("A área do retângulo é", area, "unidades quadradas")   #Imprimindo o valor da area na saída padrão
 
 #Salvando o arquivo de script em Python 3 no VSCode: Ctrl+S
 #Nome do arquivo de script em Python: 02-area_retangulo.py

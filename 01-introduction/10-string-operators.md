@@ -19,6 +19,7 @@ Conteúdo estudado nessa aula:<br>
 #06_ Trabalhando com Fatiamento de String do Python 3 no Linux Mint<br>
 #07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
 #08_ Utilizando Conjuntos de Caracteres do Python 3 no Linux Mint<br>
+#09_ Conferindo o Tipo TYPE() de Valores das Variáveis do Python 3 no Linux Mint<br>
 
 #01_ Trabalhando com Concatenação de Adição (+) de String do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_strings_concatenate.asp
@@ -133,4 +134,19 @@ print("Você quer saber o número Decimal da Tabela ASCII do caractere: " + nume
 	  "Você pode fazer o processo reverso, sabendo o número Decimal da Tabela ASCII do caractere: " + str(unicode_numero),
 	  "Você pode saber qual é o caractere com a Função CHR(): " + chr(unicode_numero), 
 	  sep="\n")
+```
+
+#09_ Conferindo o Tipo TYPE() de Valores das Variáveis do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_type.asp
+```python
+#criando as variáveis e atribuindo os valores de string, inteiro e ponto flutuante (decimal)
+seu_nome = "Robson Vaamonde"
+sua_idade = 45
+seu_saldo = 135.45
+
+#imprimindo na tela a composição das variáveis String {}, Números Inteiros {} e Números Decimais
+#{} e mostrando o Tipo de Dados de cada variável armazenada.
+print(f"O tipo (Type) da Variável: seu_nome = {seu_nome} seu é:", type(seu_nome))
+print(f"O tipo (Type) da Variável: sua_idade = {sua_idade} seu é:", type(sua_idade))
+print(f"O tipo (Type) da Variável: seu_nome = {seu_saldo} seu é:", type(seu_saldo))
 ```
