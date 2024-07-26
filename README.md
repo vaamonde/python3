@@ -34,6 +34,8 @@ IPython é um console interativo avançado para Python. Ele oferece recursos com
 
 BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe, Histórico de comandos e Inserção de argumentos.
 
+IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado de software para criar aplicações que combina ferramentas comuns de desenvolvedor em uma única interface de usuário gráfica (GUI -  graphical user interface).
+
 IDLE (Integrated Development Environment for Python) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
 
 PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições do Python vem com o pip pré-instalado.

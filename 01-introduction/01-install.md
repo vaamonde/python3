@@ -17,7 +17,11 @@ Conteúdo estudado nessa aula:<br>
 #04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
 #05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
 #06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
-#07_ Instalando as Extensões do Python no VSCode (Visual Studio Code)<br>
+#07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
+#08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
+#09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
+#10_ Configurações básicas do Microsoft Visual Studio Code VSCode para funcionar perfeitamente no Linux Mint<br>
+#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do PIP: https://pypi.org/<br>
@@ -39,6 +43,10 @@ BPython é um intérprete interativo para Python, similar ao IPython, mas com fo
 e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe,<br>
 Histórico de comandos e Inserção de argumentos.
 
+IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado de software para<br>
+criar aplicações que combina ferramentas comuns de desenvolvedor em uma única interface de usuário<br>
+gráfica (GUI - Graphical User Interface).
+
 IDLE é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde<br>
 a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE<br>
 multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas<br>
@@ -55,7 +63,7 @@ do Python vem com o pip pré-instalado.
 sudo apt update
 
 #Instalando o Python na versão 3
-sudo apt install python3 idle-python3.10 ipython3 bpython git vim pip
+sudo apt install python3 idle-python3.10 ipython3 bpython git vim pip cloc
 ```
 
 #02_ Verificando a Versão o Python 3 e do PIP instalado no Linux Mint<br>
@@ -113,12 +121,67 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 idle-python3.10
 ```
 
-#07_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
-
-A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:<br>
-Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
-
+#07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 ```bash
+Link download: https://code.visualstudio.com/download
+	Versão: .deb (Debian, Ubuntu 64 Bits) <Salvar aquivo>
+```
+
+#08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
+```bash
+#instalando em modo gráfico (mais fácil)
+Arquivos
+	Download
+		code_1.*_amd64
+			Instalar Pacote
+		<Fechar>
+```
+
+#09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
+```bash
+#instalação da extensão PT-BR do VSCode
+Portuguese (Brazil) Language Pack for Visual Studio Code
+	(Sem necessidade de configuração)
+
+#instalação da extensão do Corretor Ortográfico PT-BR e US
+Brazilian Portuguese - Code Spell Checker (Corretor Ortográfico de Código)
+Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
+	Pressionar F1
+		Show Spell Checker Configuration Info
+			User
+				Language
+					English (en_us)
+					Portuguese (pt_br)
+					Portuguese - Brazil (pt-br)
+				File Types and Programming Languages
+					shellscript, python, markdown, etc...
+```
+
+#10_ Configurações básicas do Microsoft Visual Studio Code VSCode para funcionar perfeitamente no Linux Mint<br>
+```bash
+#configuração básica do VSCode para suportar o Python
+Gerenciar
+	Configurações
+		Code Spell Checker
+			C Spell: Enabled Language Ids: 
+				Adicionar Item: shellscript
+			C Spell: Language: en,pt,pt-BR
+			C Spell: Max Duplicate Problems: 500000
+			C Spell: Max Number Of Problems: 500000
+		Editor
+			Editor: Tab Size: 2
+			Editor: Detect Indentation: False (Off)
+			Editor: Insert Spaces: True (On)
+			Render Whitespace: All
+		Files
+			Files: Eol: \n (LF)
+```
+
+#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
+```bash
+#A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:
+#Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
+
 #Instalando as Extensões do Python 3 no VSCode
 VSCode
   Extensões
