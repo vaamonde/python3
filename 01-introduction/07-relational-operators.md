@@ -77,7 +77,7 @@ Nota-01 é menor que Nota-02?  False
 >>>
 ```
 
-#06_ Trabalhando com Comparação Lógica e Operador Relacional DIFERENTE do Python 3 no Linux Mint<br>
+#06_ Trabalhando com Comparação Lógica e Operador Relacional DIFERENTE (Desigualdade) do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Criando variáveis Simples/Estáticas e trabalhando com comparação lógica

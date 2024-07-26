@@ -146,7 +146,7 @@ seu_saldo = 135.45
 
 #imprimindo na tela a composição das variáveis String {}, Números Inteiros {} e Números Decimais
 #{} e mostrando o Tipo de Dados de cada variável armazenada.
-print(f"O tipo (Type) da Variável: seu_nome = {seu_nome} seu é:", type(seu_nome))
-print(f"O tipo (Type) da Variável: sua_idade = {sua_idade} seu é:", type(sua_idade))
-print(f"O tipo (Type) da Variável: seu_nome = {seu_saldo} seu é:", type(seu_saldo))
+print(f"O tipo (Type) da Variável: seu_nome = {seu_nome} é:", type(seu_nome))
+print(f"O tipo (Type) da Variável: sua_idade = {sua_idade} é:", type(sua_idade))
+print(f"O tipo (Type) da Variável: seu_nome = {seu_saldo} é:", type(seu_saldo))
 ```
