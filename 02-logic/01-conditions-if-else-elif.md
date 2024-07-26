@@ -55,4 +55,4 @@ if idade_carro > media_idade:
 #02_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp
 ```python
-#CENÁRIO 01: voltando com o cálculo de IRPF Física melhorado
+#CENÁRIO 03: 
