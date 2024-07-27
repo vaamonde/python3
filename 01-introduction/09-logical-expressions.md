@@ -7,13 +7,13 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 20/07/2024<br>
-#Versão: 0.02<br>
+#Data de atualização: 27/07/2024<br>
+#Versão: 0.03<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Módulos, Comparação e Expressões Lógicas do Python no Linux Mint<br>
-#03_  Trabalhando com Módulos, Funções Pi e de Raiz Quadrada do Python no Linux Mint<br>
+#03_ Trabalhando com Módulos, Funções Pi e de Raiz Quadrada do Python no Linux Mint<br>
 
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.asp
@@ -55,13 +55,14 @@ tabela_imc = [
 	["40", "60", "Obesidade Grau 2"],
 ]
 
-#Declarando as Variáveis e Recendo os Valores
+#Declarando as Variáveis e Atribuindo os Valores
 seu_peso = float(input("Digite o seu peso: "))
 sua_altura = float(input("Digite a sua altura: "))
 
 #Imprimindo na Tela os Valores das Variáveis
 print("Seus dados são:", seu_peso, "de peso", "e", sua_altura, "de altura.")
 print()
+
 #Calculando o IMC com base nos Valores das Variáveis (Peso dividido pela Altura elevada ao Quadrado)
 imc = int(seu_peso / (sua_altura ** 2))
 
@@ -102,11 +103,11 @@ Link de apoio: https://www.w3schools.com/python/ref_func_round.asp
 # objetivo de calcular as notas da Provas, Trabalhos e Faltas de um aluno do curso de
 # matemática utilizando cálculos de média aritmética, ponderada e porcentagem simples.
 
-#Declaração das Variáveis Estáticas das Provas, Trabalhos, Faltas e Aulas
-provas = 7.0      #Atribuindo o valor da média aritmética de aprovação das Provas
-trabalhos = 6.0   #Atribuindo o valor da média aritmética de aprovação dos Trabalhos
-faltas = 0.75     #Atribuindo o valor de percentual de faltas no curso de 25%
-aulas = 10        #Atribuindo o valor de total de alunos do curso
+#Atribuição dos Valores das Variáveis Estáticas das Provas, Trabalhos, Faltas e Aulas
+provas = 7.0
+trabalhos = 6.0
+faltas = 0.75
+aulas = 10
 
 #Bloco de digitação das Notas das Provas
 print("Digite as Notas das Provas 01, 02 e 03", end='\n\n')
@@ -122,7 +123,7 @@ trabalho02 = float(input("Digite a nota do Trabalho 02 com Peso 3: "))
 print()
 
 #Bloco de digitação do Total de Frequência do Aluno
-print("Digite o Total de Frequência do Aluno: ", end='\n\n')
+print("Digite o Total de Frequência do Aluno no Curso: ", end='\n\n')
 presencas = int(input("Digite o total de Frequência do Aluno: "))
 print()
 
@@ -137,7 +138,7 @@ print("Média Ponderada dos Trabalhos......: ", round(resultado_trabalhos, 1))
 print("Percentual de Frequência nas Aulas.: ", int((resultado_presencas * 100)),"%")
 print()
 
-#Bloco Final do Resultado se foi aprovado nas Provas, Trabalhos e Frequência 
+#Bloco Final do Resultado de Aprovação nas Provas, Trabalhos e Frequência 
 print("Resultado Final das Provas, Trabalhos e Frequência (TRUE=Aprovado | FALSE=Reprovado)")
 print("Resultado das Provas......:", (resultado_provas >= provas))
 print("Resultado dos Trabalhos...:", (resultado_trabalhos >= trabalhos))
@@ -173,9 +174,9 @@ Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.
 #Importando as Funções Pi e Sqrt do Módulo Math para o projeto do Python
 from math import pi, sqrt
 
-#Declaração das Variáveis Dinâmicas 
-valor_pi = float(pi)     #Atribuindo o valor de Pi (constante matemática da circunferência de um círculo e seu diâmetro)
-valor_raiz = float(2.0)  #Atribuindo o valor para o cálculo de Raiz Quadrada
+#Atribuindo os Valores das Variáveis Dinâmicas 
+valor_pi = float(pi)
+valor_raiz = float(2.0)
 
 #Bloco do Resultado do processamento dos Valores de Pi e Raiz Quadrada de Dois
 print("Se você precisar saber o valor do Pi, pode usar a Função math.pi que retorna o valor de:", valor_pi)

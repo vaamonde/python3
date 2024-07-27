@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 20/07/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 27/07/2024<br>
+#Versão: 0.05<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -59,11 +59,13 @@ do Python vem com o pip pré-instalado.
 
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
+Link de download do Python 3: https://www.python.org/downloads/
+
 #Atualizando as listas do Apt
 sudo apt update
 
 #Instalando o Python na versão 3
-sudo apt install python3 idle-python3.10 ipython3 bpython git vim pip cloc
+sudo apt install python3 idle-python3.10 pip ipython3 bpython git vim cloc
 ```
 
 #02_ Verificando a Versão o Python 3 e do PIP instalado no Linux Mint<br>
@@ -159,7 +161,7 @@ Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
 
 #10_ Configurações básicas do Microsoft Visual Studio Code VSCode para funcionar perfeitamente no Linux Mint<br>
 ```bash
-#configuração básica do VSCode para suportar o Python
+#configuração básica do VSCode para suportar o Python 3
 Gerenciar
 	Configurações
 		Code Spell Checker
@@ -169,7 +171,7 @@ Gerenciar
 			C Spell: Max Duplicate Problems: 500000
 			C Spell: Max Number Of Problems: 500000
 		Editor
-			Editor: Tab Size: 2
+			Editor: Tab Size: 4
 			Editor: Detect Indentation: False (Off)
 			Editor: Insert Spaces: True (On)
 			Render Whitespace: All

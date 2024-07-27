@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 22/07/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 27/07/2024<br>
+#Versão: 0.04<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Analisando Erros em Variáveis no Python 3 no Linux Mint<br>

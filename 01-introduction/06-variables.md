@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 20/07/2024<br>
-#Versão: 0.02<br>
+#Data de atualização: 27/07/2024<br>
+#Versão: 0.03<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Variáveis Simples/Estáticas (Constantes) do Python 3 no Linux Mint<br>
@@ -27,9 +27,14 @@ python3
 ```
 ```python
 #Criando variáveis Simples/Estáticas (Constantes) e atribuindo valores numéricos
->>> a = 5          #Atribuindo o valor 5 a variável a
->>> b = 3          #Atribuindo o valor 3 a variável b
->>> print(a + b)   #Imprimindo na saída padrão o resultado da adição de A + B com a função PRINT()
+#Atribuindo o valor 5 a variável a
+>>> a = 5
+
+#Atribuindo o valor 3 a variável b
+>>> b = 3
+
+#Imprimindo na saída padrão o resultado da adição de A + B com a função PRINT()
+>>> print(a + b)
 8
 >>>
 ```
@@ -40,8 +45,11 @@ Link de apoio: https://www.w3schools.com/python/python_variables.asp
 #Salvar o arquivo de script com o nome: 11-var_numerica.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis com Nomes de Fácil Entendimento e atribuindo valores numéricos
-salario = 1500   #Atribuindo o valor 1500 a variável salario
-aumento = 5      #Atribuindo o valor 5 a variável aumento
+
+#Atribuindo os valores inteiros nas variáveis constante
+salario = 1500
+aumento = 5
+
 #Imprimindo na tela o valor do salário atual e calculando o valor do salário com aumento
 print("Salário atual:", salario, "Salário com aumento:", (salario + (salario * (aumento / 100))))
 ```
@@ -52,10 +60,16 @@ Link de apoio: https://www.w3schools.com/python/python_variables.asp
 #Salvar o arquivo de script com o nome: 12-var_int.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis e atribuindo valores numéricos com a função INPUT()
-salario = int(input("Digite o seu salário: "))            #Atribuindo o valor inteiro da entrada na variável salario
-aumento = int(input("Digite o percentual de aumento: "))  #Atribuindo o valor inteiro da entrada na variável aumento
-novosalario = (salario + (salario * (aumento / 100)))     #Calculando o percentual de aumento na variável novosalario
-print("Seu novo salário é: ", novosalario)                #Imprimindo na tela o valor do aumento do novo salário
+
+#Atribuindo o valor inteiro nas variáveis
+salario = int(input("Digite o seu salário: "))
+aumento = int(input("Digite o percentual de aumento: "))
+
+#Calculando o percentual de aumento na variável novosalario
+novosalario = (salario + (salario * (aumento / 100)))
+
+#Imprimindo na tela o valor do aumento do novo salário
+print("Seu novo salário é: ", novosalario)
 ```
 
 #04_ Trabalhando com Variáveis Dinâmicas, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
@@ -64,14 +78,21 @@ Link de apoio: https://www.w3schools.com/python/python_variables.asp
 #Salvar o arquivo de script com o nome: 13-var_string.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando um formulário simples e atribuindo valores as variáveis de String com a função INPUT()
-nome = input("Qual o seu Nome: ")             #Atribuindo o valor da entrada na variável nome
-endereco = input("Qual o seu Endereço: ")     #Atribuindo o valor da entrada na variável endereco 
-bairro = input("Qual o seu Bairro: ")         #Atribuindo o valor da entrada na variável bairro
-cidade = input("Qual a sua Cidade: ")         #Atribuindo o valor da entrada na variável cidade
-print()                                       #Imprimindo na saída padrão uma linha em branco
-print("Informações cadastrais de: " + nome)   #Imprimindo na saída padrão o valor da variável nome concatenado com a String de Texto
-print("Endereço: " + endereco,                #Imprimindo na saída padrão os valores das variável conectadas com as Strings de Texto
-      "Bairro: " + bairro,                    #cada uma nova linha separada (quebra de linha) utilizando a expressão SEP
+
+#Atribuindo o valor string nas variáveis
+nome = input("Qual o seu Nome: ")
+endereco = input("Qual o seu Endereço: ")
+bairro = input("Qual o seu Bairro: ")
+cidade = input("Qual a sua Cidade: ")
+
+#Imprimindo na saída padrão uma linha em branco
+print()
+
+#Imprimindo na saída padrão o valor das variáveis concatenando com a descrição
+#e quebrando a saída em uma nova linha separada com o parâmetro SEP
+print("Informações cadastrais de: " + nome)
+print("Endereço: " + endereco,
+      "Bairro: " + bairro,
       "Cidade: " + cidade, sep="\n")
 ```
 
@@ -81,10 +102,16 @@ Link de apoio: https://www.w3schools.com/python/python_variables.asp
 #Salvar o arquivo de script com o nome: 14-var_booleana.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis booleanas no Python
-aprovado = True                            #Atribuindo o valor booleano True (Verdadeiro) na variável aprovado
-recuperacao = False                        #Atribuindo o valor booleano False (Falso) na variável recuperacao
-resultado = aprovado == recuperacao        #Atribuindo o valor da comparação lógica na variável resultado
-print("Status do Resultado: ", resultado)  #Imprimindo na tela o Teste Lógico de Comparação de Igualdade
+
+#Atribuindo o valor booleano True (Verdadeiro) ou False (Falso) nas variáveis
+aprovado = True
+recuperacao = False
+
+#Atribuindo o valor da comparação lógica na variável
+resultado = aprovado == recuperacao
+
+#Imprimindo na tela o Teste Lógico de Comparação de Igualdade
+print("Status do Resultado: ", resultado)
 ```
 
 #06_ Trabalhando com Variáveis Dinâmicas de String do Python no Linux Mint<br>
@@ -94,9 +121,15 @@ Link de apoio: https://www.w3schools.com/python/ref_func_len.asp
 #Salvar o arquivo de script com o nome: 15-var_len.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis de String e calculando a quantidade de caracteres no Python
-nome = input("Digite o seu Nome e Sobrenome: ")                         #Atribuindo o valor de String com a Função INPUT() na variável nome
-caracteres = len(nome)                                                  #Atribuindo o valor numérico inteiro com a Função LEN() na variável caracteres
-print("Total de caracteres do seu nome é:", caracteres, "com espaço")   #Imprimindo na tela a contagem de caracteres
+
+#Atribuindo o valor de String com a Função INPUT() na variável
+nome = input("Digite o seu Nome e Sobrenome: ")
+
+#Atribuindo o valor numérico inteiro com a Função LEN() na variável
+caracteres = len(nome)
+
+#Imprimindo na tela a contagem de caracteres
+print("Total de caracteres do seu nome é:", caracteres, "com espaço")
 ```
 
 #07_ Trabalhando com Variáveis Dinâmicas de String e Índices do Python no Linux Mint<br>
@@ -107,11 +140,19 @@ Link de apoio: https://www.w3schools.com/python/python_strings_slicing.asp
 #Salvar o arquivo de script com o nome: 16-var_indice.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 #Criando variáveis de String e imprimindo o valor do Índices no Python
-nome = input("Digite o seu Nome e Sobrenome: ")                         #Atribuindo o valor de String com a Função INPUT() na variável nome
-caracteres = len(nome)                                                  #Atribuindo o valor numérico inteiro com a Função LEN() na variável caracteres
-print("Total de caracteres do seu nome é:", caracteres, "com espaço")   #Imprimindo na tela a contagem de caracteres
+
+#Atribuindo o valor de String com a Função INPUT() na variável
+nome = input("Digite o seu Nome e Sobrenome: ")
+
+#Atribuindo o valor numérico inteiro com a Função LEN() na variável
+caracteres = len(nome)
+
+#Imprimindo na tela a contagem de caracteres
+print("Total de caracteres do seu nome é:", caracteres, "com espaço")
+
 #Imprimindo na tela a subtração da quantidade de caracteres para o número correto do Índice
 print("Total de Índices do seu nome é:", caracteres -1, "começando sempre com 0 (zero)")
+
 #Imprimindo na tela as letras correspondente aos números do índices de cada carácter
 print("Primeira letra do seu nome é:", nome[0], "Primeira letra do seu sobrenome é:", nome[7])
 ```

@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 20/07/2024<br>
-#Versão: 0.02<br>
+#Data de atualização: 27/07/2024<br>
+#Versão: 0.03<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Comparação Lógica e Operador Relacional IGUAL do Python 3 no Linux Mint<br>
@@ -26,9 +26,12 @@ python3
 ```
 ```python
 #Criando variáveis Simples/Estáticas e trabalhando com comparação lógica
->>> nota01 = 5                                               #Atribuindo o valor 5 a variável nota01
->>> nota02 = 3                                               #Atribuindo o valor 3 a variável nota02
->>> print("Nota-01 é igual a Nota-02? ", nota01 == nota02)   #Imprimindo na saída padrão o resultado da comparação lógica IGUAL
+#Atribuindo os valores inteiros as variáveis
+>>> nota01 = 5
+>>> nota02 = 3
+
+#Imprimindo na saída padrão o resultado da comparação lógica IGUAL
+>>> print("Nota-01 é igual a Nota-02? ", nota01 == nota02)
 Nota-01 é igual a Nota-02?  False
 >>>
 ```
@@ -37,9 +40,12 @@ Nota-01 é igual a Nota-02?  False
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Criando variáveis Simples/Estáticas e trabalhando com comparação lógica
->>> nota01 = 5                                                #Atribuindo o valor 5 a variável nota01
->>> nota02 = 3                                                #Atribuindo o valor 3 a variável nota02
->>> print("Nota-01 é maior que Nota-02? ", nota01 > nota02)   #Imprimindo na saída padrão o resultado da comparação lógica MAIOR QUE
+#Atribuindo os valores inteiros as variáveis
+>>> nota01 = 5
+>>> nota02 = 3
+
+#Imprimindo na saída padrão o resultado da comparação lógica MAIOR QUE
+>>> print("Nota-01 é maior que Nota-02? ", nota01 > nota02)
 Nota-01 é maior que Nota-02?  True
 >>>
 ```
@@ -48,9 +54,12 @@ Nota-01 é maior que Nota-02?  True
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Criando variáveis Simples/Estáticas e trabalhando com comparação lógica
->>> nota01 = 5                                                #Atribuindo o valor 5 a variável nota01
->>> nota02 = 3                                                #Atribuindo o valor 3 a variável nota02
->>> print("Nota-01 é menor que Nota-02? ", nota01 < nota02)   #Imprimindo na saída padrão o resultado da comparação lógica MENOR QUE
+#Atribuindo os valores inteiros as variáveis
+>>> nota01 = 5
+>>> nota02 = 3
+
+#Imprimindo na saída padrão o resultado da comparação lógica MENOR QUE
+>>> print("Nota-01 é menor que Nota-02? ", nota01 < nota02)
 Nota-01 é menor que Nota-02?  False
 >>> 
 ```
@@ -59,9 +68,12 @@ Nota-01 é menor que Nota-02?  False
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Criando variáveis Simples/Estáticas e trabalhando com comparação lógica
->>> nota01 = 5                                                #Atribuindo o valor 5 a variável nota01
->>> nota02 = 3                                                #Atribuindo o valor 3 a variável nota02
->>> print("Nota-01 é menor que Nota-02? ", nota01 >= nota02)  #Imprimindo na saída padrão o resultado da comparação lógica MAIOR IGUAL
+#Atribuindo os valores inteiros as variáveis
+>>> nota01 = 5
+>>> nota02 = 3
+
+#Imprimindo na saída padrão o resultado da comparação lógica MAIOR IGUAL
+>>> print("Nota-01 é menor que Nota-02? ", nota01 >= nota02)
 Nota-01 é menor que Nota-02?  True
 >>>
 ```
@@ -70,9 +82,12 @@ Nota-01 é menor que Nota-02?  True
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Criando variáveis Simples/Estáticas e trabalhando com comparação lógica
->>> nota01 = 5                                                #Atribuindo o valor 5 a variável nota01
->>> nota02 = 3                                                #Atribuindo o valor 3 a variável nota02
->>> print("Nota-01 é menor que Nota-02? ", nota01 <= nota02)  #Imprimindo na saída padrão o resultado da comparação lógica MENOR IGUAL
+#Atribuindo os valores inteiros as variáveis
+>>> nota01 = 5
+>>> nota02 = 3
+
+#Imprimindo na saída padrão o resultado da comparação lógica MENOR IGUAL
+>>> print("Nota-01 é menor que Nota-02? ", nota01 <= nota02)
 Nota-01 é menor que Nota-02?  False
 >>>
 ```
@@ -81,9 +96,12 @@ Nota-01 é menor que Nota-02?  False
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Criando variáveis Simples/Estáticas e trabalhando com comparação lógica
->>> nota01 = 5                                                #Atribuindo o valor 5 a variável nota01
->>> nota02 = 3                                                #Atribuindo o valor 3 a variável nota02
->>> print("Nota-01 é menor que Nota-02? ", nota01 != nota02)  #Imprimindo na saída padrão o resultado da comparação lógica DIFERENTE
+#Atribuindo os valores inteiros as variáveis
+>>> nota01 = 5
+>>> nota02 = 3
+
+#Imprimindo na saída padrão o resultado da comparação lógica DIFERENTE
+>>> print("Nota-01 é menor que Nota-02? ", nota01 != nota02)
 Nota-01 é menor que Nota-02?  True
 >>> 
 ```

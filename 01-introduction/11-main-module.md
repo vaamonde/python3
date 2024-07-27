@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 22/07/2024<br>
-#Versão: 0.02<br>
+#Data de atualização: 27/07/2024<br>
+#Versão: 0.03<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Docstring, Help e Import do Python 3 no Linux Mint<br>
@@ -17,13 +17,13 @@ Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Docstring e Help() do Python 3 no Linux Mint<br>
 Link de apoio: 
 ```python
-#CENÁRIO 01: criando o arquivo de cálculo simples de IRPF
+#CENÁRIO 01: criando o arquivo de cálculo simples de IRPF 2024
 
 #Salvar o arquivo de script com o nome: irpfv1.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #!/usr/bin/python3
-#bloco do Docstring de ajuda HELP() do programa de IRPF
+#Bloco do Docstring de ajuda HELP() do programa de IRPF 2024
 """
 Programa: irpfv1.py
 Autor: Robson Vaamonde
@@ -48,7 +48,7 @@ Descrição: Cálculo de Imposto de Renda Pessoa Física
    Ajuda Docstring do arquivo: help(irpfv1) 
 """
 
-#bloco de variáveis constantes
+#Bloco de variáveis constantes
 #Link dos valores: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2024
 #Link dos valores: https://www.gov.br/inss/pt-br/noticias/confira-as-aliquotas-de-contribuicao-ao-inss-com-o-aumento-do-salario-minimo
 aliquota_irpf=float((0 + 7.5 + 15 + 22.5 + 27.5) / 5)
@@ -59,23 +59,23 @@ deducao_dep=float(189.59)
 
 #02_ Trabalhando com Import e Cálculos do IRPF do Python 3 no Linux Mint<br>
 ```python
-#CENÁRIO 02: criando o arquivo para importar o cálculo simples de IRPF
+#CENÁRIO 02: criando o arquivo para importar o cálculo simples de IRPF 2024
 
-#Salvar o arquivo de script com o nome: 20-irpf.py no diretório: ScriptsPython
+#Salvar o arquivo de script com o nome: 29-irpfv1.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #!/usr/bin/python3
 #Importando os Módulos do arquivo irpfv1.py e Sistema sys para o projeto do Python
 import irpfv1, sys
 
-#Bloco do Resultado do processamento dos Valores das Variáveis do Módulo IRPF
+#Bloco do Resultado do processamento dos Valores das Variáveis do Módulo IRPF 2024
 print("Valores das Variáveis Constante do Módulo IRPF")
 print("Alíquota padrão (Média Aritmética) do IRPF:", str(irpfv1.aliquota_irpf)+"%")
 print("Dedução padrão (Média Aritmética) do IRPF.:", "R$: "+str(irpfv1.deducao_irpf))
 print("Dedução padrão de Dependentes do IRPF.....:", "R$: "+str(irpfv1.deducao_dep))
 print("Dedução padrão (Média Aritmética) do INSS.:", str(irpfv1.deducao_inss)+"%", end="\n\n")
 
-#Bloco de digitação dos Valores para o Cálculo do IRPF
+#Bloco de digitação dos Valores para o Cálculo do IRPF 2024
 print("Digite os valores para o Cálculo do IRPF")
 renda_bruta=float(input("Digite a sua Renda Bruta Mensal.....: "))
 numero_dep=int(input("Digite o número de dependentes......: "))
@@ -93,7 +93,7 @@ print(f"Renda Bruta Mensal.....R$: {renda_bruta:5.2f}",
 	  f"Pensão Alimentícia.....R$: {pensao_alim:5.2f}",
 	  sep="\n", end="\n\n")
 
-#Bloco do Cálculo Matemática (Aritmética) do IRPF
+#Bloco do Cálculo Matemática (Aritmética) do IRPF 2024
 calculo_base=float((renda_bruta - (renda_bruta * (irpfv1.deducao_inss / 100))) - \
 				   ((numero_dep * irpfv1.deducao_dep) + 
 				   despesas_escola + despesas_saude + pensao_alim))

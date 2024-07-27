@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 20/07/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 27/07/2024<br>
+#Versão: 0.05<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
@@ -19,7 +19,7 @@ Conteúdo estudado nessa aula:<br>
 
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
 ```bash
-#Utilizando o Shell Prompt Padrão do Python 3
+#Utilizando o Prompt Shell Padrão do Python 3
 python3
 ```
 ```python
@@ -71,7 +71,7 @@ Eu sou: Robson Vaamonde          #mais o valor da variável estática vaamonde
 
 #02_ Testando o Shell (Prompt) IPython 3 do Python 3 no Linux Mint<br>
 ```bash
-#Utilizando o Shell Prompt do IPython 3 
+#Utilizando o Prompt Shell do IPython 3 
 ipython3
 ```
 ```python
@@ -125,7 +125,7 @@ In [9]:
 
 #03_ Testando o Shell (Prompt) BPython do Python 3 no Linux Mint<br>
 ```bash
-#Utilizando o Shell Prompt do BPython 
+#Utilizando o Prompt Shell do BPython 
 bpython
 ```
 ```python
@@ -194,6 +194,9 @@ F5
 #Você pode executar o código sem Depurar utilizando a Tecla Ctrl+F5
 Ctrl+F5
 
+#Você também pode executar o código Python direto via Run Python File
+<Run Python File>
+
 #Salvando o arquivo de script em Python 3 no VSCode: Ctrl+S
 #Nome do arquivo de script em Python: 01-teste.py
 #Localização do arquivo de script em Python: ScriptsPython
@@ -203,10 +206,16 @@ Ctrl+F5
 ```python
 #Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl+N
 #Cálculo simples da área de um retângulo utilizando as funções INT(), INPUT() e PRINT()
-base = int(input("Digite o valor da base: "))                #Obtendo o valor da base e atribuindo a variável base
-largura = int(input("Digite o valor da largura: "))          #Obtendo o valor da largura e atribuindo a variável largura
-area = base * largura                                        #Calculando a área do retângulo e atribuindo a variável area
-print("A área do retângulo é", area, "unidades quadradas")   #Imprimindo o valor da area na saída padrão
+
+#Atribuindo os valores nas variáveis dinâmicas
+base = int(input("Digite o valor da base: "))
+largura = int(input("Digite o valor da largura: "))
+
+#Calculando a área do retângulo e atribuindo o valor a variável area
+area = base * largura
+
+#Imprimindo o valor da area na saída padrão
+print("A área do retângulo é", area, "unidades quadradas")   
 
 #Salvando o arquivo de script em Python 3 no VSCode: Ctrl+S
 #Nome do arquivo de script em Python: 02-area_retangulo.py
