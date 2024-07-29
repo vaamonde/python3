@@ -15,7 +15,8 @@ Conteúdo estudado nessa aula:<br>
 #02_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
 
 #01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint<br>
-Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp
+Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
 #CENÁRIO 01: estrutura de decisão simples com IF (SE)
 
@@ -59,7 +60,8 @@ if idade_carro > media_idade:
 ```
 
 #02_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
-Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp
+Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
 #CENÁRIO 03: trabalhando com IF para uma nova versão do IRPF (modo simples)
 #Link dos valores: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2024
@@ -95,16 +97,16 @@ print()
 #imposto de acordo com a alíquota correspondente, o ajuste da faixa da variável da
 #renda_bruta garante que cada faixa de renda seja tributada corretamente, sem sobreposição.
 if renda_bruta > 4664.68:
-    imposto = imposto + (renda_bruta - 4664.68) * 0.275
+    imposto = imposto + ((renda_bruta - 4664.68) * 0.275)
     renda_bruta = 4664.68
 if renda_bruta > 3751.06:
-    imposto = imposto + (renda_bruta - 3751.06) * 0.225
+    imposto = imposto + ((renda_bruta - 3751.06) * 0.225)
     renda_bruta = 3751.06
 if renda_bruta > 2826.66:
-    imposto = imposto + (renda_bruta - 2826.66) * 0.15
+    imposto = imposto + ((renda_bruta - 2826.66) * 0.15)
     renda_bruta = 2826.66
 if renda_bruta > 2259.21:
-    imposto = imposto + (renda_bruta - 2259.21) * 0.075
+    imposto = imposto + ((renda_bruta - 2259.21) * 0.075)
     renda_bruta = 2259.21
 print(f"Renda Bruta Mensal: R$:{salario:6.2f} - Imposto a Pagar: R$:{imposto:6.2f}")
 

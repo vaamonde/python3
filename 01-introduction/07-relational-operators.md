@@ -105,3 +105,17 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 Nota-01 é menor que Nota-02?  True
 >>> 
 ```
+
+#06_ Avaliando Valores e Variáveis Booleanas com a Função BOOL() do Python 3 no Linux Mint<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_bool.asp
+```python
+#Criando variáveis Simples/Estáticas e trabalhando com validação boolena
+#Atribuindo os valores inteiros as variáveis
+>>> nota01 = 5
+>>> nota02 = 0
+
+#Imprimindo na saída padrão o resultado da validação booleana
+>>> print("Nota-01 é:", bool(nota01), "Nota-02 é:", bool(nota02))
+Nota-01 é: True Nota-02 é: False
+>>> 
+```
