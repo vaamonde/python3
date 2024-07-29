@@ -70,7 +70,7 @@ imc = int(seu_peso / (sua_altura ** 2))
 #uma quebra de duas linhas (\n\n) sem precisar usar mais uma função PRINT()
 print("Seu IMC é:", imc, "Veja a Tabela de IMC para saber mais.", end='\n\n')
 
-#Imprimindo na Tela da Tabela do IMC utilizando a Função Tabulate
+#Imprimindo na Tela a Tabela do IMC utilizando a Função Tabulate
 #A Função TABULATE() chama os valores da variável: tabela_imc e passa os parâmetros
 #de: headers="firstrow" que usa a primeira linha como cabeçalho, tablefmt="grid"
 #que formata a tabela com bordas e stralign="center" que centraliza o Texto.
