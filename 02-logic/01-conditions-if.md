@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 29/07/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 31/07/2024<br>
+#Versão: 0.05<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint<br>
@@ -108,6 +108,10 @@ if renda_bruta > 2826.66:
 if renda_bruta > 2259.21:
     imposto = imposto + ((renda_bruta - 2259.21) * 0.075)
     renda_bruta = 2259.21
+
+#Imprimindo na tela a composição das variáveis de  Números Decimais {}, com a opção de 
+#:5.2f que indica que vamos reservar 5 (cinco) caracteres para o número inteiro e 2 
+#(dois) caracteres de casas decimais e utilizando a formatação F-STRING.
 print(f"Renda Bruta Mensal: R$:{salario:6.2f} - Imposto a Pagar: R$:{imposto:6.2f}")
 
 #Imprimindo na Tela a Tabela do IRPF 2024 utilizando a Função Tabulate
