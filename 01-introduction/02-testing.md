@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 27/07/2024<br>
-#Versão: 0.05<br>
+#Data de atualização: 11/08/2024<br>
+#Versão: 0.06<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
@@ -24,13 +24,13 @@ python3
 ```
 ```python
 #Prompt Shell padrão do Python 3 no Linux Mint
-#Para sair do Prompt Shell do Python pressione: Ctrl + D
+#Para sair do Prompt Shell do Python 3 pressione: Ctrl + D
 Python 3.10.12 (main, Mar 22 2024, 16:50:05) [GCC 11.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 ```python
-#Pressionar Ctrl + L limpa o Shell do Python 3 facilitando a digitação
+#Pressione: Ctrl + L para limpar o Shell do Python 3 facilitando a digitação
 
 #Primeiro exemplo: enviando dados do valor exato
 >>> 10   #Enviando dados na saída padrão da Representação de valor exato
@@ -43,12 +43,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 
 #Terceiro exemplo: digitando strings de texto
+#OBSERVAÇÃO IMPORTANTE: VOCÊ PODE USAR ASPAS SIMPLES ' ' (CONHECIDO COMO APÓSTROFO) OU
+#ASPAS DUPLAS " " (NÃO CONFUNDIR COM DUAS ASPAS SIMPLES) PARA DEFINIR STRINGS NO PYTHON,
+#VARIÁVEIS SIMPLES, IDENTIFICADORES OU ATRIBUTOS É INDICADO USAR AS SIMPLES, PARA TEXTOS 
+#LONGOS ASPAS DUPLAS QUE PERMITI O USO DE ASPAS SIMPLES DENTRO DO TEXTO.
 >>> "Robson Vaamonde"   #Enviando dados na saída padrão do valor da String de Texto 
 'Robson Vaamonde'
 >>>
 
 #Quarto exemplo: criando variáveis estáticas (constantes)
->>> vaamonde="Robson Vaamonde"   #Atribuindo o Valor de uma Variável Estática (constantes)
+>>> vaamonde='Robson Vaamonde'   #Atribuindo o Valor de uma Variável Estática (constantes)
 >>> vaamonde                     #Enviando os dados na saída padrão do valor da variável estática
 'Robson Vaamonde'
 >>>
@@ -102,7 +106,7 @@ Out[3]: 'Robson Vaamonde'
 In [4]:
 
 #Quarto exemplo: criando variáveis estáticas (constantes)
-In [4]: vaamonde="Robson Vaamonde"
+In [4]: vaamonde='Robson Vaamonde'
 In [5]: vaamonde
 Out[5]: 'Robson Vaamonde'
 In [6]:
@@ -153,7 +157,7 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 >>>
 
 #Quarto exemplo: criando variáveis estáticas (constantes)
->>> vaamonde="Robson Vaamonde"
+>>> vaamonde='Robson Vaamonde'
 >>> vaamonde 
 'Robson Vaamonde'
 >>>
@@ -235,7 +239,7 @@ bpython 02-area_retangulo.py
 
 #06_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
 ```python
-#Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl+N
+#Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl + N (New)
 #Cálculo simples de idade utilizando as funções INT(), INPUT() e PRINT()
 
 #!/usr/bin/python3
@@ -245,12 +249,12 @@ idade=int(ano_atual - ano_nasc)
 print()
 print("Sua idade é:", idade, "anos")
 
-#Salvando o arquivo de script em Python 3 no VSCode: Ctrl+S
+#Salvando o arquivo de script em Python 3 no VSCode: Ctrl + S (Save)
 #Nome do arquivo de script em Python: 03-idade_simples.py
 #Localização do arquivo de script em Python: ScriptsPython
 ```
 ```bash
-#Testando o arquivo de script em Python 3 no Terminal: Ctrl+Alt+T
+#Testando o arquivo de script em Python 3 no Terminal: Ctrl + Alt + T (Terminal)
 #Diretório dos scripts em Python: /home/vaamonde/Documentos/python3/ScriptsPython
 #Acessando o diretório dos script em Python 3 no Linux Mint
 cd /home/vaamonde/Documentos/python3/ScriptsPython
@@ -263,5 +267,8 @@ bash 03-idade_simples.py
 chmod +x 03-idade_simples.py
 
 #Executando o arquivo de script em Python 3 no Terminal
+#opção dos caracteres ./ (dot slash): serve para indicar o caminho do executável; 
+#o ponto significa diretório atual; a barra serve para separar o diretório do 
+#nome do arquivo
 ./03-idade_simples.py
 ```

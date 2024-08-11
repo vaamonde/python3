@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 27/07/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 11/08/2024<br>
+#Versão: 0.04<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Função Print() do Python 3 no Linux Mint<br>
@@ -17,10 +17,10 @@ Conteúdo estudado nessa aula:<br>
 #04_ Funções ROUND() e STR() do Python 3 no Linux Mint<br>
 
 #01_ Função Print() do Python 3 no Linux Mint<br>
-Link de apoio: https://www.w3schools.com/python/ref_func_print.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_strings.asp
+Link de apoio: https://www.w3schools.com/python/python_strings.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_print.asp
 ```python
-#Pressionar Ctrl + L limpa o Shell do Python 3 facilitando a digitação
+#Pressione: Ctrl + L para limpar o Shell do Python 3 facilitando a digitação
 #Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
 
 #Primeiro exemplo: utilizando o função print()
@@ -29,7 +29,7 @@ Link de apoio: https://www.w3schools.com/python/python_strings.asp
 Robson Vaamonde
 >>>
 
-#Segundo exemplo: utilizando a função print() junto com end
+#Segundo exemplo: utilizando a função print() junto com o Parâmetro end
 #Imprimindo os dados na saída padrão do valor da função PRINT() e continuando na mesma linha
 >>> print("Robson Vaamonde", end = "")
 Robson Vaamonde>>>
@@ -75,7 +75,8 @@ Link de apoio: https://www.w3schools.com/python/ref_func_float.asp
 #Atribuindo o valor inteiro/numérico na variável anoatual
 >>> anoatual = 2024
 
-#Atribuindo o valor na variável dinâmica com a função INPUT() convertendo para Inteiro com a função INT()
+#Atribuindo o valor na variável dinâmica com a função INPUT() convertendo para Inteiro com a
+#função INT()
 >>> suaidade = int(input("Qual ano você nasceu? "))
 
 #Processamento da função INPUT(), digitação do valor e conversão para inteiro INT()
@@ -90,7 +91,8 @@ Sua idade é: 45 anos
 #Atribuindo o valor numérico de ponto flutuante (decimal)
 >>> produto = 10.50
 
-#Atribuindo o valor de ponto flutuante com função INPUT() convertendo para Decimal com a função FLOAT()
+#Atribuindo o valor de ponto flutuante com função INPUT() convertendo para Decimal com a função
+#FLOAT()
 >>> recebido = float(input("Qual valor foi recebido? "))
 
 #Processamento da função INPUT(), digitação do valor e conversão para decimal FLOAT()
@@ -111,12 +113,13 @@ Link de apoio: https://www.w3schools.com/python/ref_func_float.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_round.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_str.asp
 ```python
-#Sétimo exemplo: utilizando variáveis constante/dinâmica com as funções float(), input(), print(), str(),
-#round() e int()
+#Sétimo exemplo: utilizando variáveis constante/dinâmica com as funções float(), input(), 
+#print(), str(), round() e int()
 #Atribuindo o valor numérico de ponto flutuante (decimal)
 >>> saldo_inicial = 35.45
 
-#Atribuindo o valor de ponto flutuante com função INPUT() convertendo para Decimal com a função FLOAT()
+#Atribuindo o valor de ponto flutuante com função INPUT() convertendo para Decimal com a
+#função FLOAT()
 >>> deposito = float(input("Digite o valor a ser depositado: "))
 
 #Processamento da função INPUT(), digitação do valor e conversão para decimal FLOAT
@@ -129,8 +132,8 @@ Digite o valor a ser depositado: 33.33
 >>> saldo_final
 68.78   #Valor da variável dinâmica saldo_final
 
-#Imprimindo na saída com a função PRINT() e convertendo para String com a função STR(), arredondado para
-#maior com a função ROUND() e Inteiro com a função INT()
+#Imprimindo na saída com a função PRINT() e convertendo para String com a função STR(), 
+#arredondado para maior com a função ROUND() e Inteiro com a função INT().
 >>> print("Seu saldo é:", "R$: " + str(saldo_final), "Arredondando para maior:", round(saldo_final), "Seu inteiro é:", int(saldo_final))
 Seu saldo é: R$: 68.78 Arredondado para maior: 69 Seu inteiro é: 68
 >>> 

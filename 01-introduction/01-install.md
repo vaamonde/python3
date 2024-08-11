@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 04/08/2024<br>
-#Versão: 0.06<br>
+#Data de atualização: 11/08/2024<br>
+#Versão: 0.07<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -20,7 +20,7 @@ Conteúdo estudado nessa aula:<br>
 #07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 #08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
 #09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
-#10_ Configurações básicas do Microsoft Visual Studio Code VSCode para funcionar perfeitamente no Linux Mint<br>
+#10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 
 Site Oficial do Python: https://www.python.org/<br>
@@ -31,31 +31,17 @@ Site Oficial do VSCode: https://code.visualstudio.com/<br>
 Site Oficial do Marketing Place do VSCode: https://marketplace.visualstudio.com/vscode<br>
 Extensão Oficial do Python para VSCode: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
-Python é uma linguagem de programação de alto nível, interpretada de script, imperativa,<br>
-orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van <br>
-Rossum em 1991.
+Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.
 
-IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar,<br>
-Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com<br>
-Jupyter Notebook.
+IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
 
-BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade<br>
-e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe,<br>
-Histórico de comandos e Inserção de argumentos.
+BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe, Histórico de comandos e Inserção de argumentos.
 
-IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado de software para<br>
-criar aplicações que combina ferramentas comuns de desenvolvedor em uma única interface de usuário<br>
-gráfica (GUI - Graphical User Interface).
+IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado de software para criar aplicações que combina ferramentas comuns de desenvolvedor em uma única interface de usuário gráfica (GUI - Graphical User Interface).
 
-IDLE é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde<br>
-a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE<br>
-multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas<br>
-distribuições Linux.
+IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
 
-PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado<br>
-para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados<br>
-na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições<br>
-do Python vem com o pip pré-instalado.
+PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições do Python vem com o pip pré-instalado.
 
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
@@ -65,9 +51,10 @@ Link de download do Python 3: https://www.python.org/downloads/
 sudo apt update
 
 #Instalando o Python na versão 3
-#OBSERVAÇÃO IMPORTANTE: a opção do IDLE do Python 3 no Linux Mint sempre sofre atualização
-#verificar a versão antes com o comando: sudo apt instal idle-python (TAB duas vezes) para
-#ver a última versão ou o comando: sudo apt search idle-python3 (MAIS FÁCIL)
+#OBSERVAÇÃO IMPORTANTE: a opção do IDLE do Python 3 no Linux Mint sempre sofre atualização,
+#antes de fazer a sua instalação, verifique a versão com o comando: sudo apt instal idle-python 
+#(TAB duas vezes) para ver a última versão ou o comando: sudo apt search idle-python3 que
+#lista todas as possibilidades de versões do IDLE do Python 3.
 sudo apt install python3 python3-pip idle-python3.12 ipython3 bpython git vim cloc
 ```
 
@@ -123,63 +110,63 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 #06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
 ```bash
 #Utilizando o IDLE padrão do Python 3
-idle-python3.10
+idle-python3.12
 ```
 
 #07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 ```bash
 Link download: https://code.visualstudio.com/download
-	Versão: .deb (Debian, Ubuntu 64 Bits) <Salvar aquivo>
+  Versão: .deb (Debian, Ubuntu 64 Bits) <Salvar aquivo>
 ```
 
 #08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
 ```bash
 #instalando em modo gráfico (mais fácil)
 Arquivos
-	Download
-		code_1.*_amd64
-			Instalar Pacote
-		<Fechar>
+  Download
+    code_1.*_amd64
+      Instalar Pacote
+    <Fechar>
 ```
 
 #09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
 ```bash
 #instalação da extensão PT-BR do VSCode
 Portuguese (Brazil) Language Pack for Visual Studio Code
-	(Sem necessidade de configuração)
+  (Sem necessidade de configuração)
 
 #instalação da extensão do Corretor Ortográfico PT-BR e US
 Brazilian Portuguese - Code Spell Checker (Corretor Ortográfico de Código)
 Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
-	Pressionar F1
-		Show Spell Checker Configuration Info
-			User
-				Language
-					English (en_us)
-					Portuguese (pt_br)
-					Portuguese - Brazil (pt-br)
-				File Types and Programming Languages
-					shellscript, python, markdown, etc...
+  Pressionar F1
+    Show Spell Checker Configuration Info
+      User
+        Language
+          English (en_us)
+          Portuguese (pt_br)
+          Portuguese - Brazil (pt-br)
+            File Types and Programming Languages
+              shellscript, python, markdown, etc...
 ```
 
 #10_ Configurações básicas do Microsoft Visual Studio Code VSCode para funcionar perfeitamente no Linux Mint<br>
 ```bash
 #configuração básica do VSCode para suportar o Python 3
 Gerenciar
-	Configurações
-		Code Spell Checker
-			C Spell: Enabled Language Ids: 
-				Adicionar Item: shellscript
-			C Spell: Language: en,en-US,pt,pt-BR
-			C Spell: Max Duplicate Problems: 500000
-			C Spell: Max Number Of Problems: 500000
-		Editor
-			Editor: Tab Size: 4
-			Editor: Detect Indentation: False (Off)
-			Editor: Insert Spaces: True (On)
-			Render Whitespace: All
-		Files
-			Files: Eol: \n (LF)
+  Configurações
+    Code Spell Checker
+      C Spell: Enabled Language Ids: 
+        Adicionar Item: shellscript
+      C Spell: Language: en,en-US,pt,pt-BR
+      C Spell: Max Duplicate Problems: 500000
+      C Spell: Max Number Of Problems: 500000
+    Editor
+      Editor: Tab Size: 2
+      Editor: Detect Indentation: False (Off)
+      Editor: Insert Spaces: True (On)
+      Render Whitespace: All
+    Files
+      Files: Eol: \n (LF)
 ```
 
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
@@ -191,6 +178,6 @@ Gerenciar
 VSCode
   Extensões
     Pesquisar:
-	  Python (Microsoft) <Instalar>
-	  Python Debugger (Microsoft) <Instalar>
+     Python (Microsoft) <Instalar>
+     Python Debugger (Microsoft) <Instalar>
 ```
