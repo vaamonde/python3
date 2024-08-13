@@ -7,14 +7,16 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 31/07/2024<br>
-#Versão: 0.05<br>
+#Data de atualização: 13/08/2024<br>
+#Versão: 0.06<br>
 
 Conteúdo estudado nessa aula:<br>
-#01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint<br>
-#02_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
+#01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
+#02_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-02<br>
+#02_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
+#03_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
 
-#01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint<br>
+#01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
@@ -36,6 +38,10 @@ if valor02 > valor01:
     #Imprimir na tela se o resultado for verdadeiro, se for falso não
     print("Segundo valor é MAIOR que o Primeiro valor!")
 ```
+
+#02_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-02<br>
+Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
 #CENÁRIO 02: estrutura de decisão simples com IF (SE)
 
@@ -59,16 +65,58 @@ if idade_carro > media_idade:
     print("Seu carro é MAIS VELHO que a média de idade dos carros dos Brasileiro!")
 ```
 
-#02_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
+#03_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
+Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+```python
+#CENÁRIO 03: estrutura de decisão simples com IF (SE)
+
+#Salvar o arquivo de script com o nome: 32-ifbasic03.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
+
+#Atribuindo os valor flutuantes as variáveis constante
+#Link: https://www.jusbrasil.com.br/artigos/multa-de-transito-por-excesso-de-velocidade-acima-de-50-atualizado-2024/501444512
+ate_20 = 130.16
+de_20_ate_50 = 195.23
+acima_de_50 = 880.41
+
+#Atribuindo valor flutuante a variável dinâmica
+print("Você está trafegando numa via Arterial que a velocidade máxima permitida é: 80km/h", end='\n\n')
+velocidade = float(input("Digite a velocidade do seu carro: "))
+print()
+
+#Bloco de teste lógico de condição verdadeira utilizando o IF
+if velocidade <= 80:
+    #Imprimir na tela se o resultado for verdadeiro, se for falso não
+    print("Você está dentro do Limite de Velocidades, Parabéns!!!!!")
+if velocidade > 80.01 and velocidade <= 96:
+    #Imprimir na tela se o resultado for verdadeiro, se for falso não
+    print("Você está acima da velocidade máxima permitida de: 80km/h")
+    print("Sua velocidade é de:", velocidade ,"km/h, você está acima:", "{:.2f}%".format(((velocidade / 80) - 1) * 100))
+    print("O valor da multa é: R$:", ate_20)
+if velocidade > 96.01 and velocidade <= 120:
+    #Imprimir na tela se o resultado for verdadeiro, se for falso não
+    print("Você está acima da velocidade máxima permitida de: 80km/h")
+    print("Sua velocidade é de:", velocidade ,"km/h, você está acima:", "{:.2f}%".format(((velocidade / 80) - 1) * 100))
+    print("O valor da multa é: R$:", de_20_ate_50)
+if velocidade > 120.01:
+    #Imprimir na tela se o resultado for verdadeiro, se for falso não
+    print("Você está MUITO ACIMA da velocidade máxima permitida de: 80km/h")
+    print("Sua velocidade é de:", velocidade ,"km/h, você está acima:", "{:.2f}%".format(((velocidade / 80) - 1) * 100))
+    print("O valor da multa é: R$:", acima_de_50)
+```
+
+#03_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
 #CENÁRIO 03: trabalhando com IF para uma nova versão do IRPF (modo simples)
+
+#Salvar o arquivo de script com o nome: 33-irpfv2.py no diretório: ScriptsPython
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
+
 #Link dos valores: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2024
 #Link dos valores: https://www.gov.br/inss/pt-br/noticias/confira-as-aliquotas-de-contribuicao-ao-inss-com-o-aumento-do-salario-minimo
-
-#Salvar o arquivo de script com o nome: 32-irpfv2.py no diretório: ScriptsPython
-#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
 
 #!/usr/bin/python3
 #Instalando o módulo: Tabulate (Tabulador) do Python: pip install tabulate
