@@ -90,7 +90,10 @@ if velocidade <= 80:
     #Imprimir na tela se o resultado for verdadeiro, se for falso não
     print("Você está dentro do Limite de Velocidades, Parabéns!!!!!")
 if velocidade > 80.01 and velocidade <= 96:
-    #Imprimir na tela se o resultado for verdadeiro, se for falso não
+    #Imprimir na tela se o resultado for verdadeiro, se for falso não, formatar as casas
+    #Decimais {}, com a opção de :.2f que indica que vamos reservar o número inteiro e 2 
+    #(dois) caracteres de casas decimais e utilizar a formatação F-STRING com a função 
+    #FORMAT() acrescentando o caractere % (porcentagem)
     print("Você está acima da velocidade máxima permitida de: 80km/h")
     print("Sua velocidade é de:", velocidade ,"km/h, você está acima:", "{:.2f}%".format(((velocidade / 80) - 1) * 100))
     print("O valor da multa é: R$:", ate_20)
@@ -158,7 +161,7 @@ if renda_bruta > 2259.21:
     renda_bruta = 2259.21
 
 #Imprimindo na tela a composição das variáveis de  Números Decimais {}, com a opção de 
-#:5.2f que indica que vamos reservar 5 (cinco) caracteres para o número inteiro e 2 
+#:6.2f que indica que vamos reservar 6 (seis) caracteres para o número inteiro e 2 
 #(dois) caracteres de casas decimais e utilizando a formatação F-STRING.
 print(f"Renda Bruta Mensal: R$:{salario:6.2f} - Imposto a Pagar: R$:{imposto:6.2f}")
 
