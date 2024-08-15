@@ -30,7 +30,7 @@ python3
 >>> nota01 = 5
 >>> nota02 = 3
 
-#Imprimindo na saída padrão o resultado da comparação lógica IGUAL
+#Imprimindo na saída padrão o resultado da comparação lógica É IGUAL A
 >>> print("Nota-01 é igual a Nota-02? ", nota01 == nota02)
 Nota-01 é igual a Nota-02?  False
 >>>
@@ -72,7 +72,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>> nota01 = 5
 >>> nota02 = 3
 
-#Imprimindo na saída padrão o resultado da comparação lógica MAIOR IGUAL
+#Imprimindo na saída padrão o resultado da comparação lógica MAIOR OU IGUAL
 >>> print("Nota-01 é menor que Nota-02? ", nota01 >= nota02)
 Nota-01 é menor que Nota-02?  True
 >>>
@@ -86,7 +86,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>> nota01 = 5
 >>> nota02 = 3
 
-#Imprimindo na saída padrão o resultado da comparação lógica MENOR IGUAL
+#Imprimindo na saída padrão o resultado da comparação lógica MENOR OU IGUAL
 >>> print("Nota-01 é menor que Nota-02? ", nota01 <= nota02)
 Nota-01 é menor que Nota-02?  False
 >>>
@@ -100,7 +100,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>> nota01 = 5
 >>> nota02 = 3
 
-#Imprimindo na saída padrão o resultado da comparação lógica DIFERENTE
+#Imprimindo na saída padrão o resultado da comparação lógica NÃO É IGUAL (DIFERENTE DE)
 >>> print("Nota-01 é menor que Nota-02? ", nota01 != nota02)
 Nota-01 é menor que Nota-02?  True
 >>> 

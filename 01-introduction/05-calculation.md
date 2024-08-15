@@ -15,11 +15,11 @@ Conteúdo estudado nessa aula:<br>
 #02_ Cálculo de Subtração (Subtrair -) no Python 3 no Linux Mint<br>
 #03_ Cálculo de Multiplicação (Multiplicar *) no Python 3 no Linux Mint<br>
 #04_ Cálculo de Divisão (Dividir /) no Python 3 no Linux Mint<br>
-#05_ Cálculo de Divisão (Dividir /) do Número Inteiro (Resto) no Python 3 no Linux Mint<br>
+#05_ Cálculo de Divisão (Dividir //) do Número Inteiro (Quociente) no Python 3 no Linux Mint<br>
 #06_ Cálculo de Divisão (Dividir %) do Resto (Módulo) no Python 3 no Linux Mint<br>
 #07_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
 #08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
-#09_ Regra de Sinais (Positivo e Negativo) no Python 3 no Linux Mint<br>
+#09_ Regra de Sinais (Positivo + e Negativo -) no Python 3 no Linux Mint<br>
 
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
@@ -61,7 +61,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#05_ Cálculo de Divisão (Dividir /) do Número Inteiro (Quociente) no Python 3 no Linux Mint<br>
+#05_ Cálculo de Divisão (Dividir //) do Número Inteiro (Quociente) no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Dividir dois valores utilizando os caracteres: // (duas barras oblíqua)
@@ -98,7 +98,7 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#09_ Regra de Sinais (Positivo e Negativo) no Python 3 no Linux Mint<br>
+#09_ Regra de Sinais (Positivo + e Negativo -) no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
 ```python
 #Sinal Positivo (mais) + Sinal Positivo (mais) = Positivo (mais)
