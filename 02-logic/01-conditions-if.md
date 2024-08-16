@@ -7,16 +7,16 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 13/08/2024<br>
-#Versão: 0.06<br>
+#Data de atualização: 16/08/2024<br>
+#Versão: 0.07<br>
 
 Conteúdo estudado nessa aula:<br>
-#01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
-#02_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-02<br>
-#02_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
-#03_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
+#01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
+#02_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-02<br>
+#03_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
+#04_ Estrutura de Decisão em Blocos IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 
-#01_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
+#01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
@@ -39,7 +39,7 @@ if valor02 > valor01:
     print("Segundo valor é MAIOR que o Primeiro valor!")
 ```
 
-#02_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-02<br>
+#02_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-02<br>>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
@@ -65,7 +65,7 @@ if idade_carro > media_idade:
     print("Seu carro é MAIS VELHO que a média de idade dos carros dos Brasileiro!")
 ```
 
-#03_ Trabalhando com Condições de Estrutura de Decisão IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
+#03_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
@@ -109,7 +109,7 @@ if velocidade > 120.01:
     print("O valor da multa é: R$:", acima_de_50)
 ```
 
-#03_ Trabalhando com Condições de Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
+#04_ Estrutura de Decisão em Blocos IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python

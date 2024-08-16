@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 11/08/2024<br>
-#Versão: 0.07<br>
+#Data de atualização: 16/08/2024<br>
+#Versão: 0.08<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -55,7 +55,7 @@ sudo apt update
 #antes de fazer a sua instalação, verifique a versão com o comando: sudo apt instal idle-python 
 #(TAB duas vezes) para ver a última versão ou o comando: sudo apt search idle-python3 que
 #lista todas as possibilidades de versões do IDLE do Python 3.
-sudo apt install python3 python3-pip idle-python3.12 ipython3 bpython git vim cloc
+sudo apt install python3 python3-pip python3-ipdb idle-python3.12 ipython3 bpython git vim cloc
 ```
 
 #02_ Verificando a Versão o Python 3 e do PIP instalado no Linux Mint<br>
