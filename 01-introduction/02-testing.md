@@ -7,15 +7,27 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 11/08/2024<br>
-#Versão: 0.06<br>
+#Data de atualização: 18/08/2024<br>
+#Versão: 0.07<br>
+
+Python3 é o interpretador padrão Python geralmente é instalado em: /usr/local/bin/python3.x nas máquinas onde está disponível. Os recursos de edição de linha do interpretador incluem edição interativa, substituição de histórico e conclusão de código em sistemas que suportam a biblioteca GNU Readline.
+
+IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
+
+BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe, Histórico de comandos e Inserção de argumentos.
+
+IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
+
+O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
 Conteúdo estudado nessa aula:<br>
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
 #02_ Testando o Shell (Prompt) IPython do Python 3 no Linux Mint<br>
 #03_ Testando o Shell (Prompt) BPython do Python 3 no Linux Mint<br>
-#04_ Testando um arquivo Python com Extensão .py no VSCode (Visual Studio Code)<br>
-#05_ Testando um arquivo Python com Extensão .py no Terminal<br>
+#04_ Testando IDLE do Python 3 no Linux Mint<br>
+#05_ Testando um arquivo Python com Extensão .py no VSCode (Visual Studio Code)<br>
+#06_ Testando um arquivo Python com Extensão .py no Terminal<br>
+#07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
 
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
 ```bash
@@ -178,12 +190,82 @@ Eu sou: Robson Vaamonde
 >>>
 ```
 
-#04_ Testando um arquivo Python 3 com Extensão .py no VSCode (Visual Studio Code)<br>
+#04_ Testando IDLE do Python 3 no Linux Mint<br>
+```bash
+#Utilizando IDLE do Python 3
+idle-python3.12
+```
+```python
+Python 3.9.5 (default, Nov 23 2021, 15:27:38) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>>
+```
+```python
+#Primeiro exemplo: enviando dados do valor exato
+>>> 10   #Enviando dados na saída padrão da Representação de valor exato
+10
+>>>
 
-A extensão .py indica um arquivo de script Python. Esses arquivos contêm código-fonte<br>
-escrito na linguagem Python e podem ser executados pelo interpretador Python para<br>
-realizar tarefas.
+#Segundo exemplo: cálculo de aritmética
+>>> 3 + 4   #Cálculo de Aritmética simples de adição (símbolo + mais)
+7           #Resultado da adição
+>>> 
 
+#Terceiro exemplo: digitando strings de texto
+>>> "Robson Vaamonde"   #Enviando dados na saída padrão do valor da String de Texto 
+'Robson Vaamonde'
+>>>
+
+#Quarto exemplo: criando variáveis estáticas (constantes)
+>>> vaamonde='Robson Vaamonde'   #Atribuindo o Valor de uma Variável Estática (constantes)
+>>> vaamonde                     #Enviando os dados na saída padrão do valor da variável estática
+'Robson Vaamonde'
+>>>
+
+#Quinto exemplo: concatenando string com variáveis estáticas (constantes)
+>>> "Eu sou: " + vaamonde   #Enviando os dados na saída padrão do valor da String de Texto
+'Eu sou: Robson Vaamonde'   #e concatenando com o valor da variável estática vaamonde
+>>>
+
+#Sexto exemplo: utilizando o função print()
+>>> print("Robson Vaamonde")   #Imprimindo os dados na saída padrão do valor da função PRINT()
+Robson Vaamonde
+>>>
+
+#Sétimo exemplo: utilizando o função print() com duas opções
+>>> print("Eu sou:", vaamonde)   #Imprimindo os dados na saída padrão do valor do função PRINT()
+Eu sou: Robson Vaamonde          #mais o valor da variável estática vaamonde
+>>> 
+```
+```python
+File
+  New File (Ctrl+N)
+
+#Oitavo exemplo: utilizando a função print() com duas variáveis
+valor01 = 10   #Atribuindo o Valor de uma Variável Estática (constantes)
+valor02 = 20   #Atribuindo o Valor de uma Variável Estática (constantes)
+print(valor01 + valor02)   #Imprimindo os dados na saída padrão do valor do função PRINT()
+
+#Salvando o arquivo de script em Python 3 no IDLE: Ctrl+S
+#Nome do arquivo de script em Python: 00-teste.py
+#Localização do arquivo de script em Python: ScriptsPython
+File
+  Save (Ctrl+S)
+    00-teste.py
+      <Save>
+
+#Executando o script no IDLE do Python 3
+Run
+  Run Module (F5)
+```
+
+#05_ Testando um arquivo Python 3 com Extensão .py no VSCode (Visual Studio Code)<br>
+```bash
+#A extensão .py indica um arquivo de script Python. Esses arquivos contêm código-fonte
+#escrito na linguagem Python e podem ser executados pelo interpretador Python para
+#realizar tarefas.
+```
 ```python
 #Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl+N
 #Código simples do Python utilizando a função PRINT()
@@ -206,7 +288,7 @@ Ctrl+F5
 #Localização do arquivo de script em Python: ScriptsPython
 ```
 
-#05_ Testando um arquivo Python 3 com Extensão .py no Terminal<br>
+#06_ Testando um arquivo Python 3 com Extensão .py no Terminal<br>
 ```python
 #Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl+N
 #Cálculo simples da área de um retângulo utilizando as funções INT(), INPUT() e PRINT()
@@ -237,7 +319,12 @@ ipython3 02-area_retangulo.pyy
 bpython 02-area_retangulo.py
 ```
 
-#06_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
+#07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
+```bash
+#Mais precisamente, uma linha shebang consiste de um cerquilha e um ponto de exclamação
+#("#!"), em seguida, opcionalmente, qualquer quantidade de espaços em branco, seguidos 
+#pelo endereço (absoluto) para o interpretador.
+```
 ```python
 #Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl + N (New)
 #Cálculo simples de idade utilizando as funções INT(), INPUT() e PRINT()

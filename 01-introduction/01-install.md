@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 16/08/2024<br>
-#Versão: 0.08<br>
+#Data de atualização: 18/08/2024<br>
+#Versão: 0.09<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -42,6 +42,10 @@ IDE (Integrated Development Environment) é um ambiente de desenvolvimento integ
 IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
 
 PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições do Python vem com o pip pré-instalado.
+
+O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+
+GNU Bash ou simplesmente Bash é um interpretador de comandos, um entre os diversos tradutores entre o usuário e o sistema operacional conhecidos como shell. Acrônimo para "Bourne-Again SHell", o Bash é uma evolução retro-compatível muito mais interativa do Bourne Shell.
 
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
@@ -129,13 +133,13 @@ Arquivos
     <Fechar>
 ```
 
-#09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
+#09_ Instalando e Configurando as Principais Extensões do Microsoft Visual Studio Code VSCode<br>
 ```bash
 #instalação da extensão PT-BR do VSCode
 Portuguese (Brazil) Language Pack for Visual Studio Code
   (Sem necessidade de configuração)
 
-#instalação da extensão do Corretor Ortográfico PT-BR e US
+#instalação e configuração da extensão do Corretor Ortográfico PT-BR e US
 Brazilian Portuguese - Code Spell Checker (Corretor Ortográfico de Código)
 Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
   Pressionar F1
@@ -149,7 +153,7 @@ Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
               shellscript, python, markdown, etc...
 ```
 
-#10_ Configurações básicas do Microsoft Visual Studio Code VSCode para funcionar perfeitamente no Linux Mint<br>
+#10_ Configurações básicas do VSCode para funcionar perfeitamente no Linux Mint<br>
 ```bash
 #configuração básica do VSCode para suportar o Python 3
 Gerenciar

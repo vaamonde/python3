@@ -7,8 +7,12 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 27/07/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 18/08/2024<br>
+#Versão: 0.04<br>
+
+A) Operadores Python: Operadores são usados ​​para realizar operações em variáveis ​​e valores.
+B) Operadores Aritméticos Python: Operadores aritméticos são usados ​​com valores numéricos para realizar operações matemáticas comuns do dia a dia.
+C) Precedência do Operador Python: A precedência do operador descreve a ordem em que as operações são executadas.
 
 Conteúdo estudado nessa aula:<br>
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>

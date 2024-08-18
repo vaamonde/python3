@@ -7,8 +7,11 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 27/07/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 18/08/2024<br>
+#Versão: 0.05<br>
+
+A) Erros de Sintaxe: Erros de sintaxe, também conhecidos como erros de parse, são provavelmente os mais frequentes entre aqueles que ainda estão aprendendo Python.
+B) Erros de Exceções: Mesmo que um comando ou expressão estejam sintaticamente corretos, talvez ocorra um erro na hora de sua execução.
 
 Conteúdo estudado nessa aula:<br>
 #01_ Analisando Erros em Variáveis no Python 3 no Linux Mint<br>
@@ -18,7 +21,7 @@ Conteúdo estudado nessa aula:<br>
 #05_ Analisando Erros de Case-Sensitive no Python 3 no Linux Mint<br>
 #06_ Analisando Erros de Aspas no Python 3 no Linux Mint<br>
 #07_ Analisando Erros de Concatenação de String do Python 3 no Linux Mint<br>
-#08_ Analisado Erros de Algebra Aritmética com Cálculos de Divisão do Python 3 no Linux Mint<br>
+#08_ Analisando Erros de Algebra Aritmética no Python 3 no Linux Mint<br>
 
 #01_ Analisando Erros de Recuo Inesperado do Python 3 no Linux Mint<br>
 ```python
@@ -42,6 +45,7 @@ Traceback (most recent call last):
     print(conprimento)
 NameError: name 'conprimento' is not defined. Did you mean: 'comprimento'?   #Indica que o nome da variável não está definido
 ```
+
 #03_ Analisando Erros de Sintaxe Inválida do Python 3 no Linux Mint<br>
 ```python
 #Segundo exemplo: sintaxe inválida (utilizar o VSCode mais simples)
@@ -118,7 +122,7 @@ Traceback (most recent call last):
 TypeError: can only concatenate str (not "int") to str   #Indica que a opção só pode concatenar com string
 ```
 
-#08_ Analisado Erros de Algebra Aritmética com Cálculos de Divisão do Python 3 no Linux Mint<br>
+#08_ Analisando Erros de Algebra Aritmética no Python 3 no Linux Mint<br>
 ```python
 #Sétimo exemplo: cálculo de divisão por 0 (zero) (utilizar o VSCode mais simples)
 #Salvar o arquivo de script com o nome: 10-erro_calculo.py no diretório: ScriptPython
