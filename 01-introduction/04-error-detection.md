@@ -10,8 +10,8 @@
 #Data de atualização: 18/08/2024<br>
 #Versão: 0.05<br>
 
-A) Erros de Sintaxe: Erros de sintaxe, também conhecidos como erros de parse, são provavelmente os mais frequentes entre aqueles que ainda estão aprendendo Python.
-B) Erros de Exceções: Mesmo que um comando ou expressão estejam sintaticamente corretos, talvez ocorra um erro na hora de sua execução.
+A) Erros de Sintaxe: Erros de sintaxe, também conhecidos como erros de parse, são provavelmente os mais frequentes entre aqueles que ainda estão aprendendo Python.<br>
+B) Erros de Exceções: Mesmo que um comando ou expressão estejam sintaticamente corretos, talvez ocorra um erro na hora de sua execução.<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Analisando Erros em Variáveis no Python 3 no Linux Mint<br>

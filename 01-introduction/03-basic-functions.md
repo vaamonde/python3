@@ -10,15 +10,13 @@
 #Data de atualização: 18/08/2024<br>
 #Versão: 0.05<br>
 
-```bash
-A) Strings em Python são colocadas entre aspas simples ou duplas, exemplo: 'olá' é o mesmo que "olá".
-B) A função print() imprime a mensagem especificada na tela ou em outro dispositivo de saída padrão.
-C) A função input() permite a entrada de dados pelo usuário.
-D) A função int() converte o valor especificado em um número inteiro.
-E) A função float() converte o valor especificado em um número de ponto flutuante.
-F) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais. O número padrão de decimais é 0, o que significa que a função retornará o número inteiro mais próximo.
-G) A função str() converte o valor especificado em uma string (Texto).
-```
+A) Strings em Python são colocadas entre aspas simples ou duplas, exemplo: 'olá' é o mesmo que "olá".<br>
+B) A função print() imprime a mensagem especificada na tela ou em outro dispositivo de saída padrão.<br>
+C) A função input() permite a entrada de dados pelo usuário.<br>
+D) A função int() converte o valor especificado em um número inteiro.<br>
+E) A função float() converte o valor especificado em um número de ponto flutuante.<br>
+F) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais. O número padrão de decimais é 0, o que significa que a função retornará o número inteiro mais próximo.<br>
+G) A função str() converte o valor especificado em uma string (Texto).<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Função Print() do Python 3 no Linux Mint<br>

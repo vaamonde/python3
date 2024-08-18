@@ -90,13 +90,13 @@ Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introdu
 
 Vídeo de Funções Básica do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender como utilizar todos e programas as Funções Básicas do Python diretamente no Shell (Prompt / Interpretador) para testar os primeiros códigos/scripts utilizando as funções: PRINT(IMPRIMIR), INPUT(ENTRADA), INT(INTEIRO), FLOAT(FLUTUANTE), ROUND(ARREDONDAR) e STR(STRING/TEXTO).
 
-A) Strings em Python são colocadas entre aspas simples ou duplas, exemplo: 'olá' é o mesmo que "olá".
-B) A função print() imprime a mensagem especificada na tela ou em outro dispositivo de saída padrão.
-C) A função input() permite a entrada de dados pelo usuário.
-D) A função int() converte o valor especificado em um número inteiro.
-E) A função float() converte o valor especificado em um número de ponto flutuante.
-F) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais. O número padrão de decimais é 0, o que significa que a função retornará o número inteiro mais próximo.
-G) A função str() converte o valor especificado em uma string (Texto).
+A) Strings em Python são colocadas entre aspas simples ou duplas, exemplo: 'olá' é o mesmo que "olá".<br>v
+B) A função print() imprime a mensagem especificada na tela ou em outro dispositivo de saída padrão.<br>
+C) A função input() permite a entrada de dados pelo usuário.<br>
+D) A função int() converte o valor especificado em um número inteiro.<br>
+E) A função float() converte o valor especificado em um número de ponto flutuante.<br>
+F) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais. O número padrão de decimais é 0, o que significa que a função retornará o número inteiro mais próximo.<br>
+G) A função str() converte o valor especificado em uma string (Texto).<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Função Print() do Python 3 no Linux Mint<br>
@@ -114,8 +114,8 @@ Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introdu
 
 Vídeo de Detecção de Erros Básicos do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender como identificar os principais erros de Sintaxe e Exceções da linguagem Python, como erros em: Variáveis, Nome de Variáveis, Falta de Argumento, Conversões, Case-Sensitive, Aspas Simples e Duplas, Concatenação de String e Algebra Aritmética.
 
-A) Erros de Sintaxe: Erros de sintaxe, também conhecidos como erros de parse, são provavelmente os mais frequentes entre aqueles que ainda estão aprendendo Python.
-B) Erros de Exceções: Mesmo que um comando ou expressão estejam sintaticamente corretos, talvez ocorra um erro na hora de sua execução.
+A) Erros de Sintaxe: Erros de sintaxe, também conhecidos como erros de parse, são provavelmente os mais frequentes entre aqueles que ainda estão aprendendo Python.<br>
+B) Erros de Exceções: Mesmo que um comando ou expressão estejam sintaticamente corretos, talvez ocorra um erro na hora de sua execução.<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Analisando Erros em Variáveis no Python 3 no Linux Mint<br>
@@ -137,9 +137,9 @@ Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introdu
 
 Vídeo de Cálculos Matemáticos (Algebra Aritmética) do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os Operadores Matemáticos Básicos e a Precedências Matemática utilizados na linguagem Python para executar cálculos simples.
 
-A) Operadores Python: Operadores são usados ​​para realizar operações em variáveis ​​e valores.
-B) Operadores Aritméticos Python: Operadores aritméticos são usados ​​com valores numéricos para realizar operações matemáticas comuns do dia a dia.
-C) Precedência do Operador Python: A precedência do operador descreve a ordem em que as operações são executadas.
+A) Operadores Python: Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
+B) Operadores Aritméticos Python: Operadores aritméticos são usados ​​com valores numéricos para realizar operações matemáticas comuns do dia a dia.<br>
+C) Precedência do Operador Python: A precedência do operador descreve a ordem em que as operações são executadas.<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
