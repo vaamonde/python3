@@ -152,8 +152,53 @@ Conteúdo estudado nessa aula:<br>
 #08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
 #09_ Regra de Sinais (Positivo + e Negativo -) no Python 3 no Linux Mint<br>
 
-[![Detecção de Erros](http://img.youtube.com/vi//0.jpg)]( "Detecção de Erros")
+[![Aritmética Básica](http://img.youtube.com/vi//0.jpg)]( "Aritmética Básica")
 
 Link da vídeo aula: 
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/05-calculation.md
+
+## **🤩🤩 Trabalhando com Variáveis do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
+
+Vídeo de Variáveis do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos para trabalhar com variáveis estáticas e dinâmicas para atribuição de valores no Python.
+
+A) Variáveis: ​são contêineres para armazenar valores de dados. Python não possui comando para declarar uma variável. Uma variável é criada no momento em que você atribui um valor a ela pela primeira vez.<br>
+B) A função len() retorna o número de itens em um objeto. Quando o objeto é uma string, a função len() retorna o número de caracteres da string.<br>
+C) Strings em python são colocadas entre aspas simples ou duplas.
+D) Você pode retornar um intervalo de caracteres usando a sintaxe de Índice. Especifique o índice inicial e o índice final, separados por dois pontos, para retornar uma parte da string.
+
+Conteúdo estudado nessa aula:<br>
+#01_ Trabalhando com Variáveis Simples/Estáticas (Constantes) do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Variáveis Simples/Estáticas com Nomes no Python 3 no Linux Mint<br>
+#03_ Trabalhando com Variáveis, Conversão INT() e Entradas INPUT() do Python 3 no Linux Mint<br>
+#04_ Trabalhando com Variáveis, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
+#05_ Trabalhando com Variáveis Lógicas/Booleanas do Python no Linux Mint<br>
+#06_ Trabalhando com Variáveis de String do Python no Linux Mint<br>
+#07_ Trabalhando com Variáveis de String e Índices do Python no Linux Mint<br>
+
+[![Variáveis](http://img.youtube.com/vi//0.jpg)]( "Variáveis")
+
+Link da vídeo aula: 
+
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/06-variables.md
+
+## **🤩🤩 Comparação Lógica e Operadores Relacionais do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
+
+Vídeo de Comparação Lógica e Operadores Relacionais do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos da Comparação Lógica e como utilizar os Operadores Relacionais para construir lógicas de comparação com o Python.
+
+A) Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
+B) Python divide os operadores nos seguintes grupos: Operadores aritméticos, Operadores de atribuição, Operadores de comparação, Operadores lógicos, Operadores de identidade, Operadores de adesão e Operadores bit a bit<br>
+
+Conteúdo estudado nessa aula:<br>
+#01_ Trabalhando com Comparação Lógica e Operador Relacional IGUAL do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Comparação Lógica e Operador Relacional MAIOR QUE do Python 3 no Linux Mint<br>
+#03_ Trabalhando com Comparação Lógica e Operador Relacional MENOR QUE do Python 3 no Linux Mint<br>
+#04_ Trabalhando com Comparação Lógica e Operador Relacional MAIOR IGUAL do Python 3 no Linux Mint<br>
+#05_ Trabalhando com Comparação Lógica e Operador Relacional MENOR IGUAL do Python 3 no Linux Mint<br>
+#06_ Trabalhando com Comparação Lógica e Operador Relacional DIFERENTE do Python 3 no Linux Mint<br>
+
+[![Operadores Relacionais](http://img.youtube.com/vi//0.jpg)]( "Operadores Relacionais")
+
+Link da vídeo aula: 
+
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/07-relational-operators.md

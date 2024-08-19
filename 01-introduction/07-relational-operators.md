@@ -7,8 +7,11 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 27/07/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 19/08/2024<br>
+#Versão: 0.04<br>
+
+A) Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
+B) Python divide os operadores nos seguintes grupos: Operadores aritméticos, Operadores de atribuição, Operadores de comparação, Operadores lógicos, Operadores de identidade, Operadores de adesão e Operadores bit a bit<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Comparação Lógica e Operador Relacional IGUAL do Python 3 no Linux Mint<br>

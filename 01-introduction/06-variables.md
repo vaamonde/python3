@@ -7,8 +7,13 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 27/07/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 19/08/2024<br>
+#Versão: 0.04<br>
+
+A) Variáveis: ​são contêineres para armazenar valores de dados. Python não possui comando para declarar uma variável. Uma variável é criada no momento em que você atribui um valor a ela pela primeira vez.<br>
+B) A função len() retorna o número de itens em um objeto. Quando o objeto é uma string, a função len() retorna o número de caracteres da string.<br>
+C) Strings em python são colocadas entre aspas simples ou duplas.
+D) Você pode retornar um intervalo de caracteres usando a sintaxe de Índice. Especifique o índice inicial e o índice final, separados por dois pontos, para retornar uma parte da string.
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Variáveis Simples/Estáticas (Constantes) do Python 3 no Linux Mint<br>
@@ -73,7 +78,8 @@ print("Seu novo salário é: ", novosalario)
 ```
 
 #04_ Trabalhando com Variáveis Dinâmicas, Entradas INPUT(), Concatenando e Separando Linhas com o Parâmetro SEP do Python 3 no Linux Mint<br>
-Link de apoio: https://www.w3schools.com/python/python_variables.asp
+Link de apoio: https://www.w3schools.com/python/python_variables.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_print.asp
 ```python
 #Salvar o arquivo de script com o nome: 13-var_string.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
