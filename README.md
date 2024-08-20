@@ -49,12 +49,19 @@ PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes 
 🔴 Marketing Place do VSCode: https://marketplace.visualstudio.com/vscode<br>
 🔴 Python para VSCode: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
-## **Documentação Oficial do Ubuntu Server 22.04.x LTS e demais projetos:**
+## **Documentação Oficial do Python 3 e demais projetos:**
 🔴 Python: https://docs.python.org/3/<br>
 🔴 PIP: https://pip.pypa.io/en/stable/<br>
 🔴 IPython: https://ipython.readthedocs.io/en/stable/<br>
 🔴 VSCode: https://code.visualstudio.com/docs<br>
 🔴 W3C School Python: https://www.w3schools.com/python/default.asp
+
+## **Material de Apoio do Curso de Python 3 DevOps:**
+🔴 Introdução à Programação com Python: https://python.nilo.pro.br/<br>
+🔴 Python Direto ao Ponto: https://pythondiretoaoponto.com/<br>
+🔴 Python Direto ao Ponto Exercícios: https://loja.uiclap.com/titulo/ua62717/<br>
+🔴 Fundamentos de Python: https://www.cengage.com.br/livro/fundamentos-de-python-primeiros-programas/<br>
+🔴 Fundamentos de Python: https://www.cengage.com.br/livro/fundamentos-de-python-estruturas-de-dados/
 
 ## **Playlist do YouTUBE com todos os Vídeos do Python 3 Essentials DevOps e Infraestrutura:**
 🔴 Link da Playlist:
