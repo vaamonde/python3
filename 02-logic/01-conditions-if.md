@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 16/08/2024<br>
-#Versão: 0.07<br>
+#Data de atualização: 20/08/2024<br>
+#Versão: 0.08<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
@@ -113,7 +113,7 @@ if velocidade > 120.01:
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
-#CENÁRIO 03: trabalhando com IF para uma nova versão do IRPF (modo simples)
+#CENÁRIO 04: trabalhando com IF para uma nova versão do IRPF (modo simples)
 
 #Salvar o arquivo de script com o nome: 33-irpfv2.py no diretório: ScriptsPython
 #Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
