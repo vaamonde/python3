@@ -10,6 +10,9 @@
 #Data de atualização: 27/07/2024<br>
 #Versão: 0.03<br>
 
+A) Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
+B) Operadores lógicos são usados ​​para combinar instruções condicionais.<br>
+
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Operador Lógico NOT (NEGAÇÃO) do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Operador Lógico AND (CONJUNÇÃO) do Python 3 no Linux Mint<br>

@@ -7,8 +7,11 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 27/07/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 20/08/2024<br>
+#Versão: 0.04<br>
+
+A) Você pode optar por importar apenas peças de um módulo, usando a palavra-chave from.<br>
+B) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais.<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>

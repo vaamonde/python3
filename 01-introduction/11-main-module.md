@@ -10,12 +10,16 @@
 #Data de atualização: 27/07/2024<br>
 #Versão: 0.03<br>
 
+A) Comentários podem ser usados ​​para explicar o código Python, tornar o código mais legível ou podem ser usados ​​para impedir a execução ao testar o código<br>
+B) A função help() executa o sistema de ajuda integrado e o conteúdo do Docstring<br>
+
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Docstring, Help e Import do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Import e Cálculos do IRPF do Python 3 no Linux Mint<br>
 
 #01_ Trabalhando com Docstring e Help() do Python 3 no Linux Mint<br>
-Link de apoio: 
+Link de apoio: https://www.w3schools.com/Python/python_comments.asp
+Link de apoio: https://www.w3schools.com/python/python_ref_functions.asp
 ```python
 #CENÁRIO 01: criando o arquivo de cálculo simples de IRPF 2024
 

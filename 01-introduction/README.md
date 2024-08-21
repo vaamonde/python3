@@ -202,3 +202,85 @@ Conteúdo estudado nessa aula:<br>
 Link da vídeo aula: 
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/07-relational-operators.md
+
+## **🤩🤩 Operadores Lógicos do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
+
+Vídeo de Operadores Lógicos do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos dos Operadores Lógicos para construir lógicas utilizando o AND (E), OR (OU) ou NOT (NÃO) no Python.
+
+A) Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
+B) Operadores lógicos são usados ​​para combinar instruções condicionais.<br>
+
+Conteúdo estudado nessa aula:<br>
+#01_ Trabalhando com Operador Lógico NOT (NEGAÇÃO) do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Operador Lógico AND (CONJUNÇÃO) do Python 3 no Linux Mint<br>
+#03_ Trabalhando com Operador Lógico OR (DISJUNÇÃO) do Python 3 no Linux Mint<br>
+
+[![Operadores Lógicos](http://img.youtube.com/vi//0.jpg)]( "Operadores Lógicos")
+
+Link da vídeo aula: 
+
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/08-logical-operators.md
+
+## **🤩🤩 Expressões Lógicas do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
+
+Vídeo de Expressões Lógicas do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos das expressões lógicas para criar cenário mais complexo e testar várias possibilidades Python.
+
+A) Você pode optar por importar apenas peças de um módulo, usando a palavra-chave from.<br>
+B) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais.<br>
+
+Conteúdo estudado nessa aula:<br>
+#01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Módulos, Comparação e Expressões Lógicas do Python no Linux Mint<br>
+#03_ Trabalhando com Módulos, Funções Pi e de Raiz Quadrada do Python no Linux Mint<br>
+
+[![Expressões Lógicas](http://img.youtube.com/vi//0.jpg)]( "Expressões Lógicas")
+
+Link da vídeo aula: 
+
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/09-logical-expressions.md
+
+## **🤩🤩 Operadores de Strings do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
+
+Vídeo de Operadores de Strings do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos dos operadores e formatadores de strings (Textos) no Python.
+
+A) Strings em python são colocadas entre aspas simples ou duplas.<br>
+B) Para concatenar ou combinar duas strings você pode usar o operador +.<br>
+C) A função format() formata um valor especificado em um formato especificado
+D) F-String foi introduzido no Python 3.6 e agora é a forma preferida de formatar strings.<br>
+E) A função chr() retorna o caractere que representa o unicode especificado.<br>
+F) A função ord() retorna o número que representa o código unicode de um caractere especificado.<br>
+G) A função type() retorna o tipo do objeto especificado.<br>
+
+Conteúdo estudado nessa aula:<br>
+#01_ Trabalhando com Concatenação de Adição (+) de String do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Concatenação de Multiplicação (*) de String do Python 3 no Linux Mint<br>
+#03_ Trabalhando com Composição de String do Python 3 no Linux Mint<br>
+#04_ Trabalhando com Composição de String com a Função FORMAT() do Python 3 no Linux Mint<br>
+#05_ Trabalhando com Composição de String e Formatação F-STRING do Python 3 no Linux Mint<br>
+#06_ Trabalhando com Fatiamento de String do Python 3 no Linux Mint<br>
+#07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
+#08_ Utilizando Conjuntos de Caracteres do Python 3 no Linux Mint<br>
+#09_ Conferindo o Tipo TYPE() de Valores das Variáveis do Python 3 no Linux Mint<br>
+
+[![Operadores de Strings](http://img.youtube.com/vi//0.jpg)]( "Operadores de Strings")
+
+Link da vídeo aula: 
+
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/10-string-operators.md
+
+## **🤩🤩 Módulos e Docstring ou Main (Principal) do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
+
+Vídeo de Importação de Módulos e criação do Docstring (Documentação) e criação da estrutura de Main (Principal) do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos para trabalhar com comentários e documentação integração com funções e módulos no Python.
+
+A) Comentários podem ser usados ​​para explicar o código Python, tornar o código mais legível ou podem ser usados ​​para impedir a execução ao testar o código<br>
+B) A função help() executa o sistema de ajuda integrado e o conteúdo do Docstring<br>
+
+Conteúdo estudado nessa aula:<br>
+#01_ Trabalhando com Docstring, Help e Import do Python 3 no Linux Mint<br>
+#02_ Trabalhando com Import e Cálculos do IRPF do Python 3 no Linux Mint<br>
+
+[![Módulos e Funções](http://img.youtube.com/vi//0.jpg)]( "Módulos e Funções")
+
+Link da vídeo aula: 
+
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/11-main-module.md
