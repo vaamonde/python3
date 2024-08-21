@@ -298,4 +298,4 @@ Conteúdo estudado nessa aula:<br>
 
 Link da vídeo aula: 
 
-Link da documentação:
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/12-debugging.md
