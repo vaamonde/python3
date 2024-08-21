@@ -284,3 +284,18 @@ Conteúdo estudado nessa aula:<br>
 Link da vídeo aula: 
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/11-main-module.md
+
+## **🤩🤩 Debugging e Rastreamento do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
+
+Vídeo de Debugging e Rastreamento do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos debugar e rastrear erros no código Python.
+
+A) 
+
+Conteúdo estudado nessa aula:<br>
+#01_ 
+
+[![Debugging](http://img.youtube.com/vi//0.jpg)]( "Debugging")
+
+Link da vídeo aula: 
+
+Link da documentação:
