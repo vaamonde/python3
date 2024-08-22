@@ -7,14 +7,15 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 20/08/2024<br>
-#Versão: 0.02<br>
+#Data de atualização: 22/08/2024<br>
+#Versão: 0.04<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) do Python 3 no Linux Mint<br>
 #02_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) Aninhadas do Python 3 no Linux Mint Exemplo-01<br>
 #03_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) Aninhadas do Python 3 no Linux Mint Exemplo-02<br>
-#04_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint<br>
+#04_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-01<br>
+#05_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-02<br>
 
 #01_ Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
@@ -150,7 +151,7 @@ print(f"ID: {id_produto:1.0f} - Produto: {produto} - Preço R$:{preco:6.2f} - Im
 print(f"Valor Total do Produto (Produto + Imposto) R$:{(preco + (preco * imposto)):6.2f}")
 ```
 
-#04_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint<br>
+#04_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_conditions.asp
 ```python
@@ -218,4 +219,53 @@ else:
 #(dois) caracteres de casas decimais e utilizando a formatação F-STRING.
 print(f"ID: {id_produto:1.0f} - Produto: {produto} - Preço R$:{preco:6.2f} - Imposto: {(imposto * 100):2.0f}%")
 print(f"Valor Total do Produto (Produto + Imposto) R$:{(preco + (preco * imposto)):6.2f}")
+```
+
+#05_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-02<br>
+Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+```python
+#CENÁRIO 05: estrutura de decisão simples com ELIF (ELSE-IF - SENÃO SE)
+
+#Salvar o arquivo de script com o nome: 38-bolamagica8.py no diretório: ScriptsPython
+#EXEMPLO RETIRADO DO LIVRO: Python Direto ao Ponto do Autor: Estevão Paiva Fonseca
+#EXEMPLO MELHORADO POR: Robson Vaamonde do Projeto BoraParaPrática
+#Executar o script com a opção: F5 ou Ctrl+F5 ou clicar o ícone: Run Python File
+
+#!/usr/bin/python3
+#Importando a Função Randômica para o projeto do Python
+import random
+
+#Bloco de variável dinâmica dos números aleatórios de 0 até 10 gerados pelo módulo
+#randômico, utilizando a função randint vai gerar o valor inteiro a cada execução
+#do script e armazenar na variável convidado.
+convidado = random.randint(0, 10)
+
+#Bloco de digitação do Texto/Pergunta (Aleatória) para a Bola Mágica 8
+#OBSERVAÇÃO: nesse cenário não será utilizado variável para armazenar os valores digitados
+input=("Olá, seja bem vindo!!!!, para te ajudar hoje, me faço uma pergunta: ")
+
+#Bloco de teste lógico das condições verdadeiras utilizando o IF e ELIF
+#O código abaixo verifica o número aleatório armazenado na variável convidado e verifica
+#qual bloco IF ou ELIF a condição verdadeira.
+if convidado == 0:
+    print("Os ventos sopram a favor do seu desejo.")
+elif convidado == 1:
+    print("O destino conspira para realizar o que você busca.")
+elif convidado == 2:
+    print("As estrelas alinham-se em sua direção, siga em frente.")
+elif convidado == 3:
+    print("Prepare-se, grandes mudanças estão a caminho.")
+elif convidado == 4:
+    print("As forças do universo estão em harmonia com seus planos.")
+elif convidado == 6:
+    print("A resposta que procura está dentro de você."")
+elif convidado == 7:
+    print("O tempo é seu aliado, seja paciente.")
+elif convidado == 8:
+    print("A jornada é incerta, mas a recompensa é certa.")
+elif convidado == 9:
+    print("Algo extraordinário está prestes a acontecer.")
+elif convidado == 10:
+    print("O mistério permanece oculto por agora.")
 ```

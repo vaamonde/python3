@@ -289,10 +289,10 @@ Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introdu
 
 Vídeo de Debugging e Rastreamento do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos debugar e rastrear erros no código Python.
 
-A) 
+A) O módulo pdb (Python Debugger) define um depurador de código-fonte interativo para programas Python. Ele suporta configuração de breakpoints (condicionais) e single stepping no nível da linha de origem, inspeção de stack frames, listagem de código-fonte e avaliação de código Python arbitrário no contexto de qualquer stack frame. Ele também suporta depuração post-mortem e pode ser chamado sob controle do programa.
 
 Conteúdo estudado nessa aula:<br>
-#01_ 
+#01_ Utilizando o PDB (Python Debugger) do Python 3 no Terminal do Linux Mint<br>
 
 [![Debugging](http://img.youtube.com/vi//0.jpg)]( "Debugging")
 

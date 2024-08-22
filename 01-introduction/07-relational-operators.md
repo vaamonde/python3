@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 19/08/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 22/08/2024<br>
+#Versão: 0.05<br>
 
 A) Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
 B) Python divide os operadores nos seguintes grupos: Operadores aritméticos, Operadores de atribuição, Operadores de comparação, Operadores lógicos, Operadores de identidade, Operadores de adesão e Operadores bit a bit<br>
@@ -120,5 +120,15 @@ Link de apoio: https://www.w3schools.com/python/ref_func_bool.asp
 #Imprimindo na saída padrão o resultado da validação booleana
 >>> print("Nota-01 é:", bool(nota01), "Nota-02 é:", bool(nota02))
 Nota-01 é: True Nota-02 é: False
+>>> 
+
+#Criando variáveis Simples/Estáticas e trabalhando com validação boolena
+#Atribuindo os valores de strings as variáveis
+>>> nome = "Robson"
+>>> sobrenome = ""
+
+#Imprimindo na saída padrão o resultado da validação booleana
+>>> print("Seu nome é:", bool(nome), "Seu sobrenome é:", bool(sobrenome))
+Seu nome é: True Seu sobrenome é: False
 >>> 
 ```
