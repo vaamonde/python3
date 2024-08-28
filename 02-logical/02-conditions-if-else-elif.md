@@ -10,6 +10,12 @@
 #Data de atualização: 22/08/2024<br>
 #Versão: 0.04<br>
 
+A) O teste lógico if (se)
+
+B) O teste lógico else (senão)
+
+C) O teste lógico elif (senão se)
+
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) do Python 3 no Linux Mint<br>
 #02_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) Aninhadas do Python 3 no Linux Mint Exemplo-01<br>

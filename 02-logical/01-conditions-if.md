@@ -10,6 +10,8 @@
 #Data de atualização: 20/08/2024<br>
 #Versão: 0.08<br>
 
+A) O teste lógico if (se)
+
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 #02_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-02<br>
