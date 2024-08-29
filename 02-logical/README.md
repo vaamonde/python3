@@ -28,7 +28,7 @@ Github Procedimentos em TI: https://github.com/vaamonde<br>
 
 # LÓGICA E LAÇO DE LOOPING DO PYTHON 3 NO DEVOPS INFRAESTRUTURA
 
-## **🤩🤩 Instalação do Python 3 e Integração com o VSCode no GNU/Linux (Linux Mint 22) 🤩🤩**
+## **🤩🤩 Funções Básicas do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
 
 Vídeo de Debugging e Rastreamento do Python 3 no GNU/Linux (Linux Mint 22), nesse vídeo você vai aprender os conceitos básicos debugar e rastrear erros no código Python.
 

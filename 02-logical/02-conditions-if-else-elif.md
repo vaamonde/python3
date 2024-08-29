@@ -7,14 +7,14 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 22/08/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 29/08/2024<br>
+#Versão: 0.05<br>
 
-A) O teste lógico if (se)
+A) A palavra-chave if (se) é usada para criar instruções condicionais (instruções if (se)) e permite executar um bloco de código somente se uma condição for True (verdadeira).
 
-B) O teste lógico else (senão)
+B) A palavra-chave else (senão) é usada em instruções condicionais (instruções if (se)) e decide o que fazer se a condição for False (Falsa), a palavra-chave else (senão) também pode ser usada em blocos try (testar blocos em busca de erros) e except (lidar com os erros).
 
-C) O teste lógico elif (senão se)
+C) A palavra-chave elif (senão se) é usada em instruções condicionais (instruções if (se)) e é a abreviação de else if.
 
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) do Python 3 no Linux Mint<br>
@@ -25,7 +25,8 @@ Conteúdo estudado nessa aula:<br>
 
 #01_ Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp<br>
 ```python
 #CENÁRIO 01: estrutura de decisão simples com IF (SE) e ELSE (SE NÃO)
 
@@ -50,7 +51,9 @@ else:
 
 #02_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) Aninhadas do Python 3 no Linux Mint Exemplo-1<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_else.asp
 ```python
 #CENÁRIO 02: estrutura de decisão simples com IF (SE) e ELSE (SE NÃO) Aninhadas
 
@@ -86,6 +89,10 @@ print(f"Você vai pagar esse mês o valor de: R$:{minutos * tarifa:6.2f}")
 ```
 
 #03_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) Aninhadas do Python 3 no Linux Mint Exemplo-02<br>
+Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_else.asp
 ```python
 #CENÁRIO 03: estrutura de decisão simples com IF (SE) e ELSE (SE NÃO) Aninhadas
 
@@ -159,7 +166,10 @@ print(f"Valor Total do Produto (Produto + Imposto) R$:{(preco + (preco * imposto
 
 #04_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_else.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_elif.asp
 ```python
 #CENÁRIO 04: estrutura de decisão simples com ELIF (ELSE-IF - SENÃO SE) MELHORADO
 
@@ -229,7 +239,10 @@ print(f"Valor Total do Produto (Produto + Imposto) R$:{(preco + (preco * imposto
 
 #05_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-02<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_else.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_elif.asp
 ```python
 #CENÁRIO 05: estrutura de decisão simples com ELIF (ELSE-IF - SENÃO SE)
 

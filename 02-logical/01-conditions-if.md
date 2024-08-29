@@ -7,10 +7,10 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 20/08/2024<br>
-#Versão: 0.08<br>
+#Data de atualização: 29/08/2024<br>
+#Versão: 0.09<br>
 
-A) O teste lógico if (se)
+A) A palavra-chave if (se) é usada para criar instruções condicionais (instruções if) e permite executar um bloco de código somente se uma condição for True (verdadeira).
 
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
@@ -20,7 +20,8 @@ Conteúdo estudado nessa aula:<br>
 
 #01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp
 ```python
 #CENÁRIO 01: estrutura de decisão simples com IF (SE)
 
@@ -43,7 +44,8 @@ if valor02 > valor01:
 
 #02_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-02<br>>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp
 ```python
 #CENÁRIO 02: estrutura de decisão simples com IF (SE)
 
@@ -69,7 +71,8 @@ if idade_carro > media_idade:
 
 #03_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp
 ```python
 #CENÁRIO 03: estrutura de decisão simples com IF (SE)
 
@@ -113,7 +116,8 @@ if velocidade > 120.01:
 
 #04_ Estrutura de Decisão em Blocos IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>
-Link de apoio: https://www.w3schools.com/python/python_conditions.asp
+Link de apoio: https://www.w3schools.com/python/python_conditions.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_keyword_if.asp
 ```python
 #CENÁRIO 04: trabalhando com IF para uma nova versão do IRPF (modo simples)
 

@@ -7,12 +7,12 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/08/2024<br>
-#Data de atualização: 26/08/2024<br>
-#Versão: 0.01<br>
+#Data de atualização: 29/08/2024<br>
+#Versão: 0.02<br>
 
-A) A função list()
+A) A função list() cria um objeto de lista, um objeto de lista é uma coleção ordenada e mutável.
 
-B) A função range()
+B) A função range() retorna uma sequência de números, começando em 0 por padrão, e incrementando em 1 (por padrão), e parando antes de um número especificado.
 
 Conteúdo estudado nessa aula:<br>
 #01_ Criando Lista de Dados utilizando a Função LIST() e RANGE()<br>
@@ -21,7 +21,9 @@ Conteúdo estudado nessa aula:<br>
 #04_ Criando Intervalos Regressivos em Lista de Dados utilizando a Função LIST() e RANGE()<br>
 
 #01_ Criando Lista de Dados utilizando a Função LIST() e RANGE()<br>
-Link de apoio: 
+Link de apoio: https://www.w3schools.com/python/python_lists.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_list.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_range.asp
 ```python
 #Pressione: Ctrl + L para limpar o Shell do Python 3 facilitando a digitação
 #Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
@@ -36,7 +38,9 @@ Link de apoio:
 ```
 
 #02_ Criando Lista de Dados de Início e Fim utilizando a Função LIST() e RANGE()<br>
-Link de apoio:
+Link de apoio: https://www.w3schools.com/python/python_lists.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_list.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_range.asp
 ```python
 #Pressione: Ctrl + L para limpar o Shell do Python 3 facilitando a digitação
 #Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
@@ -52,7 +56,9 @@ Link de apoio:
 ```
 
 #03_ Criando Intervalos em Lista de Dados utilizando a Função LIST() e RANGE()<br>
-Link de apoio:
+Link de apoio: https://www.w3schools.com/python/python_lists.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_list.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_range.asp
 ```python
 #Pressione: Ctrl + L para limpar o Shell do Python 3 facilitando a digitação
 #Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
@@ -86,7 +92,9 @@ Link de apoio:
 ```
 
 #04_ Criando Intervalos Regressivos em Lista de Dados utilizando a Função LIST() e RANGE()<br>
-Link de apoio:
+Link de apoio: https://www.w3schools.com/python/python_lists.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_list.asp<br>
+Link de apoio: https://www.w3schools.com/python/ref_func_range.asp
 ```python
 #Pressione: Ctrl + L para limpar o Shell do Python 3 facilitando a digitação
 #Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
