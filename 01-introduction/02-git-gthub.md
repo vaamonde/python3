@@ -7,11 +7,19 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 02/09/2024<br>
-#Versão: 0.01<br>
+#Data de atualização: 04/09/2024<br>
+#Versão: 0.02<br>
 
 Conteúdo estudado nessa aula:<br>
-#01_ 
+#01_ Verificando a Versão do Git instalado no Linux Mint<br>
+#02_ Configurações Básicas do Git Localmente no Linux Mint<br>
+#03_ Criando uma conta de acesso ao Github (CASO VOCÊ AINDA NÃO TENHA UMA)<br>
+#04_ Criando nosso Repositório Remoto do Python3 no Github<br>
+#05_ Personalizando o nosso primeiro Repositório Remoto no Github<br>
+#06_ Clonando o Repositório Remoto do Python3 no Linux Mint<br>
+#07_ Abrindo nosso Repositório Local do Python3 com o VSCode no Linux Mint<br>
+#08_ Integrando o VSCode com o Github no Linux Mint<br>
+#09_ Fazendo as mesmas configurações no Microsoft Windows<br>
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do PIP: https://pypi.org/<br>
@@ -127,4 +135,24 @@ ls -lh
 
 #acessando o diretório python3 clonado
 cd python3/
+```
+
+#07_ Abrindo nosso Repositório Local do Python3 com o VSCode no Linux Mint<br>
+```bash
+#abrindo o VSCode no repositório local do Python3
+code .
+```
+
+#08_ Integrando o VSCode com o Github no Linux Mint<br>
+```bash
+#OBSERVAÇÃO IMPORTANTE: Dessa forma não existe a necessidade da criação do Token de
+#autenticação do Github com o VSCode, facilitando a integração do Repositório Local
+#com o Repositório Remoto
+```
+
+#09_ Fazendo as mesmas configurações no Microsoft Windows<br>
+```bash
+#OBSERVAÇÃO IMPORTANTE: Dessa forma não existe a necessidade da criação do Token de
+#autenticação do Github com o VSCode, facilitando a integração do Repositório Local
+#com o Repositório Remoto
 ```
