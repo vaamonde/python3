@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 04/09/2024<br>
-#Versão: 0.02<br>
+#Data de atualização: 07/09/2024<br>
+#Versão: 0.03<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
@@ -45,6 +45,10 @@ git --version
 
 #02_ Configurações Básicas do Git Localmente no Linux Mint<br>
 ```bash
+#OBSERVAÇÃO IMPORTANTE: Essas informações são obrigatório para os comandos: git add e
+#git commint que serão utilizados antes de enviar os arquivos para o Github com o comando
+#git pull
+
 #Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
 git config --global user.name "Robson Vaamonde"
 
@@ -141,6 +145,10 @@ cd python3/
 ```bash
 #abrindo o VSCode no repositório local do Python3
 code .
+
+#OBSERVAÇÃO IMPORTANTE: Você também pode abrir o projeto utilizando o Gerenciador de
+#arquivos Nemo clicando com o botão direito do mouse no diretório de projeto do python
+#e escolhendo a opção: Abrir com o VSCode na lista de opções.
 ```
 
 #08_ Integrando o VSCode com o Github no Linux Mint<br>
