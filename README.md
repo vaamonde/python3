@@ -64,15 +64,15 @@ PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes 
 🔴 Fundamentos de Python: https://www.cengage.com.br/livro/fundamentos-de-python-estruturas-de-dados/
 
 ## **Playlist do YouTUBE com todos os Vídeos do Python 3 Essentials DevOps e Infraestrutura:**
-🔴 Link da Playlist:
+🔴 Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUOvmt6MfP05VVKzrSnlrZH_
 
 ## **🤩🤩 Apresentação do NOVO CURSO GRATUITO de Python 3 Essentials DevOps e Infraestrutura 🤩🤩**
 
 Vídeo de apresentação do NOVO Curso de Python 3 Essentials no GNU/Linux e VSCode do Projeto do Bora para Prática. O objetivo desse curso é mostrar a instalação e criação dos primeiros Scripts e Programas (Software) utilizando a Linguagem de Programação Python 3 no GNU/Linux utilizando a Distribuição Linux Mint (ou várias distribuições diferentes).
 
-[![Apresentação do Curso](http://img.youtube.com/vi//0.jpg)]( "Apresentação do Curso")
+[![Apresentação do Curso](http://img.youtube.com/vi/vAHukeNWg_Y/0.jpg)](https://www.youtube.com/watch?v=vAHukeNWg_Y "Apresentação do Curso")
 
-Link da vídeo aula: 
+Link da vídeo aula: https://www.youtube.com/watch?v=vAHukeNWg_Y
 
 # INTRODUÇÃO DO CURSO DE PYTHON 3 NO DEVOPS INFRAESTRUTURA
 
