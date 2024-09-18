@@ -10,15 +10,15 @@
 #Data de atualização: 29/08/2024<br>
 #Versão: 0.02<br>
 
-A) A função list() cria um objeto de lista, um objeto de lista é uma coleção ordenada e mutável.
-
-B) A função range() retorna uma sequência de números, começando em 0 por padrão, e incrementando em 1 (por padrão), e parando antes de um número especificado.
-
 Conteúdo estudado nessa aula:<br>
 #01_ Criando Lista de Dados utilizando a Função LIST() e RANGE()<br>
 #02_ Criando Lista de Dados de Início e Fim utilizando a Função LIST() e RANGE()<br>
 #03_ Criando Intervalos em Lista de Dados utilizando a Função LIST() e RANGE()<br>
 #04_ Criando Intervalos Regressivos em Lista de Dados utilizando a Função LIST() e RANGE()<br>
+
+A) A função list() cria um objeto de lista, um objeto de lista é uma coleção ordenada e mutável.
+
+B) A função range() retorna uma sequência de números, começando em 0 por padrão, e incrementando em 1 (por padrão), e parando antes de um número especificado.
 
 #01_ Criando Lista de Dados utilizando a Função LIST() e RANGE()<br>
 Link de apoio: https://www.w3schools.com/python/python_lists.asp<br>

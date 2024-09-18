@@ -10,9 +10,6 @@
 #Data de atualização: 22/08/2024<br>
 #Versão: 0.05<br>
 
-A) Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
-B) Python divide os operadores nos seguintes grupos: Operadores aritméticos, Operadores de atribuição, Operadores de comparação, Operadores lógicos, Operadores de identidade, Operadores de adesão e Operadores bit a bit<br>
-
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Comparação Lógica e Operador Relacional IGUAL do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Comparação Lógica e Operador Relacional MAIOR QUE do Python 3 no Linux Mint<br>
@@ -20,6 +17,10 @@ Conteúdo estudado nessa aula:<br>
 #04_ Trabalhando com Comparação Lógica e Operador Relacional MAIOR IGUAL do Python 3 no Linux Mint<br>
 #05_ Trabalhando com Comparação Lógica e Operador Relacional MENOR IGUAL do Python 3 no Linux Mint<br>
 #06_ Trabalhando com Comparação Lógica e Operador Relacional DIFERENTE do Python 3 no Linux Mint<br>
+
+A) Operadores são usados ​​para realizar operações em variáveis ​​e valores.
+
+B) Python divide os operadores nos seguintes grupos: Operadores aritméticos, Operadores de atribuição, Operadores de comparação, Operadores lógicos, Operadores de identidade, Operadores de adesão e Operadores bit a bit.
 
 #01_ Trabalhando com Comparação Lógica e Operador Relacional IGUAL do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp

@@ -10,14 +10,6 @@
 #Data de atualização: 20/08/2024<br>
 #Versão: 0.04<br>
 
-A) Strings em python são colocadas entre aspas simples ou duplas.<br>
-B) Para concatenar ou combinar duas strings você pode usar o operador +.<br>
-C) A função format() formata um valor especificado em um formato especificado
-D) F-String foi introduzido no Python 3.6 e agora é a forma preferida de formatar strings.<br>
-E) A função chr() retorna o caractere que representa o unicode especificado.<br>
-F) A função ord() retorna o número que representa o código unicode de um caractere especificado.<br>
-G) A função type() retorna o tipo do objeto especificado.<br>
-
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Concatenação de Adição (+) de String do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Concatenação de Multiplicação (*) de String do Python 3 no Linux Mint<br>
@@ -28,6 +20,20 @@ Conteúdo estudado nessa aula:<br>
 #07_ Trabalhando com Parágrafos de String do Python 3 no Linux Mint<br>
 #08_ Utilizando Conjuntos de Caracteres do Python 3 no Linux Mint<br>
 #09_ Conferindo o Tipo TYPE() de Valores das Variáveis do Python 3 no Linux Mint<br>
+
+A) Strings em python são colocadas entre aspas simples ou duplas.
+
+B) Para concatenar ou combinar duas strings você pode usar o operador +.
+
+C) A função format() formata um valor especificado em um formato especificado.
+
+D) F-String foi introduzido no Python 3.6 e agora é a forma preferida de formatar strings.
+
+E) A função chr() retorna o caractere que representa o unicode especificado.
+
+F) A função ord() retorna o número que representa o código unicode de um caractere especificado.
+
+G) A função type() retorna o tipo do objeto especificado.
 
 #01_ Trabalhando com Concatenação de Adição (+) de String do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_strings_concatenate.asp

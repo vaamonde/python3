@@ -10,11 +10,6 @@
 #Data de atualização: 19/08/2024<br>
 #Versão: 0.04<br>
 
-A) Variáveis: ​são contêineres para armazenar valores de dados. Python não possui comando para declarar uma variável. Uma variável é criada no momento em que você atribui um valor a ela pela primeira vez.<br>
-B) A função len() retorna o número de itens em um objeto. Quando o objeto é uma string, a função len() retorna o número de caracteres da string.<br>
-C) Strings em python são colocadas entre aspas simples ou duplas.
-D) Você pode retornar um intervalo de caracteres usando a sintaxe de Índice. Especifique o índice inicial e o índice final, separados por dois pontos, para retornar uma parte da string.
-
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Variáveis Simples/Estáticas (Constantes) do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Variáveis Simples/Estáticas com Nomes no Python 3 no Linux Mint<br>
@@ -23,6 +18,14 @@ Conteúdo estudado nessa aula:<br>
 #05_ Trabalhando com Variáveis Lógicas/Booleanas do Python no Linux Mint<br>
 #06_ Trabalhando com Variáveis de String do Python no Linux Mint<br>
 #07_ Trabalhando com Variáveis de String e Índices do Python no Linux Mint<br>
+
+A) Variáveis: ​são contêineres para armazenar valores de dados. Python não possui comando para declarar uma variável. Uma variável é criada no momento em que você atribui um valor a ela pela primeira vez.
+
+B) A função len() retorna o número de itens em um objeto. Quando o objeto é uma string, a função len() retorna o número de caracteres da string.
+
+C) Strings em python são colocadas entre aspas simples ou duplas.
+
+D) Você pode retornar um intervalo de caracteres usando a sintaxe de Índice. Especifique o índice inicial e o índice final, separados por dois pontos, para retornar uma parte da string.
 
 #01_ Trabalhando com Variáveis Simples/Estáticas Numéricas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_variables.asp

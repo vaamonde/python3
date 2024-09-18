@@ -10,13 +10,13 @@
 #Data de atualização: 29/08/2024<br>
 #Versão: 0.09<br>
 
-A) A palavra-chave if (se) é usada para criar instruções condicionais (instruções if) e permite executar um bloco de código somente se uma condição for True (verdadeira).
-
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 #02_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-02<br>
 #03_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-03<br>
 #04_ Estrutura de Decisão em Blocos IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
+
+A) A palavra-chave if (se) é usada para criar instruções condicionais (instruções if) e permite executar um bloco de código somente se uma condição for True (verdadeira).
 
 #01_ Estrutura de Decisão Simples IF (SE) do Python 3 no Linux Mint Exemplo-01<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>

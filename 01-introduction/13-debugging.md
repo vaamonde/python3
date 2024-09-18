@@ -10,10 +10,10 @@
 #Data de atualização: 22/08/2024<br>
 #Versão: 0.02<br>
 
-A) O módulo pdb (Python Debugger) define um depurador de código-fonte interativo para programas Python. Ele suporta configuração de breakpoints (condicionais) e single stepping no nível da linha de origem, inspeção de stack frames, listagem de código-fonte e avaliação de código Python arbitrário no contexto de qualquer stack frame. Ele também suporta depuração post-mortem e pode ser chamado sob controle do programa.
-
 Conteúdo estudado nessa aula:<br>
 #01_ Utilizando o PDB (Python Debugger) do Python 3 no Terminal do Linux Mint<br>
+
+A) O módulo pdb (Python Debugger) define um depurador de código-fonte interativo para programas Python. Ele suporta configuração de breakpoints (condicionais) e single stepping no nível da linha de origem, inspeção de stack frames, listagem de código-fonte e avaliação de código Python arbitrário no contexto de qualquer stack frame. Ele também suporta depuração post-mortem e pode ser chamado sob controle do programa.
 
 #01_ Utilizando o PDB (Python Debugger) do Python 3 no Terminal Linux Mint<br>
 Link de apoio: 

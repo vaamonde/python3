@@ -10,6 +10,15 @@
 #Data de atualização: 18/08/2024<br>
 #Versão: 0.07<br>
 
+Conteúdo estudado nessa aula:<br>
+#01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
+#02_ Testando o Shell (Prompt) IPython do Python 3 no Linux Mint<br>
+#03_ Testando o Shell (Prompt) BPython do Python 3 no Linux Mint<br>
+#04_ Testando IDLE do Python 3 no Linux Mint<br>
+#05_ Testando um arquivo Python com Extensão .py no VSCode (Visual Studio Code)<br>
+#06_ Testando um arquivo Python com Extensão .py no Terminal<br>
+#07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
+
 Python3 é o interpretador padrão Python geralmente é instalado em: /usr/local/bin/python3.x nas máquinas onde está disponível. Os recursos de edição de linha do interpretador incluem edição interativa, substituição de histórico e conclusão de código em sistemas que suportam a biblioteca GNU Readline.
 
 IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
@@ -19,15 +28,6 @@ BPython é um intérprete interativo para Python, similar ao IPython, mas com fo
 IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
 
 O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
-
-Conteúdo estudado nessa aula:<br>
-#01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
-#02_ Testando o Shell (Prompt) IPython do Python 3 no Linux Mint<br>
-#03_ Testando o Shell (Prompt) BPython do Python 3 no Linux Mint<br>
-#04_ Testando IDLE do Python 3 no Linux Mint<br>
-#05_ Testando um arquivo Python com Extensão .py no VSCode (Visual Studio Code)<br>
-#06_ Testando um arquivo Python com Extensão .py no Terminal<br>
-#07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
 
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
 ```bash

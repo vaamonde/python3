@@ -10,9 +10,6 @@
 #Data de atualização: 18/08/2024<br>
 #Versão: 0.05<br>
 
-A) Erros de Sintaxe: Erros de sintaxe, também conhecidos como erros de parse, são provavelmente os mais frequentes entre aqueles que ainda estão aprendendo Python.<br>
-B) Erros de Exceções: Mesmo que um comando ou expressão estejam sintaticamente corretos, talvez ocorra um erro na hora de sua execução.<br>
-
 Conteúdo estudado nessa aula:<br>
 #01_ Analisando Erros em Variáveis no Python 3 no Linux Mint<br>
 #02_ Analisando Erros de Nome de Variáveis no Python 3 no Linux Mint<br>
@@ -22,6 +19,10 @@ Conteúdo estudado nessa aula:<br>
 #06_ Analisando Erros de Aspas no Python 3 no Linux Mint<br>
 #07_ Analisando Erros de Concatenação de String do Python 3 no Linux Mint<br>
 #08_ Analisando Erros de Algebra Aritmética no Python 3 no Linux Mint<br>
+
+A) Erros de Sintaxe: Erros de sintaxe, também conhecidos como erros de parse, são provavelmente os mais frequentes entre aqueles que ainda estão aprendendo Python.
+
+B) Erros de Exceções: Mesmo que um comando ou expressão estejam sintaticamente corretos, talvez ocorra um erro na hora de sua execução.
 
 #01_ Analisando Erros de Recuo Inesperado do Python 3 no Linux Mint<br>
 ```python

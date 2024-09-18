@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 18/08/2024<br>
-#Versão: 0.09<br>
+#Data de atualização: 18/09/2024<br>
+#Versão: 0.10<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -22,6 +22,7 @@ Conteúdo estudado nessa aula:<br>
 #09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
 #10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
+#12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do PIP: https://pypi.org/<br>
@@ -131,6 +132,16 @@ Arquivos
     code_1.*_amd64
       Instalar Pacote
     <Fechar>
+
+#configurando o VSCode com editor de texto padrão
+Menu
+  Aplicativos Preferenciais
+    Código Fonte: Visual Studio Code
+    Texto Puro: Visual Studio Code
+
+#executando o VSCode no Linux Mint
+Menu
+  Busca Indexada: vscode
 ```
 
 #09_ Instalando e Configurando as Principais Extensões do Microsoft Visual Studio Code VSCode<br>
@@ -184,4 +195,51 @@ VSCode
     Pesquisar:
      Python (Microsoft) <Instalar>
      Python Debugger (Microsoft) <Instalar>
+```
+
+#12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
+```bash
+#download do Python 3 para Microsoft Windows
+Link de download do Python 3: https://www.python.org/downloads/windows/
+  Latest Python 3 Release - Python 3.12.6 (Link atualizando em: 18/09/2024)
+    Link: https://www.python.org/downloads/release/python-3126/
+      Opção: Windows installer (64-bit)
+
+Abrir a Pasta de Download
+  Clicar duas vezes no executável: python-*-amd64.exe
+
+  Install Python 3.12.6 (64-bit)
+    (ON) Use admin privileges when installing py.exe (ENABLE)
+    (ON) Add python.exe to PATH (ENABLE)
+    Install Now <Clicar>
+      Deseja permitir que este aplicativo faça alterações no seu dispositivo? <Sim>
+  <Close>
+
+#Download do VSCode para Microsoft Windows
+Link download: https://code.visualstudio.com/download
+  Windows (Windows 10 e 11)
+    User Installer: x64, Arm64
+
+Abrir a Pasta de Download
+  Clicar duas vezes no executável: VSCodeUserSetup-x64-*.exe
+
+  Microsoft Visual Studio Code (User) - Instalador
+    (ON) Eu aceito o acordo (ENABLE)
+    <Próximo>
+  Selecione o Local de Destino
+    Caminho padrão
+    <Próximo>
+  Selecionar a Pasta do Menu Iniciar
+    Caminho padrão
+    <Próximo>
+  Selecionar Tarefas Adicionais
+    (ON) Criar um atalho na área de trabalho
+    (ON) Adicione a ação "Abrir com Code" no menu de contexto de arquivo do Windows Explorer
+    (ON) Adicione a ação "Abrir com Code" no menu de contexto de diretório do Windows Explorer
+    <Próximo>
+  Pronto pra Instalar
+    <Instalar>
+  Completando o Assistente do Instalador do Visual Studio Code
+    (ON) Iniciar o Visual Studio Code
+    <Concluir>
 ```

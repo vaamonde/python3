@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 07/09/2024<br>
-#Versão: 0.03<br>
+#Data de atualização: 18/09/2024<br>
+#Versão: 0.04<br>
 
 Conteúdo estudado nessa configuração:<br>
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
@@ -19,7 +19,7 @@ Conteúdo estudado nessa configuração:<br>
 #06_ Clonando o Repositório Remoto do Python3 no Linux Mint<br>
 #07_ Abrindo nosso Repositório Local do Python3 com o VSCode no Linux Mint<br>
 #08_ Integrando o VSCode com o Github no Linux Mint<br>
-#09_ Fazendo as mesmas configurações no Microsoft Windows<br>
+#09_ Instalando o Git Bash no Microsoft Windows 10<br>>
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do PIP: https://pypi.org/<br>
@@ -99,7 +99,7 @@ Link Oficial do Projeto do Github: https://github.com
 09) na tela de: Welcome to Github clique em: <Skip personalization>
 ```
 
-#04_ Criando nosso Repositório Remoto do Python3 no Github<br>
+#04_ Criando nosso Repositório Remoto do Python 3 no Github<br>
 ```bash
 New Repository
   Owner: rsvaamonde
@@ -128,7 +128,7 @@ About
 <Save changes>
 ```
 
-#06_ Clonando o Repositório Remoto do Python3 no Linux Mint<br>
+#06_ Clonando o Repositório Remoto do Python 3 no Linux Mint<br>
 ```bash
 #clonando o Repositório Remoto do Github Localmente
 git clone https://github.com/rsvaamonde/python3
@@ -141,7 +141,7 @@ ls -lh
 cd python3/
 ```
 
-#07_ Abrindo nosso Repositório Local do Python3 com o VSCode no Linux Mint<br>
+#07_ Abrindo nosso Repositório Local do Python 3 com o VSCode no Linux Mint<br>
 ```bash
 #abrindo o VSCode no repositório local do Python3
 code .
@@ -158,9 +158,62 @@ code .
 #com o Repositório Remoto
 ```
 
-#09_ Fazendo as mesmas configurações no Microsoft Windows<br>
+#09_ Instalando o Git Bash no Microsoft Windows 10<br>
 ```bash
-#OBSERVAÇÃO IMPORTANTE: Dessa forma não existe a necessidade da criação do Token de
-#autenticação do Github com o VSCode, facilitando a integração do Repositório Local
-#com o Repositório Remoto
+#download do Git para Microsoft Windows
+Link de download do Git: https://git-scm.com/download/win
+  Standalone Installer: 64-bit Git for Windows Setup.
+
+Abrir a Pasta de Download
+  Clicar duas vezes no executável: Git-*-64-bit.exe
+
+  Deseja permitir que este aplicativo faça alterações no seu dispositivo? <Sim>
+  Information
+    <Next>
+  Select Destination Location
+    Caminho padrão
+    <Next>
+  Select Components
+    (ON) On the Desktop (ENABLE)
+    (ON) Check daily for Git for Windows Update (ENABLE)
+    (ON) (NEW!) Add a Git Bash Profile to Windows Terminal (ENABLE)
+    <Next>
+  Select Start Menu Folder
+    Caminho padrão
+    <Next>
+  Choosing the default editor used by Git
+    Use Visual Studio Code as Gits default editor (ENABLE)
+    <Next>
+  Adjusting the name of the initial branch in new repositories
+    (ON) Let Git decide (DEFAULT)
+    <Next>
+  Adjusting your PATH environment
+    (ON) Git from the command line and also from 3rd-party software (DEFAULT)
+    <Next>
+  Choosing the SSH executable
+    (ON) Use bundled OpenSSH (DEFAULT)
+    <Next>
+  Choosing HTTPS transport backend
+    (ON) Use the OpenSSL Library (DEFAULT)
+    <Next>
+  Configuring the line ending conversions?
+    (ON) Checkout Windows-style, commint Unix-style line endings (DEFAULT)
+    <Next>
+  Configuring the terminal emulator to use Git Bash
+    (ON) Use MinTTY (the default terminal of MSYS2) (DEFAULT)
+    <Next>
+  Choose the default behavior for 'git pull'
+    (ON) Fast-forward or merge (DEFAULT)
+    <Next>
+  Choose a credencial helper
+    (ON) Git Credential Manager (DEFAULT)
+    <Next>
+  Configuring extra options
+    (ON) Enable file system caching
+    <Next>
+  Configuring experimental options
+    <Install>
+  Completing the Git Setup Wizard
+    (ON) Launch Git Bash
+    <Finish>
 ```

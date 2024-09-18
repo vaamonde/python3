@@ -10,13 +10,14 @@
 #Data de atualização: 20/08/2024<br>
 #Versão: 0.04<br>
 
-A) Você pode optar por importar apenas peças de um módulo, usando a palavra-chave from.<br>
-B) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais.<br>
-
 Conteúdo estudado nessa aula:<br>
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 #02_ Trabalhando com Módulos, Comparação e Expressões Lógicas do Python no Linux Mint<br>
 #03_ Trabalhando com Módulos, Funções Pi e de Raiz Quadrada do Python no Linux Mint<br>
+
+A) Você pode optar por importar apenas peças de um módulo, usando a palavra-chave from.
+
+B) A função round() retorna um número de ponto flutuante que é uma versão arredondada do número especificado, com o número especificado de decimais.
 
 #01_ Trabalhando com Módulos e Expressões Lógicas do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_module_import_from.asp

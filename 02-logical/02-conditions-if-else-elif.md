@@ -10,18 +10,18 @@
 #Data de atualização: 29/08/2024<br>
 #Versão: 0.05<br>
 
-A) A palavra-chave if (se) é usada para criar instruções condicionais (instruções if (se)) e permite executar um bloco de código somente se uma condição for True (verdadeira).
-
-B) A palavra-chave else (senão) é usada em instruções condicionais (instruções if (se)) e decide o que fazer se a condição for False (Falsa), a palavra-chave else (senão) também pode ser usada em blocos try (testar blocos em busca de erros) e except (lidar com os erros).
-
-C) A palavra-chave elif (senão se) é usada em instruções condicionais (instruções if (se)) e é a abreviação de else if.
-
 Conteúdo estudado nessa aula:<br>
 #01_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) do Python 3 no Linux Mint<br>
 #02_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) Aninhadas do Python 3 no Linux Mint Exemplo-01<br>
 #03_ Estrutura de Decisão e Blocos IF (SE) e ELSE (SENÃO) Aninhadas do Python 3 no Linux Mint Exemplo-02<br>
 #04_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-01<br>
 #05_ Estrutura de Decisão e Blocos ELIF (ELSE-IF - SENÃO SE) do Python 3 no Linux Mint Exemplo-02<br>
+
+A) A palavra-chave if (se) é usada para criar instruções condicionais (instruções if (se)) e permite executar um bloco de código somente se uma condição for True (verdadeira).
+
+B) A palavra-chave else (senão) é usada em instruções condicionais (instruções if (se)) e decide o que fazer se a condição for False (Falsa), a palavra-chave else (senão) também pode ser usada em blocos try (testar blocos em busca de erros) e except (lidar com os erros).
+
+C) A palavra-chave elif (senão se) é usada em instruções condicionais (instruções if (se)) e é a abreviação de else if.
 
 #01_ Estrutura de Decisão e Blocos IF (SE) do Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/gloss_python_if_statement.asp<br>

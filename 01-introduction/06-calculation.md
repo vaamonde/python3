@@ -10,10 +10,6 @@
 #Data de atualização: 18/08/2024<br>
 #Versão: 0.04<br>
 
-A) Operadores Python: Operadores são usados ​​para realizar operações em variáveis ​​e valores.<br>
-B) Operadores Aritméticos Python: Operadores aritméticos são usados ​​com valores numéricos para realizar operações matemáticas comuns do dia a dia.<br>
-C) Precedência do Operador Python: A precedência do operador descreve a ordem em que as operações são executadas.<br>
-
 Conteúdo estudado nessa aula:<br>
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
 #02_ Cálculo de Subtração (Subtrair -) no Python 3 no Linux Mint<br>
@@ -24,6 +20,12 @@ Conteúdo estudado nessa aula:<br>
 #07_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
 #08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
 #09_ Regra de Sinais (Positivo + e Negativo -) no Python 3 no Linux Mint<br>
+
+A) Operadores Python: Operadores são usados ​​para realizar operações em variáveis ​​e valores.
+
+B) Operadores Aritméticos Python: Operadores aritméticos são usados ​​com valores numéricos para realizar operações matemáticas comuns do dia a dia.
+
+C) Precedência do Operador Python: A precedência do operador descreve a ordem em que as operações são executadas.
 
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
