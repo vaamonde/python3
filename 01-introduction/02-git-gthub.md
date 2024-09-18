@@ -10,7 +10,7 @@
 #Data de atualização: 07/09/2024<br>
 #Versão: 0.03<br>
 
-Conteúdo estudado nessa aula:<br>
+Conteúdo estudado nessa configuração:<br>
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
 #02_ Configurações Básicas do Git Localmente no Linux Mint<br>
 #03_ Criando uma conta de acesso ao Github (CASO VOCÊ AINDA NÃO TENHA UMA)<br>
@@ -45,8 +45,8 @@ git --version
 
 #02_ Configurações Básicas do Git Localmente no Linux Mint<br>
 ```bash
-#OBSERVAÇÃO IMPORTANTE: Essas informações são obrigatório para os comandos: git add e
-#git commint que serão utilizados antes de enviar os arquivos para o Github com o comando
+#OBSERVAÇÃO IMPORTANTE: Essas informações são obrigatórias para os comandos: git add e
+#git commint que serão utilizadas antes de enviar os arquivos para o Github com o comando
 #git pull
 
 #Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
@@ -102,29 +102,29 @@ Link Oficial do Projeto do Github: https://github.com
 #04_ Criando nosso Repositório Remoto do Python3 no Github<br>
 ```bash
 New Repository
-	Owner: rsvaamonde
-	Repository name: python3
-	Description: Básico de Python3 no Linux Mint
-	Check: Public
-	Initialize this repository with:
-		Check: Add a README file
-		Add .gitignore: None
-	Choose a license
-		Add a license: MIT License
+  Owner: rsvaamonde
+  Repository name: python3
+  Description: Básico de Python3 no Linux Mint
+  Check: Public
+  Initialize this repository with:
+    Check: Add a README file
+    Add .gitignore: None
+  Choose a license
+    Add a license: MIT License
 <Create repository>
 ```
 
 #05_ Personalizando o nosso primeiro Repositório Remoto no Github<br>
 ```bash
 About
-	Edit repository details
-		Description: (Emoji https://gist.github.com/rxaviers/7360908) 
-		Website: http://www.boraparapratica.com.br
-		Topics: git github bash shell linux linux-mint python python3
-		Include in the home page
-			Check: Releases
-			Check: Packages
-			Check: Environments
+  Edit repository details
+    Description: (Emoji https://gist.github.com/rxaviers/7360908) 
+    Website: http://www.boraparapratica.com.br
+    Topics: git github bash shell linux linux-mint python python3
+    Include in the home page
+      Check: Releases
+      Check: Packages
+      Check: Environments
 <Save changes>
 ```
 
