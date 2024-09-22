@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 18/09/2024<br>
-#Versão: 0.10<br>
+#Data de atualização: 22/09/2024<br>
+#Versão: 0.11<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -19,7 +19,7 @@ Conteúdo estudado nessa aula:<br>
 #06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
 #07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 #08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
-#09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
+#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
 #10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 #12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
@@ -47,6 +47,10 @@ PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes 
 O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
 GNU Bash ou simplesmente Bash é um interpretador de comandos, um entre os diversos tradutores entre o usuário e o sistema operacional conhecidos como shell. Acrônimo para "Bourne-Again SHell", o Bash é uma evolução retro-compatível muito mais interativa do Bourne Shell.
+
+[![Instalação do Python3](http://img.youtube.com/vi//0.jpg)]( "Instalação do Python3")
+
+Link da vídeo aula:
 
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
@@ -139,12 +143,22 @@ Menu
     Código Fonte: Visual Studio Code
     Texto Puro: Visual Studio Code
 
+#adicionando o VSCode na lista de Abrir com
+Gerenciador de Arquivos
+  Pasta Pessoal
+    Selecionar: Documentos
+      Clicar com o botão direito do mouse selecionar: Abrir com
+        Outro aplicativo
+          Visual Studio Code
+        <Adicionar a lista>
+      <OK>
+
 #executando o VSCode no Linux Mint
 Menu
   Busca Indexada: vscode
 ```
 
-#09_ Instalando e Configurando as Principais Extensões do Microsoft Visual Studio Code VSCode<br>
+#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
 ```bash
 #instalação da extensão PT-BR do VSCode
 Portuguese (Brazil) Language Pack for Visual Studio Code
