@@ -109,9 +109,9 @@ Conteúdo estudado nessa aula:<br>
 #10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 
-[![Instalação Python 3](http://img.youtube.com/vi//0.jpg)]( "Instalação Python 3")
+[![Instalação Python 3](http://img.youtube.com/vi/klIKuVGRHmM/0.jpg)](https://www.youtube.com/watch?v=klIKuVGRHmM "Instalação Python 3")
 
-Link da vídeo aula: 
+Link da vídeo aula: https://www.youtube.com/watch?v=klIKuVGRHmM
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/01-install.md
 

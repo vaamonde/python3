@@ -48,9 +48,9 @@ O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft p
 
 GNU Bash ou simplesmente Bash é um interpretador de comandos, um entre os diversos tradutores entre o usuário e o sistema operacional conhecidos como shell. Acrônimo para "Bourne-Again SHell", o Bash é uma evolução retro-compatível muito mais interativa do Bourne Shell.
 
-[![Instalação do Python3](http://img.youtube.com/vi//0.jpg)]( "Instalação do Python3")
+[![Instalação Python 3](http://img.youtube.com/vi/klIKuVGRHmM/0.jpg)](https://www.youtube.com/watch?v=klIKuVGRHmM "Instalação Python 3")
 
-Link da vídeo aula:
+Link da vídeo aula: https://www.youtube.com/watch?v=klIKuVGRHmM
 
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
 ```bash
