@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 22/09/2024<br>
-#Versão: 0.11<br>
+#Data de atualização: 23/09/2024<br>
+#Versão: 0.12<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -23,6 +23,10 @@ Conteúdo estudado nessa aula:<br>
 #10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 #12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
+
+OBSERVAÇÃO IMPORTANTE: COMENTAR NO VÍDEO DO INSTALAÇÃO DO PYTHON 3 SE VOCÊ CONSEGUIU FAZER A INSTALAÇÃO COM A SEGUINTE FRASE: Instalação do Python 3 e VSCode realizado com sucesso!!! #BoraParaPrática
+
+#boraparapratica #boraparaprática #vaamonde #robsonvaamonde #procedimentosemti #python3 #devops #desafiovaamonde #desafioboraparapratica #desafiopython3 #desafiovscode
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do PIP: https://pypi.org/<br>
@@ -125,32 +129,39 @@ idle-python3.12
 #07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 ```bash
 Link download: https://code.visualstudio.com/download
-  Versão: .deb (Debian, Ubuntu 64 Bits) <Salvar aquivo>
+  Versão: .deb x64 (Debian, Ubuntu 64 Bits) <Salvar aquivo>
 ```
 
 #08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
 ```bash
-#instalando em modo gráfico (mais fácil)
+#instalando em modo gráfico (mais fácil) o VSCode
 Arquivos
   Download
-    code_1.*_amd64
-      Instalar Pacote
+    Clique duas vezes no instalar: code_1.*_amd64.deb
+      <Instalar Pacote>
+        Digite sua senha e clique em: <Autenticar>
+        (ON) Add Microsoft apt repository for Visual Studio Code? <Next>
     <Fechar>
 
 #configurando o VSCode com editor de texto padrão
 Menu
   Aplicativos Preferenciais
-    Código Fonte: Visual Studio Code
-    Texto Puro: Visual Studio Code
+    Escritório
+      Código Fonte: Outro aplicativo
+        Visual Studio Code <Selecionar>
+    Sistema
+      Texto Puro: Outro aplicativo
+        Visual Studio Code <Selecionar>
+  <Fechar>
 
 #adicionando o VSCode na lista de Abrir com
 Gerenciador de Arquivos
   Pasta Pessoal
     Selecionar: Documentos
-      Clicar com o botão direito do mouse selecionar: Abrir com
+      Clicar com o botão direito do mouse no diretório: Documentos e selecionar: Abrir com
         Outro aplicativo
           Visual Studio Code
-        <Adicionar a lista>
+        <Adicionar à lista>
       <OK>
 
 #executando o VSCode no Linux Mint
@@ -180,7 +191,7 @@ Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
 
 #10_ Configurações básicas do VSCode para funcionar perfeitamente no Linux Mint<br>
 ```bash
-#configuração básica do VSCode para suportar o Python 3
+#configurações básicas do VSCode para funcionar no Linux Mint
 Gerenciar
   Configurações
     Code Spell Checker
@@ -230,20 +241,20 @@ Abrir a Pasta de Download
   <Close>
 
 #Download do VSCode para Microsoft Windows
+#OBSERVAÇÃO IMPORTANTE: RECOMENDADO SEMPRE UTILIZAR A OPÇÃO DE DOWNLOAD DA INSTALAÇÃO DO VSCODE
+#SYSTEM INSTALLER (INSTALAÇÃO DE SISTEMA), NÃO RECOMENDO USAR A OPÇÃO USER INSTALLER (INSTALAÇÃO
+#DE USUÁRIO) 
 Link download: https://code.visualstudio.com/download
   Windows (Windows 10 e 11)
-    User Installer: x64, Arm64
+    System Installer: x64 (clicar em cima do x64 para fazer o download do arquivo)
 
 Abrir a Pasta de Download
-  Clicar duas vezes no executável: VSCodeUserSetup-x64-*.exe
+  Clicar duas vezes no executável: VSCodeSetup-x64-*.exe
 
-  Microsoft Visual Studio Code (User) - Instalador
+  Microsoft Visual Studio Code - Instalador
     (ON) Eu aceito o acordo (ENABLE)
     <Próximo>
   Selecione o Local de Destino
-    Caminho padrão
-    <Próximo>
-  Selecionar a Pasta do Menu Iniciar
     Caminho padrão
     <Próximo>
   Selecionar Tarefas Adicionais
@@ -255,5 +266,5 @@ Abrir a Pasta de Download
     <Instalar>
   Completando o Assistente do Instalador do Visual Studio Code
     (ON) Iniciar o Visual Studio Code
-    <Concluir>
+  <Concluir>
 ```
