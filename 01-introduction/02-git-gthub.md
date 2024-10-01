@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 18/09/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 01/10/2024<br>
+#Versão: 0.05<br>
 
 Conteúdo estudado nessa configuração:<br>
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
@@ -19,7 +19,9 @@ Conteúdo estudado nessa configuração:<br>
 #06_ Clonando o Repositório Remoto do Python3 no Linux Mint<br>
 #07_ Abrindo nosso Repositório Local do Python3 com o VSCode no Linux Mint<br>
 #08_ Integrando o VSCode com o Github no Linux Mint<br>
-#09_ Instalando o Git Bash no Microsoft Windows 10<br>>
+#09_ Instalando o Git Bash no Microsoft Windows 10<br>
+#10_ Clonando o Repositório Remoto do Python 3 no Windows 10<br>
+#11_ Abrindo nosso Repositório Local do Python 3 com o VSCode no Windows 10<br>
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do PIP: https://pypi.org/<br>
@@ -130,6 +132,12 @@ About
 
 #06_ Clonando o Repositório Remoto do Python 3 no Linux Mint<br>
 ```bash
+#OBSERVAÇÃO IMPORTANTE: Sempre que você pressiona: Ctrl+Alt+T você abre o Bash/Shel (Terminal)
+#na Raiz do Perfil do seu usuário, exemplo: /home/vaamonde, caso queria clonar o diretório em
+#outro local utiliza o comando: cd ou dentro do Gerenciador de Arquivos, acesse o diretório
+#desejado, por exemplo: Documentos clique com o botão direito do mouse e selecione: Abrir no
+#Terminal.
+
 #clonando o Repositório Remoto do Github Localmente
 git clone https://github.com/rsvaamonde/python3
 
@@ -149,13 +157,41 @@ code .
 #OBSERVAÇÃO IMPORTANTE: Você também pode abrir o projeto utilizando o Gerenciador de
 #arquivos Nemo clicando com o botão direito do mouse no diretório de projeto do python
 #e escolhendo a opção: Abrir com o VSCode na lista de opções.
+Selecionar o diretório: python3
+  Clicar com o botão direito do mouse
+    Selecionar: Abrir Com depois: Visual Studio Code
 ```
 
 #08_ Integrando o VSCode com o Github no Linux Mint<br>
 ```bash
 #OBSERVAÇÃO IMPORTANTE: Dessa forma não existe a necessidade da criação do Token de
 #autenticação do Github com o VSCode, facilitando a integração do Repositório Local
-#com o Repositório Remoto
+#com o Repositório Remoto.
+
+#OBSERVAÇÃO IMPORTANTE: Para que a integração seja feita de forma correto é necessário
+#que no seu navegador padrão do seu sistema operacional esteja autenticado no Github.
+
+Pressionar Ctrl + J para abrir o Terminal
+
+#verificando atualizações no repositório remoto do Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-pull
+git pull
+
+#verificando o status do repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-status
+git status
+
+#adicionando as atualizações dos arquivos no repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-add
+git add .
+
+#comitando as mudanças do arquivos no repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-commit
+git commit -m "Meu primeiro commit"
+
+#enviando as mudanças do repositório local para o repositório remoto no Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-push
+git push
 ```
 
 #09_ Instalando o Git Bash no Microsoft Windows 10<br>
@@ -216,4 +252,21 @@ Abrir a Pasta de Download
   Completing the Git Setup Wizard
     (ON) Launch Git Bash
     <Finish>
+```
+
+#10_ Clonando o Repositório Remoto do Python 3 no Windows 10<br>
+```bash
+#clonando o Repositório Remoto do Github Localmente
+git clone https://github.com/rsvaamonde/python3
+
+#listando o conteúdo clonado
+#opção do comando ls: -l (list), -h (human-readable)
+ls -lh
+```
+
+#11_ Abrindo nosso Repositório Local do Python 3 com o VSCode no Windows 10<br>
+```bash
+Selecionar o diretório: python3
+  Clicar com o botão direito do mouse
+    Selecionar: Abrir Com depois: Visual Studio Code
 ```
