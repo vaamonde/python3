@@ -7,7 +7,7 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 01/10/2024<br>
+#Data de atualização: 02/10/2024<br>
 #Versão: 0.05<br>
 
 Conteúdo estudado nessa configuração:<br>
@@ -43,6 +43,10 @@ O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft p
 O Git (ou em inglês britânico) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. 
 
 O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+
+[![Instalação Git](http://img.youtube.com/vi/VBxmsmPK60s/0.jpg)](https://www.youtube.com/watch?v=VBxmsmPK60s "Instalação Git")
+
+Link da vídeo aula: https://www.youtube.com/watch?v=VBxmsmPK60s
 
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
 ```bash
@@ -188,7 +192,7 @@ cd python3/
 #abrindo o VSCode no repositório local do Python3
 code .
   Você confia nos autores dos arquivos nesta pasta?
-    (ON) Confiar nos autores de todos os arquivos na pata pai 'vaamonde'
+    (ON) Confiar nos autores de todos os arquivos na pasta pai 'vaamonde'
       <Sim, confio nos autores>
 
 #OBSERVAÇÃO IMPORTANTE: Você também pode abrir o projeto utilizando o Gerenciador de
@@ -238,7 +242,7 @@ git push
 
 #integração com o Github do VSCode no Linux Mint
 Visual Studio Code
-  A extensão do 'Github' quer entrar usando o Github
+  A extensão do 'GitHub' quer entrar usando o GitHub
     <Permitir>
 
 #liberação no navegador padrão da autenticação do Github
@@ -247,8 +251,8 @@ Select user to authorize
     Signed in as: SEU_USUÁRIO <Continue>
   Authorize Github for VS Code
     <Authorize Visual-Studio-Code>
-  Permitir que http://vscode.dev abre o link vscode com Visual Studio Code - URL
-    (OFF) Sempre permitir que https:// 
+  Permitir que http://vscode.dev abra o link vscode com Visual Studio Code - URL Handler?
+    (OFF) Sempre permitir que https:// vscode.dev abra links do tipo vscode
   <Abrir link>
 ```
 
@@ -436,7 +440,7 @@ git push
 Connect to Github
   Github Sig In
     Browser/Device
-      <Sign in with a code>
+      <Sign in with your browser>
 
 #liberação no navegador padrão da autenticação do Github
 Authorize Git Credential Manager

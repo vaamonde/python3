@@ -62,15 +62,15 @@ Conteúdo estudado nessa aula:<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 #12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
 
-[![Instalação Python 3](http://img.youtube.com/vi//0.jpg)]( "Instalação Python 3")
+[![Instalação Python 3](http://img.youtube.com/vi/klIKuVGRHmM/0.jpg)](https://www.youtube.com/watch?v=klIKuVGRHmM "Instalação Python 3")
 
-Link da vídeo aula: 
+Link da vídeo aula: https://www.youtube.com/watch?v=klIKuVGRHmM
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/01-install.md
 
-## **🤩🤩 Instalação do Python 3 e Integração com o VSCode no GNU/Linux (Linux Mint 22) e Windows 10 🤩🤩**
+## **🤩🤩 Configuração e Integração do Git e Github com o VSCode no GNU/Linux (Linux Mint 22) e Windows 10 🤩🤩**
 
-Vídeo de instalação e configuração do Git, Git Bash no GNU/Linux (Linux Mint 22), Windows 10 e integração com o Visual Studio Code (VSCode), nesse vídeo você vai aprender todos os procedimentos para instalar de forma correta o Git, Git Bash, criar uma conta no Github e fazer a integração nos dois sistemas operacionais mais utilizado para desenvolvimento.
+Vídeo de instalação e configuração do Git, Git Bash no GNU/Linux (Linux Mint 22), Windows 10 e integração com o Visual Studio Code (VSCode), nesse vídeo você vai aprender todos os procedimentos para instalar de forma correta o Git, Git Bash (Windows), criar uma conta no Github e fazer a integração nos dois sistemas operacionais mais utilizado para desenvolvimento.
 
 O Git (ou em inglês britânico) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. 
 
@@ -90,9 +90,9 @@ Conteúdo estudado nessa aula:<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
 #12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
 
-[![Instalação Git](http://img.youtube.com/vi//0.jpg)]( "Instalação Git")
+[![Instalação Git](http://img.youtube.com/vi/VBxmsmPK60s/0.jpg)](https://www.youtube.com/watch?v=VBxmsmPK60s "Instalação Git")
 
-Link da vídeo aula: 
+Link da vídeo aula: https://www.youtube.com/watch?v=VBxmsmPK60s
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/02-git-gthub.md
 
