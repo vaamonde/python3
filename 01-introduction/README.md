@@ -28,9 +28,9 @@ Github Procedimentos em TI: https://github.com/vaamonde<br>
 
 # INTRODUÇÃO DO CURSO DE PYTHON 3 NO DEVOPS INFRAESTRUTURA
 
-## **🤩🤩 Instalação do Python 3 e Integração com o VSCode no GNU/Linux (Linux Mint 22) 🤩🤩**
+## **🤩🤩 Instalação do Python 3 e Integração com o VSCode no GNU/Linux (Linux Mint 22) e Windows 10 🤩🤩**
 
-Vídeo de instalação e configuração da Linguagem de Programação de Python 3 no GNU/Linux (Linux Mint 22) e integração com o Visual Studio Code (VSCode), nesse vídeo você vai aprender todos os procedimentos para instalar de forma correta o Python e os seus Sub-Shell (Prompt) para testar os seus primeiros códigos e scripts.
+Vídeo de instalação e configuração da Linguagem de Programação de Python 3 no GNU/Linux (Linux Mint 22), Windows 10 e integração com o Visual Studio Code (VSCode), nesse vídeo você vai aprender todos os procedimentos para instalar de forma correta o Python e os seus Sub-Shell (Prompt) para testar os seus primeiros códigos e scripts.
 
 Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.
 
@@ -57,15 +57,44 @@ Conteúdo estudado nessa aula:<br>
 #06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
 #07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 #08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
-#09_ Instalando e Configurando as Principais Extensões Microsoft Visual Studio Code VSCode<br>
+#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
 #10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
 #11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
+#12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
 
 [![Instalação Python 3](http://img.youtube.com/vi//0.jpg)]( "Instalação Python 3")
 
 Link da vídeo aula: 
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/01-install.md
+
+## **🤩🤩 Instalação do Python 3 e Integração com o VSCode no GNU/Linux (Linux Mint 22) e Windows 10 🤩🤩**
+
+Vídeo de instalação e configuração do Git, Git Bash no GNU/Linux (Linux Mint 22), Windows 10 e integração com o Visual Studio Code (VSCode), nesse vídeo você vai aprender todos os procedimentos para instalar de forma correta o Git, Git Bash, criar uma conta no Github e fazer a integração nos dois sistemas operacionais mais utilizado para desenvolvimento.
+
+O Git (ou em inglês britânico) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. 
+
+O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+
+Conteúdo estudado nessa aula:<br>
+#01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
+#02_ Verificando a Versão o Python 3 e PIP instalado no Linux Mint<br>
+#03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
+#04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
+#05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
+#06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
+#07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
+#08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
+#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
+#10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
+#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
+#12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
+
+[![Instalação Git](http://img.youtube.com/vi//0.jpg)]( "Instalação Git")
+
+Link da vídeo aula: 
+
+Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/02-git-gthub.md
 
 ## **🤩🤩 Testando o Shell (Prompt) e IDE/IDLE do Python 3 no GNU/Linux (Linux Mint 22) 🤩🤩**
 

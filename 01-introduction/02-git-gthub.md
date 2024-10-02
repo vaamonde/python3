@@ -21,7 +21,12 @@ Conteúdo estudado nessa configuração:<br>
 #08_ Integrando o VSCode com o Github no Linux Mint<br>
 #09_ Instalando o Git Bash no Microsoft Windows 10<br>
 #10_ Clonando o Repositório Remoto do Python 3 no Windows 10<br>
-#11_ Abrindo nosso Repositório Local do Python 3 com o VSCode no Windows 10<br>
+#11_ Configurando o Git Bash no VSCode no Windows 10<br>
+#12_ Integrando o VSCode com o Github no Windows 10<br>
+
+OBSERVAÇÃO IMPORTANTE: COMENTAR NO VÍDEO DO INSTALAÇÃO DO GIT, GIT BASH E INTEGRAÇÃO DO GITHUB SE VOCÊ CONSEGUIU FAZER A INSTALAÇÃO COM A SEGUINTE FRASE: Integração do Git e Github no VSCode realizado com sucesso!!! #BoraParaPrática
+
+#boraparapratica #boraparaprática #vaamonde #robsonvaamonde #procedimentosemti #python3 #devops #desafiovaamonde #desafioboraparapratica #desafiopython3 #desafiovscode
 
 Site Oficial do Python: https://www.python.org/<br>
 Site Oficial do PIP: https://pypi.org/<br>
@@ -41,6 +46,8 @@ O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com control
 
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
 ```bash
+#verificando a versão instalada do Git
+#Documentação oficial do Git: https://git-scm.com/docs/git-version
 #opção do comando git: --version (version)
 git --version
 ```
@@ -52,38 +59,63 @@ git --version
 #git pull
 
 #Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), user.name (The user.name variables determine what ends up in the author and 
+#committer fields of commit objects.)
 git config --global user.name "Robson Vaamonde"
 
 #Seu endereço de e-mail que vai ser utilizado em qualquer commit (confirmação) recém-criado.
 #DICA: recomendo você usar o seu endereço de email utilizado na autenticação do Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), user.mail (The user.email variables determine what ends up in the author and 
+#committer fields of commit objects.)
 git config --global user.email seu_email@seu_domínio.com
 
 #Seu editor de texto padrão para todos os commit (confirmação) e tags.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), core.editor (Commands such as commit and tag that let you edit messages by 
+#launching an editor use the value of this variable when it is set)
 git config --global core.editor vim
 
 #Seu software de mesclagem que vai ser utilizado pelo git-mergetool para comparar arquivos.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), merge.tool (Controls which merge tool is used by git-mergetool)
 git config --global merge.tool vimdiff
 
 #Habilitando o uso de cores do comando git.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), color.ui (This variable determines the default value for variables such as 
+#color.diff and color.grep that control the use of color per command family)
 git config --global color.ui true
 
 #Listando todas as variáveis definidas no arquivo de configuração do Git, junto com seus valores.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), --list (List all variables set in config file, along with their values)
 git config --list
   Q (quit) para sair
 
 #Localização do arquivo de configuração do Git no Linux Mint.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
 #opção do comando ls: -l (long listing), -h (human-readable), -a (all), ~ (directory home)
 ls -lha ~/.gitconfig
 
 #listando o conteúdo do arquivo gitconfig
-cat ~/.gitconfig
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando cat: -n (number line)
+cat -n ~/.gitconfig
 ```
 
 #03_ Criando uma conta de acesso ao Github (CASO VOCÊ AINDA NÃO TENHA UMA)<br>
 ```bash
 Link Oficial do Projeto do Github: https://github.com
 
-01) no canto superior do site clique em: Sing up;
+01) no canto superior do site clique em: Sing up (Inscrever-se);
 02) no campo: Enter your email - digite o seu email para o cadastro e clique em: <Continue>
 03) no campo: Create a password - digite a sua senha e clique em: <Continue>
 04) no campo: Enter a username - digite o nome do seu usuário do Github <Continue>
@@ -139,6 +171,8 @@ About
 #Terminal.
 
 #clonando o Repositório Remoto do Github Localmente
+#Documentação oficial do Git: https://git-scm.com/docs/git-clone
+#opção do comando git: clone ( Clone a repository into a new directory)
 git clone https://github.com/rsvaamonde/python3
 
 #listando o conteúdo clonado
@@ -153,6 +187,9 @@ cd python3/
 ```bash
 #abrindo o VSCode no repositório local do Python3
 code .
+  Você confia nos autores dos arquivos nesta pasta?
+    (ON) Confiar nos autores de todos os arquivos na pata pai 'vaamonde'
+      <Sim, confio nos autores>
 
 #OBSERVAÇÃO IMPORTANTE: Você também pode abrir o projeto utilizando o Gerenciador de
 #arquivos Nemo clicando com o botão direito do mouse no diretório de projeto do python
@@ -175,23 +212,44 @@ Pressionar Ctrl + J para abrir o Terminal
 
 #verificando atualizações no repositório remoto do Github
 #Documentação oficial do Git: https://git-scm.com/docs/git-pull
+#opção do comando git: pull (etch from and integrate with another repository or a local branch)
 git pull
 
 #verificando o status do repositório local
 #Documentação oficial do Git: https://git-scm.com/docs/git-status
+#opção do comando git: status (Show the working tree status)
 git status
 
 #adicionando as atualizações dos arquivos no repositório local
 #Documentação oficial do Git: https://git-scm.com/docs/git-add
+#opção do comando git: add (Add file contents to the index), . (all file and directory add)
 git add .
 
 #comitando as mudanças do arquivos no repositório local
 #Documentação oficial do Git: https://git-scm.com/docs/git-commit
+#opção do comando git: commit (Record changes to the repository), -m --message (Use the given 
+#<msg> as the commit message.)
 git commit -m "Meu primeiro commit"
 
 #enviando as mudanças do repositório local para o repositório remoto no Github
 #Documentação oficial do Git: https://git-scm.com/docs/git-push
+#opção do comando git: push (Update remote refs along with associated objects)
 git push
+
+#integração com o Github do VSCode no Linux Mint
+Visual Studio Code
+  A extensão do 'Github' quer entrar usando o Github
+    <Permitir>
+
+#liberação no navegador padrão da autenticação do Github
+Select user to authorize
+  Github for VS Code
+    Signed in as: SEU_USUÁRIO <Continue>
+  Authorize Github for VS Code
+    <Authorize Visual-Studio-Code>
+  Permitir que http://vscode.dev abre o link vscode com Visual Studio Code - URL
+    (OFF) Sempre permitir que https:// 
+  <Abrir link>
 ```
 
 #09_ Instalando o Git Bash no Microsoft Windows 10<br>
@@ -202,8 +260,8 @@ Link de download do Git: https://git-scm.com/download/win
 
 Abrir a Pasta de Download
   Clicar duas vezes no executável: Git-*-64-bit.exe
+    Deseja permitir que este aplicativo faça alterações no seu dispositivo? <Sim>
 
-  Deseja permitir que este aplicativo faça alterações no seu dispositivo? <Sim>
   Information
     <Next>
   Select Destination Location
@@ -251,6 +309,7 @@ Abrir a Pasta de Download
     <Install>
   Completing the Git Setup Wizard
     (ON) Launch Git Bash
+    (ON) View RElease Notes
     <Finish>
 ```
 
@@ -261,12 +320,125 @@ git clone https://github.com/rsvaamonde/python3
 
 #listando o conteúdo clonado
 #opção do comando ls: -l (list), -h (human-readable)
-ls -lh
-```
+ls -lh python3
 
-#11_ Abrindo nosso Repositório Local do Python 3 com o VSCode no Windows 10<br>
-```bash
+#acessando diretório do Python 3 clonado
+cd python3
+
+#abrindo o VSCode no repositório local do Python3
+code .
+  Você confia nos autores dos arquivos nesta pasta?
+    (ON) Confiar nos autores de todos os arquivos na pata pai 'vaamonde'
+      <Sim, confio nos autores>
+
+#OBSERVAÇÃO IMPORTANTE: Você também pode abrir o projeto utilizando o Gerenciador de
+#arquivos Explorer clicando com o botão direito do mouse no diretório de projeto do python
+#e escolhendo a opção: Abrir com o VSCode na lista de opções.
 Selecionar o diretório: python3
   Clicar com o botão direito do mouse
     Selecionar: Abrir Com depois: Visual Studio Code
+```
+
+#11_ Configurando o Git Bash no VSCode no Windows 10<br>
+```bash
+#abrindo o Terminal no VScode no Windows
+Pressionar Ctrl + J para abrir o Terminal
+
+#alterando o terminal do Powershell para Gitbash
++ (Seta selecionar terminal)
+  Selecionar: Git Bash
+
+#OBSERVAÇÃO IMPORTANTE: Essas informações são obrigatórias para os comandos: git add e
+#git commint que serão utilizadas antes de enviar os arquivos para o Github com o comando
+#git pull
+
+#Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), user.name (The user.name variables determine what ends up in the author and 
+#committer fields of commit objects.)
+git config --global user.name "Robson Vaamonde"
+
+#Seu endereço de e-mail que vai ser utilizado em qualquer commit (confirmação) recém-criado.
+#DICA: recomendo você usar o seu endereço de email utilizado na autenticação do Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), user.mail (The user.email variables determine what ends up in the author and 
+#committer fields of commit objects.)
+git config --global user.email seu_email@seu_domínio.com
+
+#Seu editor de texto padrão para todos os commit (confirmação) e tags.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), core.editor (Commands such as commit and tag that let you edit messages by 
+#launching an editor use the value of this variable when it is set)
+git config --global core.editor vim
+
+#Seu software de mesclagem que vai ser utilizado pelo git-mergetool para comparar arquivos.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), merge.tool (Controls which merge tool is used by git-mergetool)
+git config --global merge.tool vimdiff
+
+#Habilitando o uso de cores do comando git.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), color.ui (This variable determines the default value for variables such as 
+#color.diff and color.grep that control the use of color per command family)
+git config --global color.ui true
+
+#Listando todas as variáveis definidas no arquivo de configuração do Git, junto com seus valores.
+#Documentação oficial do Git: https://git-scm.com/docs/git-config
+#opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
+#.git/config), --list (List all variables set in config file, along with their values)
+git config --list
+  Q (quit) para sair
+```
+
+#12_ Integrando o VSCode com o Github no Windows 10<br>
+```bash
+#OBSERVAÇÃO IMPORTANTE: Dessa forma não existe a necessidade da criação do Token de
+#autenticação do Github com o VSCode, facilitando a integração do Repositório Local
+#com o Repositório Remoto.
+
+#OBSERVAÇÃO IMPORTANTE: Para que a integração seja feita de forma correto é necessário
+#que no seu navegador padrão do seu sistema operacional esteja autenticado no Github.
+
+Pressionar Ctrl + J para abrir o Terminal
+
+#verificando atualizações no repositório remoto do Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-pull
+#opção do comando git: pull (etch from and integrate with another repository or a local branch)
+git pull
+
+#verificando o status do repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-status
+#opção do comando git: status (Show the working tree status)
+git status
+
+#adicionando as atualizações dos arquivos no repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-add
+#opção do comando git: add (Add file contents to the index), . (all file and directory add)
+git add .
+
+#comitando as mudanças do arquivos no repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-commit
+#opção do comando git: commit (Record changes to the repository), -m --message (Use the given 
+#<msg> as the commit message.)
+git commit -m "Meu segundo commit"
+
+#enviando as mudanças do repositório local para o repositório remoto no Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-push
+#opção do comando git: push (Update remote refs along with associated objects)
+git push
+
+#integração com o Github do VSCode no Windows 10
+Connect to Github
+  Github Sig In
+    Browser/Device
+      <Sign in with a code>
+
+#liberação no navegador padrão da autenticação do Github
+Authorize Git Credential Manager
+  <Authorize git-ecosystem>
 ```
