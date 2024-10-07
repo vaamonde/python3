@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 18/08/2024<br>
-#Versão: 0.07<br>
+#Data de atualização: 07/10/2024<br>
+#Versão: 0.08<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
@@ -309,9 +309,9 @@ print("A área do retângulo é", area, "unidades quadradas")
 ```
 ```bash
 #Testando o arquivo de script em Python 3 no Terminal: Ctrl+Alt+T
-#Diretório dos scripts em Python: /home/vaamonde/Documentos/python3/ScriptsPython
+#Diretório dos scripts em Python: /home/vaamonde/python3/ScriptsPython
 #Acessando o diretório dos script em Python 3 no Linux Mint
-cd /home/vaamonde/Documentos/python3/ScriptsPython
+cd /home/vaamonde/python3/ScriptsPython
 
 #Executando o arquivo de script em Python 3 no Terminal
 python3 02-area_retangulo.py
@@ -342,9 +342,9 @@ print("Sua idade é:", idade, "anos")
 ```
 ```bash
 #Testando o arquivo de script em Python 3 no Terminal: Ctrl + Alt + T (Terminal)
-#Diretório dos scripts em Python: /home/vaamonde/Documentos/python3/ScriptsPython
+#Diretório dos scripts em Python: /home/vaamonde/python3/ScriptsPython
 #Acessando o diretório dos script em Python 3 no Linux Mint
-cd /home/vaamonde/Documentos/python3/ScriptsPython
+cd /home/vaamonde/python3/ScriptsPython
 
 #Executando o arquivo de script em Python 3 no Terminal
 bash 03-idade_simples.py
