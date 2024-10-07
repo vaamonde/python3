@@ -57,10 +57,13 @@ Conteúdo estudado nessa aula:<br>
 #06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
 #07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 #08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
-#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
+#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode no Linux Mint<br>
 #10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
-#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
+#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) Linux Mint<br>
 #12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
+#13_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode no Windows 10<br>
+#14_ Configurações básicas do VSCode para funcionar perfeitamente no Windows 10<br>
+#15_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Windows 10<br>
 
 [![Instalação Python 3](http://img.youtube.com/vi/klIKuVGRHmM/0.jpg)](https://www.youtube.com/watch?v=klIKuVGRHmM "Instalação Python 3")
 
@@ -76,21 +79,21 @@ O Git (ou em inglês britânico) é um sistema de controle de versões distribu�
 
 O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
-Conteúdo estudado nessa aula:<br>
-#01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
-#02_ Verificando a Versão o Python 3 e PIP instalado no Linux Mint<br>
-#03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
-#04_ Testando o Shell (Prompt) do IPython do Python 3 no Linux<br>
-#05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
-#06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
-#07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
-#08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
-#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
-#10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
-#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
-#12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
+Conteúdo estudado nessa configuração:<br>
+#01_ Verificando a Versão do Git instalado no Linux Mint<br>
+#02_ Configurações Básicas do Git Localmente no Linux Mint<br>
+#03_ Criando uma conta de acesso ao Github (CASO VOCÊ AINDA NÃO TENHA UMA)<br>
+#04_ Criando nosso Repositório Remoto do Python3 no Github<br>
+#05_ Personalizando o nosso primeiro Repositório Remoto no Github<br>
+#06_ Clonando o Repositório Remoto do Python3 no Linux Mint<br>
+#07_ Abrindo nosso Repositório Local do Python3 com o VSCode no Linux Mint<br>
+#08_ Integrando o VSCode com o Github no Linux Mint<br>
+#09_ Instalando o Git Bash no Microsoft Windows 10<br>
+#10_ Clonando o Repositório Remoto do Python 3 no Windows 10<br>
+#11_ Configurando o Git Bash no VSCode no Windows 10<br>
+#12_ Integrando o VSCode com o Github no Windows 10<br>
 
-[![Instalação Git](http://img.youtube.com/vi/VBxmsmPK60s/0.jpg)](https://www.youtube.com/watch?v=VBxmsmPK60s "Instalação Git")
+[![Integração Git](http://img.youtube.com/vi/VBxmsmPK60s/0.jpg)](https://www.youtube.com/watch?v=VBxmsmPK60s "Integração Git")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=VBxmsmPK60s
 

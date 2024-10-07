@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 02/10/2024<br>
-#Versão: 0.05<br>
+#Data de atualização: 07/10/2024<br>
+#Versão: 0.06<br>
 
 Conteúdo estudado nessa configuração:<br>
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
@@ -139,6 +139,7 @@ Link Oficial do Projeto do Github: https://github.com
 
 #04_ Criando nosso Repositório Remoto do Python 3 no Github<br>
 ```bash
+#criando nosso primeiro repositório no Github
 New Repository
   Owner: rsvaamonde
   Repository name: python3
@@ -154,6 +155,7 @@ New Repository
 
 #05_ Personalizando o nosso primeiro Repositório Remoto no Github<br>
 ```bash
+#personalizando nosso repositório no Github
 About
   Edit repository details
     Description: (Emoji https://gist.github.com/rxaviers/7360908) 
@@ -262,6 +264,7 @@ Select user to authorize
 Link de download do Git: https://git-scm.com/download/win
   Standalone Installer: 64-bit Git for Windows Setup.
 
+#instalando o Git Bash no Windows
 Abrir a Pasta de Download
   Clicar duas vezes no executável: Git-*-64-bit.exe
     Deseja permitir que este aplicativo faça alterações no seu dispositivo? <Sim>
@@ -319,6 +322,10 @@ Abrir a Pasta de Download
 
 #10_ Clonando o Repositório Remoto do Python 3 no Windows 10<br>
 ```bash
+#OBSERVAÇÃO IMPORTANTE: Igual que acontece no GNU/Linux quando você pressiona: Ctrl+alt+T
+#você cai no terminal e perfil padrão do usuário, no Windows é igual, quando você executa
+#o Powershell ele abre o terminal em: c:\users\seu_usuário
+
 #clonando o Repositório Remoto do Github Localmente
 git clone https://github.com/rsvaamonde/python3
 
@@ -345,6 +352,9 @@ Selecionar o diretório: python3
 
 #11_ Configurando o Git Bash no VSCode no Windows 10<br>
 ```bash
+#OBSERVAÇÃO IMPORTANTE: Por padrão o Powershell é o Terminal no VSCode do Windows, não esqueça
+#de mudar o terminal ou configurar ele na opção: Terminal › Integrated › Default Profile: Linux
+
 #abrindo o Terminal no VScode no Windows
 Pressionar Ctrl + J para abrir o Terminal
 

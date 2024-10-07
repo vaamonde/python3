@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 02/10/2024<br>
-#Versão: 0.13<br>
+#Data de atualização: 07/10/2024<br>
+#Versão: 0.14<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -19,10 +19,13 @@ Conteúdo estudado nessa aula:<br>
 #06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
 #07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
 #08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
-#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
+#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode no Linux Mint<br>
 #10_ Configurações do VSCode para funcionar perfeitamente no Linux Mint<br>
-#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
+#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) Linux Mint<br>
 #12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
+#13_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode no Windows 10<br>
+#14_ Configurações básicas do VSCode para funcionar perfeitamente no Windows 10<br>
+#15_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Windows 10<br>
 
 OBSERVAÇÃO IMPORTANTE: COMENTAR NO VÍDEO DO INSTALAÇÃO DO PYTHON 3 SE VOCÊ CONSEGUIU FAZER A INSTALAÇÃO COM A SEGUINTE FRASE: Instalação do Python 3 e VSCode realizado com sucesso!!! #BoraParaPrática
 
@@ -209,7 +212,7 @@ Gerenciar
       Files: Eol: \n (LF)
 ```
 
-#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code)<br>
+#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Linux Mint<br>
 ```bash
 #A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:
 #Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
@@ -267,4 +270,57 @@ Abrir a Pasta de Download
   Completando o Assistente do Instalador do Visual Studio Code
     (ON) Iniciar o Visual Studio Code
   <Concluir>
+```
+
+#13_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode no Windows<br>
+```bash
+#instalação da extensão PT-BR do VSCode
+Portuguese (Brazil) Language Pack for Visual Studio Code
+  (Sem necessidade de configuração)
+
+#instalação e configuração da extensão do Corretor Ortográfico PT-BR e US
+Brazilian Portuguese - Code Spell Checker (Corretor Ortográfico de Código)
+Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
+  Pressionar F1
+    Show Spell Checker Configuration Info
+      User
+        Language
+          English (en_us)
+          Portuguese (pt_br)
+          Portuguese - Brazil (pt-br)
+            File Types and Programming Languages
+              shellscript, python, markdown, etc...
+```
+
+#14_ Configurações básicas do VSCode para funcionar perfeitamente no Windows<br>
+```bash
+#configurações básicas do VSCode para funcionar no Windows
+Gerenciar
+  Configurações
+    Code Spell Checker
+      C Spell: Enabled Language Ids: 
+        Adicionar Item: shellscript
+      C Spell: Language: en,en-US,pt,pt-BR
+      C Spell: Max Duplicate Problems: 500000
+      C Spell: Max Number Of Problems: 500000
+    Editor
+      Editor: Tab Size: 2
+      Editor: Detect Indentation: False (Off)
+      Editor: Insert Spaces: True (On)
+      Render Whitespace: All
+    Files
+      Files: Eol: \n (LF)
+```
+
+#15_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Windows<br>
+```bash
+#A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:
+#Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
+
+#Instalando as Extensões do Python 3 no VSCode
+VSCode
+  Extensões
+    Pesquisar:
+     Python (Microsoft) <Instalar>
+     Python Debugger (Microsoft) <Instalar>
 ```
