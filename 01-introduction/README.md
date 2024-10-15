@@ -111,6 +111,7 @@ Conteúdo estudado nessa aula:<br>
 #05_ Testando um arquivo Python com Extensão .py no VSCode (Visual Studio Code)<br>
 #06_ Testando um arquivo Python com Extensão .py no Terminal<br>
 #07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
+#08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
 
 [![Testando Python 3](http://img.youtube.com/vi//0.jpg)]( "Testando Python 3")
 

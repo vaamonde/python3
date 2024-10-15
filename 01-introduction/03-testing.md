@@ -18,6 +18,7 @@ Conteúdo estudado nessa aula:<br>
 #05_ Testando um arquivo Python com Extensão .py no VSCode (Visual Studio Code)<br>
 #06_ Testando um arquivo Python com Extensão .py no Terminal<br>
 #07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
+#08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
 
 Python3 é o interpretador padrão Python geralmente é instalado em: /usr/local/bin/python3.x nas máquinas onde está disponível. Os recursos de edição de linha do interpretador incluem edição interativa, substituição de histórico e conclusão de código em sistemas que suportam a biblioteca GNU Readline.
 
@@ -358,4 +359,23 @@ chmod +x 03-idade_simples.py
 #o ponto significa diretório atual; a barra serve para separar o diretório do 
 #nome do arquivo
 ./03-idade_simples.py
+```
+
+#08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
+```bash
+#adicionando as atualizações dos arquivos no repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-add
+#opção do comando git: add (Add file contents to the index), . (all file and directory add)
+git add .
+
+#comitando as mudanças dos arquivos no repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-commit
+#opção do comando git: commit (Record changes to the repository), -m --message (Use the given 
+#<msg> as the commit message.)
+git commit -m "Primeiros Scripts em Python"
+
+#enviando as mudanças do repositório local para o repositório remoto no Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-push
+#opção do comando git: push (Update remote refs along with associated objects)
+git push
 ```
