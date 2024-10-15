@@ -161,9 +161,9 @@ Conteúdo estudado nessa aula:<br>
 #07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
 #08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
 
-[![Testando Python 3](http://img.youtube.com/vi//0.jpg)]( "Testando Python 3")
+[![Testes do Python 3](http://img.youtube.com/vi/uODrdZP4y78/0.jpg)](https://www.youtube.com/watch?v=uODrdZP4y78 "Testes do Python 3")
 
-Link da vídeo aula: 
+Link da vídeo aula: https://www.youtube.com/watch?v=uODrdZP4y78
 
 Link da documentação: https://github.com/vaamonde/python3/blob/main/01-introduction/02-testing.md
 

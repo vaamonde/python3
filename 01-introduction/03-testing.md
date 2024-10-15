@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 07/10/2024<br>
-#Versão: 0.08<br>
+#Data de atualização: 15/10/2024<br>
+#Versão: 0.09<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
@@ -20,6 +20,10 @@ Conteúdo estudado nessa aula:<br>
 #07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
 #08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
 
+OBSERVAÇÃO IMPORTANTE: COMENTAR NO VÍDEO TESTE DO PYTHON 3 SE VOCÊ CONSEGUIU FAZER OS TESTES COM A SEGUINTE FRASE: Testes do Python 3 realizado com sucesso!!! #BoraParaPrática
+
+#boraparapratica #boraparaprática #vaamonde #robsonvaamonde #procedimentosemti #python3 #devops #desafiovaamonde #desafioboraparapratica #desafiopython3 #desafiovscode
+
 Python3 é o interpretador padrão Python geralmente é instalado em: /usr/local/bin/python3.x nas máquinas onde está disponível. Os recursos de edição de linha do interpretador incluem edição interativa, substituição de histórico e conclusão de código em sistemas que suportam a biblioteca GNU Readline.
 
 IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
@@ -29,6 +33,10 @@ BPython é um intérprete interativo para Python, similar ao IPython, mas com fo
 IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
 
 O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+
+[![Testes do Python 3](http://img.youtube.com/vi/uODrdZP4y78/0.jpg)](https://www.youtube.com/watch?v=uODrdZP4y78 "Testes do Python 3")
+
+Link da vídeo aula: https://www.youtube.com/watch?v=uODrdZP4y78
 
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
 ```bash
@@ -314,6 +322,10 @@ print("A área do retângulo é", area, "unidades quadradas")
 #Acessando o diretório dos script em Python 3 no Linux Mint
 cd /home/vaamonde/python3/ScriptsPython
 
+#Listando o conteúdo do diretório de Scripts do Python
+#opção do comando ls: -l (long listing format), -h (human-readable)
+ls -lh
+
 #Executando o arquivo de script em Python 3 no Terminal
 python3 02-area_retangulo.py
 ipython3 02-area_retangulo.pyy
@@ -331,9 +343,9 @@ bpython 02-area_retangulo.py
 #Cálculo simples de idade utilizando as funções INT(), INPUT() e PRINT()
 
 #!/usr/bin/python3
-ano_atual=int(input("Digite o Ano Atual: "))
-ano_nasc=int(input("Digite o Ano do seu Nascimento: "))
-idade=int(ano_atual - ano_nasc)
+ano_atual = int(input("Digite o Ano Atual: "))
+ano_nasc = int(input("Digite o Ano do seu Nascimento: "))
+idade = int(ano_atual - ano_nasc)
 print()
 print("Sua idade é:", idade, "anos")
 
@@ -347,12 +359,13 @@ print("Sua idade é:", idade, "anos")
 #Acessando o diretório dos script em Python 3 no Linux Mint
 cd /home/vaamonde/python3/ScriptsPython
 
-#Executando o arquivo de script em Python 3 no Terminal
-bash 03-idade_simples.py
+#Listando o conteúdo do diretório de Scripts do Python
+#opção do comando ls: -l (long listing format), -h (human-readable)
+ls -lh
 
 #Alterando as permissões do arquivo de script em Python 3 no Terminal
-#opção do comando chmod: + (added operator), x (execute)
-chmod +x 03-idade_simples.py
+#opção do comando chmod: -v (verbose), + (added operator), x (execute)
+chmod -v +x 03-idade_simples.py
 
 #Executando o arquivo de script em Python 3 no Terminal
 #opção dos caracteres ./ (dot slash): serve para indicar o caminho do executável; 
@@ -363,6 +376,16 @@ chmod +x 03-idade_simples.py
 
 #08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
 ```bash
+#verificando as atualizações no repositório remoto do Github
+#Documentação oficial do Git: https://git-scm.com/docs/git-pull
+#opção do comando git: pull (etch from and integrate with another repository or a local branch)
+git pull
+
+#verificando o status do repositório local
+#Documentação oficial do Git: https://git-scm.com/docs/git-status
+#opção do comando git: status (Show the working tree status)
+git status
+
 #adicionando as atualizações dos arquivos no repositório local
 #Documentação oficial do Git: https://git-scm.com/docs/git-add
 #opção do comando git: add (Add file contents to the index), . (all file and directory add)
