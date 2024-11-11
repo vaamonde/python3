@@ -59,7 +59,7 @@ git --version
 #02_ Configurações Básicas do Git Localmente no Linux Mint<br>
 ```bash
 #OBSERVAÇÃO IMPORTANTE: Essas informações são obrigatórias para os comandos: git add e
-#git commint que serão utilizadas antes de enviar os arquivos para o Github com o comando
+#git commit que serão utilizadas antes de enviar os arquivos para o Github com o comando
 #git pull
 
 #Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
