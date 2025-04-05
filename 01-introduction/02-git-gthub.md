@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 07/10/2024<br>
-#Versão: 0.06<br>
+#Data de atualização: 05/04/2025<br>
+#Versão: 0.07<br>
 
 Conteúdo estudado nessa configuração:<br>
 #01_ Verificando a Versão do Git instalado no Linux Mint<br>
@@ -24,7 +24,7 @@ Conteúdo estudado nessa configuração:<br>
 #11_ Configurando o Git Bash no VSCode no Windows 10<br>
 #12_ Integrando o VSCode com o Github no Windows 10<br>
 
-OBSERVAÇÃO IMPORTANTE: COMENTAR NO VÍDEO DO INSTALAÇÃO DO GIT, GIT BASH E INTEGRAÇÃO DO GITHUB SE VOCÊ CONSEGUIU FAZER A INSTALAÇÃO COM A SEGUINTE FRASE: Integração do Git e Github no VSCode realizado com sucesso!!! #BoraParaPrática
+**OBSERVAÇÃO IMPORTANTE:** COMENTAR NO VÍDEO DO INSTALAÇÃO DO GIT, GIT BASH E INTEGRAÇÃO DO GITHUB SE VOCÊ CONSEGUIU FAZER A INSTALAÇÃO COM A SEGUINTE FRASE: *Integração do Git e Github no VSCode realizado com sucesso!!! #BoraParaPrática*
 
 #boraparapratica #boraparaprática #vaamonde #robsonvaamonde #procedimentosemti #python3 #devops #desafiovaamonde #desafioboraparapratica #desafiopython3 #desafiovscode
 
@@ -34,21 +34,21 @@ Site Oficial do VSCode: https://code.visualstudio.com/<br>
 Site Oficial do Git: https://git-scm.com/<br>
 Site Oficial do Github: https://github.com/
 
-Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.
+**O QUE É E PARA QUE SERVER O PYTHON:** O Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.
 
-PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições do Python vem com o pip pré-instalado.
+**O QUE É E PARA QUE SERVER O PIP:** O PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições do Python vem com o pip pré-instalado.
 
-O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+**O QUE É E PARA QUE SERVER O VSCODE:** O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
-O Git (ou em inglês britânico) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. 
+**O QUE É E PARA QUE SERVER O GIT:** O Git (ou em inglês britânico) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. 
 
-O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+**O QUE É E PARA QUE SERVER O GITHUB:** O GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
 [![Instalação Git](http://img.youtube.com/vi/VBxmsmPK60s/0.jpg)](https://www.youtube.com/watch?v=VBxmsmPK60s "Instalação Git")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=VBxmsmPK60s
 
-#01_ Verificando a Versão do Git instalado no Linux Mint<br>
+## 01_ Verificando a Versão do Git instalado no Linux Mint
 ```bash
 #verificando a versão instalada do Git
 #Documentação oficial do Git: https://git-scm.com/docs/git-version
@@ -56,12 +56,11 @@ Link da vídeo aula: https://www.youtube.com/watch?v=VBxmsmPK60s
 git --version
 ```
 
-#02_ Configurações Básicas do Git Localmente no Linux Mint<br>
-```bash
-#OBSERVAÇÃO IMPORTANTE: Essas informações são obrigatórias para os comandos: git add e
-#git commit que serão utilizadas antes de enviar os arquivos para o Github com o comando
-#git pull
+## 02_ Configurações Básicas do Git Localmente no Linux Mint
 
+**OBSERVAÇÃO IMPORTANTE:** Essas informações são obrigatórias para os comandos: *git add* e *git commit* que serão utilizadas antes de enviar os arquivos para o Github com o comando: *git pull*.
+
+```bash
 #Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
 #Documentação oficial do Git: https://git-scm.com/docs/git-config
 #opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
@@ -115,29 +114,24 @@ ls -lha ~/.gitconfig
 cat -n ~/.gitconfig
 ```
 
-#03_ Criando uma conta de acesso ao Github (CASO VOCÊ AINDA NÃO TENHA UMA)<br>
-```bash
+## 03_ Criando uma conta de acesso ao Github (CASO VOCÊ AINDA NÃO TENHA UMA)
+
 Link Oficial do Projeto do Github: https://github.com
 
-01) no canto superior do site clique em: Sing up (Inscrever-se);
-02) no campo: Enter your email - digite o seu email para o cadastro e clique em: <Continue>
-03) no campo: Create a password - digite a sua senha e clique em: <Continue>
-04) no campo: Enter a username - digite o nome do seu usuário do Github <Continue>
+01) no canto superior do site clique em: Sing up (Inscrever-se);<br>
+02) no campo: Enter your email - digite o seu email para o cadastro e clique em: <Continue><br>
+03) no campo: Create a password - digite a sua senha e clique em: <Continue><br>
+04) no campo: Enter a username - digite o nome do seu usuário do Github <Continue><br>
 
-#OBSERVAÇÃO IMPORTANTE: o nome de usuário no Github será utilizado como Repositório Base, 
-#por exemplo o Repositório Base do Projeto Bora para Prática é: https://github.com/vaamonde
-#(vaamonde), recomendo sempre criar o seu usuário tudo em minúscula, sem acentuação, sem
-#espaço, nome que seja legível, fácil entendimento pois esse usuário será utilizado como 
-#referência para o seu projeto.
+**OBSERVAÇÃO IMPORTANTE:** o nome de usuário no Github será utilizado como *Repositório Base*, por exemplo o Repositório Base do Projeto Bora para Prática é: https://github.com/vaamonde (vaamonde), recomendo sempre criar o seu usuário tudo em minúscula, sem acentuação, sem espaço, nome que seja legível, fácil entendimento pois esse usuário será utilizado como referência para o seu projeto.
 
-05) no campo: Would you like to receive product updates and announcements via emails? - digite n e clique em? <Continue>
-06) na tela de: Verify your account: clique em: <Verificar>
-07) selecione depois nos quadros os dois objetivos idênticos e clique em: <Create account>
-08) no campo: You are almost done! digite no campo: Enter code o código enviado para o seu email.
-09) na tela de: Welcome to Github clique em: <Skip personalization>
-```
+05) no campo: Would you like to receive product updates and announcements via emails? - digite n e clique em? <Continue><br>
+06) na tela de: Verify your account: clique em: <Verificar><br>
+07) selecione depois nos quadros os dois objetivos idênticos e clique em: <Create account><br>
+08) no campo: You are almost done! digite no campo: Enter code o código enviado para o seu email.<br>
+09) na tela de: Welcome to Github clique em: <Skip personalization><br>
 
-#04_ Criando nosso Repositório Remoto do Python 3 no Github<br>
+## 04_ Criando nosso Repositório Remoto do Python 3 no Github
 ```bash
 #criando nosso primeiro repositório no Github
 New Repository
@@ -153,7 +147,7 @@ New Repository
 <Create repository>
 ```
 
-#05_ Personalizando o nosso primeiro Repositório Remoto no Github<br>
+## 05_ Personalizando o nosso primeiro Repositório Remoto no Github
 ```bash
 #personalizando nosso repositório no Github
 About
@@ -168,14 +162,11 @@ About
 <Save changes>
 ```
 
-#06_ Clonando o Repositório Remoto do Python 3 no Linux Mint<br>
-```bash
-#OBSERVAÇÃO IMPORTANTE: Sempre que você pressiona: Ctrl+Alt+T você abre o Bash/Shel (Terminal)
-#na Raiz do Perfil do seu usuário, exemplo: /home/vaamonde, caso queria clonar o diretório em
-#outro local utiliza o comando: cd ou dentro do Gerenciador de Arquivos, acesse o diretório
-#desejado, por exemplo: Documentos clique com o botão direito do mouse e selecione: Abrir no
-#Terminal.
+## 06_ Clonando o Repositório Remoto do Python 3 no Linux Mint
 
+**OBSERVAÇÃO IMPORTANTE:** Sempre que você pressiona: *Ctrl+Alt+T* você abre o Bash/Shel (Terminal) na Raiz do Perfil do seu usuário, exemplo: */home/vaamonde*, caso queria clonar o diretório em outro local utiliza o comando: *cd* ou dentro do Gerenciador de Arquivos, acesse o diretório desejado, por exemplo: *Documentos clique com o botão direito do mouse e selecione: Abrir no Terminal*.
+
+```bash
 #clonando o Repositório Remoto do Github Localmente
 #Documentação oficial do Git: https://git-scm.com/docs/git-clone
 #opção do comando git: clone ( Clone a repository into a new directory)
@@ -189,7 +180,7 @@ ls -lh
 cd python3/
 ```
 
-#07_ Abrindo nosso Repositório Local do Python 3 com o VSCode no Linux Mint<br>
+## 07_ Abrindo nosso Repositório Local do Python 3 com o VSCode no Linux Mint
 ```bash
 #abrindo o VSCode no repositório local do Python3
 code .
@@ -205,17 +196,15 @@ Selecionar o diretório: python3
     Selecionar: Abrir Com depois: Visual Studio Code
 ```
 
-#08_ Integrando o VSCode com o Github no Linux Mint<br>
+## 08_ Integrando o VSCode com o Github no Linux Mint<br>
+
+**OBSERVAÇÃO IMPORTANTE:** Dessa forma não existe a necessidade da criação do Token de autenticação do Github com o VSCode, facilitando a integração do Repositório Local com o Repositório Remoto.
+
+**OBSERVAÇÃO IMPORTANTE:** Para que a integração seja feita de forma correto é necessário que no seu navegador padrão do seu sistema operacional esteja autenticado no Github.
+
+Pressionar Ctrl + J para abrir o Terminal no VSCode
+
 ```bash
-#OBSERVAÇÃO IMPORTANTE: Dessa forma não existe a necessidade da criação do Token de
-#autenticação do Github com o VSCode, facilitando a integração do Repositório Local
-#com o Repositório Remoto.
-
-#OBSERVAÇÃO IMPORTANTE: Para que a integração seja feita de forma correto é necessário
-#que no seu navegador padrão do seu sistema operacional esteja autenticado no Github.
-
-Pressionar Ctrl + J para abrir o Terminal
-
 #verificando atualizações no repositório remoto do Github
 #Documentação oficial do Git: https://git-scm.com/docs/git-pull
 #opção do comando git: pull (etch from and integrate with another repository or a local branch)
@@ -258,7 +247,7 @@ Select user to authorize
   <Abrir link>
 ```
 
-#09_ Instalando o Git Bash no Microsoft Windows 10<br>
+## 09_ Instalando o Git Bash no Microsoft Windows 10
 ```bash
 #download do Git para Microsoft Windows
 Link de download do Git: https://git-scm.com/download/win
@@ -320,12 +309,11 @@ Abrir a Pasta de Download
     <Finish>
 ```
 
-#10_ Clonando o Repositório Remoto do Python 3 no Windows 10<br>
-```bash
-#OBSERVAÇÃO IMPORTANTE: Igual que acontece no GNU/Linux quando você pressiona: Ctrl+alt+T
-#você cai no terminal e perfil padrão do usuário, no Windows é igual, quando você executa
-#o Powershell ele abre o terminal em: c:\users\seu_usuário
+## 10_ Clonando o Repositório Remoto do Python 3 no Windows 10<br>
 
+**OBSERVAÇÃO IMPORTANTE:** Igual que acontece no GNU/Linux quando você pressiona: *Ctrl+alt+T* você cai no terminal e perfil padrão do usuário, no Windows é igual, quando você executa o Powershell ele abre o terminal em: *c:\users\seu_usuário*.
+
+```bash
 #clonando o Repositório Remoto do Github Localmente
 git clone https://github.com/rsvaamonde/python3
 
@@ -350,22 +338,22 @@ Selecionar o diretório: python3
     Selecionar: Abrir Com depois: Visual Studio Code
 ```
 
-#11_ Configurando o Git Bash no VSCode no Windows 10<br>
-```bash
-#OBSERVAÇÃO IMPORTANTE: Por padrão o Powershell é o Terminal no VSCode do Windows, não esqueça
-#de mudar o terminal ou configurar ele na opção: Terminal › Integrated › Default Profile: Linux
+## 11_ Configurando o Git Bash no VSCode no Windows 10
 
+**OBSERVAÇÃO IMPORTANTE:** Por padrão o Powershell é o Terminal no VSCode do Windows, não esqueça de mudar o terminal ou configurar ele na opção: *Terminal › Integrated › Default Profile: Linux*.
+
+```bash
 #abrindo o Terminal no VScode no Windows
 Pressionar Ctrl + J para abrir o Terminal
 
 #alterando o terminal do Powershell para Gitbash
 + (Seta selecionar terminal)
   Selecionar: Git Bash
+```
 
-#OBSERVAÇÃO IMPORTANTE: Essas informações são obrigatórias para os comandos: git add e
-#git commint que serão utilizadas antes de enviar os arquivos para o Github com o comando
-#git pull
+**OBSERVAÇÃO IMPORTANTE:** Essas informações são obrigatórias para os comandos: *git add* e *git commit* que serão utilizadas antes de enviar os arquivos para o Github com o comando: *git pull*.
 
+```bash
 #Seu nome completo que vai ser utilizado em qualquer commit (confirmação) recém-criado.
 #Documentação oficial do Git: https://git-scm.com/docs/git-config
 #opção do comando git: --global (write to global ~/.gitconfig file rather than the repository
@@ -409,15 +397,13 @@ git config --list
   Q (quit) para sair
 ```
 
-#12_ Integrando o VSCode com o Github no Windows 10<br>
+## 12_ Integrando o VSCode com o Github no Windows 10
+
+**OBSERVAÇÃO IMPORTANTE:** Dessa forma não existe a necessidade da criação do Token de autenticação do Github com o VSCode, facilitando a integração do Repositório Local com o Repositório Remoto.
+
+**OBSERVAÇÃO IMPORTANTE:** Para que a integração seja feita de forma correto é necessário que no seu navegador padrão do seu sistema operacional esteja autenticado no Github.
+
 ```bash
-#OBSERVAÇÃO IMPORTANTE: Dessa forma não existe a necessidade da criação do Token de
-#autenticação do Github com o VSCode, facilitando a integração do Repositório Local
-#com o Repositório Remoto.
-
-#OBSERVAÇÃO IMPORTANTE: Para que a integração seja feita de forma correto é necessário
-#que no seu navegador padrão do seu sistema operacional esteja autenticado no Github.
-
 Pressionar Ctrl + J para abrir o Terminal
 
 #verificando atualizações no repositório remoto do Github

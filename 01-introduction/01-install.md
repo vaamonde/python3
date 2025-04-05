@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 07/10/2024<br>
-#Versão: 0.14<br>
+#Data de atualização: 05/04/2025<br>
+#Versão: 0.15<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
@@ -27,7 +27,7 @@ Conteúdo estudado nessa aula:<br>
 #14_ Configurações básicas do VSCode para funcionar perfeitamente no Windows 10<br>
 #15_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Windows 10<br>
 
-OBSERVAÇÃO IMPORTANTE: COMENTAR NO VÍDEO DO INSTALAÇÃO DO PYTHON 3 SE VOCÊ CONSEGUIU FAZER A INSTALAÇÃO COM A SEGUINTE FRASE: Instalação do Python 3 e VSCode realizado com sucesso!!! #BoraParaPrática
+**OBSERVAÇÃO IMPORTANTE:** COMENTAR NO VÍDEO DO INSTALAÇÃO DO PYTHON 3 SE VOCÊ CONSEGUIU FAZER A INSTALAÇÃO COM A SEGUINTE FRASE: *Instalação do Python 3 e VSCode realizado com sucesso!!! #BoraParaPrática*
 
 #boraparapratica #boraparaprática #vaamonde #robsonvaamonde #procedimentosemti #python3 #devops #desafiovaamonde #desafioboraparapratica #desafiopython3 #desafiovscode
 
@@ -39,42 +39,42 @@ Site Oficial do VSCode: https://code.visualstudio.com/<br>
 Site Oficial do Marketing Place do VSCode: https://marketplace.visualstudio.com/vscode<br>
 Extensão Oficial do Python para VSCode: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
-Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.
+**O QUE É E PARA QUE SERVER O PYTHON:** O Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.
 
-IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
+**O QUE É E PARA QUE SERVER O IPYTHON:** O IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
 
-BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe, Histórico de comandos e Inserção de argumentos.
+**O QUE É E PARA QUE SERVER O BPYTHON:** O BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe, Histórico de comandos e Inserção de argumentos.
 
-IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado de software para criar aplicações que combina ferramentas comuns de desenvolvedor em uma única interface de usuário gráfica (GUI - Graphical User Interface).
+**O QUE É E PARA QUE SERVER A IDE:** O IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado de software para criar aplicações que combina ferramentas comuns de desenvolvedor em uma única interface de usuário gráfica (GUI - Graphical User Interface).
 
-IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
+**O QUE É E PARA QUE SERVER O IDLE:** O IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
 
-PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições do Python vem com o pip pré-instalado.
+**O QUE É E PARA QUE SERVER O PIP:** O PIP (Package Installation for Python) é um sistema de gerenciamento de pacotes padrão de facto usado para instalar e gerenciar pacotes de software escritos em Python. Muitos pacotes podem ser encontrados na fonte padrão para pacotes e suas dependências - Python Package Index. A maioria das distribuições do Python vem com o pip pré-instalado.
 
-O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+**O QUE É E PARA QUE SERVER O VSCODE:** O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
-GNU Bash ou simplesmente Bash é um interpretador de comandos, um entre os diversos tradutores entre o usuário e o sistema operacional conhecidos como shell. Acrônimo para "Bourne-Again SHell", o Bash é uma evolução retro-compatível muito mais interativa do Bourne Shell.
+**O QUE É E PARA QUE SERVER O GNU BASH:** GNU Bash ou simplesmente Bash é um interpretador de comandos, um entre os diversos tradutores entre o usuário e o sistema operacional conhecidos como shell. Acrônimo para "Bourne-Again SHell", o Bash é uma evolução retro-compatível muito mais interativa do Bourne Shell.
 
 [![Instalação Python 3](http://img.youtube.com/vi/klIKuVGRHmM/0.jpg)](https://www.youtube.com/watch?v=klIKuVGRHmM "Instalação Python 3")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=klIKuVGRHmM
 
-#01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)<br>
+## 01_ Instalando o Python 3 no Linux Mint (VÁRIAS VERSÕES DE GNU/LINUX)
 ```bash
 Link de download do Python 3: https://www.python.org/downloads/
 
 #Atualizando as listas do Apt
 sudo apt update
+```
 
+**OBSERVAÇÃO IMPORTANTE:** a opção do *IDLE do Python 3* no Linux Mint sempre sofre atualização, antes de fazer a sua instalação, verifique a versão com o comando: __`sudo apt instal idle-python`__ (TAB duas vezes) para ver a última versão ou o comando: *sudo apt search idle-python3* que lista todas as possibilidades de versões do IDLE do Python 3.
+
+```bash
 #Instalando o Python na versão 3
-#OBSERVAÇÃO IMPORTANTE: a opção do IDLE do Python 3 no Linux Mint sempre sofre atualização,
-#antes de fazer a sua instalação, verifique a versão com o comando: sudo apt instal idle-python 
-#(TAB duas vezes) para ver a última versão ou o comando: sudo apt search idle-python3 que
-#lista todas as possibilidades de versões do IDLE do Python 3.
 sudo apt install python3 python3-pip python3-ipdb idle-python3.12 ipython3 bpython git vim cloc
 ```
 
-#02_ Verificando a Versão o Python 3 e do PIP instalado no Linux Mint<br>
+## 02_ Verificando a Versão o Python 3 e do PIP instalado no Linux Mint
 ```bash
 #Verificando a versão do Python 3
 sudo python3 --version
@@ -83,7 +83,7 @@ sudo python3 --version
 sudo pip3 --version
 ```
 
-#03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint<br>
+## 03_ Testando o Shell (Prompt) Padrão do Python 3 no Linux Mint
 ```bash
 #Utilizando o Shell Prompt Padrão Python 3 padrão
 python3
@@ -96,7 +96,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-#04_ Testando o Shell (Prompt) do IPython 3 do Python 3 no Linux<br>
+## 04_ Testando o Shell (Prompt) do IPython 3 do Python 3 no Linux Mint
 ```bash
 #Utilizando o Shell Prompt do IPython 3 (Interactive Python)
 ipython3
@@ -111,7 +111,7 @@ IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
 In [1]:
 ```
 
-#05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux<br>
+## 05_ Testando o Shell (Prompt) do BPython do Python 3 no Linux Mint
 ```bash
 #Utilizando o Shell Prompt do BPython
 bpython
@@ -123,19 +123,19 @@ bpython version 0.22.1 on top of Python 3.10.12 /usr/bin/python3
 >>>
 ```
 
-#06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint<br>
+## 06_ Testando o IDLE (Integrated Development Environment for Python) do Python 3 no Linux Mint
 ```bash
 #Utilizando o IDLE padrão do Python 3
 idle-python3.12
 ```
 
-#07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint<br>
+## 07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint
 ```bash
 Link download: https://code.visualstudio.com/download
   Versão: .deb x64 (Debian, Ubuntu 64 Bits) <Salvar aquivo>
 ```
 
-#08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint<br>
+## 08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint
 ```bash
 #instalando em modo gráfico (mais fácil) o VSCode
 Arquivos
@@ -172,7 +172,7 @@ Menu
   Busca Indexada: vscode
 ```
 
-#09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode<br>
+## 09_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode
 ```bash
 #instalação da extensão PT-BR do VSCode
 Portuguese (Brazil) Language Pack for Visual Studio Code
@@ -192,7 +192,7 @@ Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
               shellscript, python, markdown, etc...
 ```
 
-#10_ Configurações básicas do VSCode para funcionar perfeitamente no Linux Mint<br>
+## 10_ Configurações básicas do VSCode para funcionar perfeitamente no Linux Mint
 ```bash
 #configurações básicas do VSCode para funcionar no Linux Mint
 Gerenciar
@@ -212,11 +212,11 @@ Gerenciar
       Files: Eol: \n (LF)
 ```
 
-#11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Linux Mint<br>
-```bash
-#A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:
-#Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
+## 11_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Linux Mint
 
+**OBSERVAÇÃO IMPORTANTE:** A melhor extensão para Python no VSCode é a: *Python Extension da Microsoft*. Ela oferece: *Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.*
+
+```bash
 #Instalando as Extensões do Python 3 no VSCode
 VSCode
   Extensões
@@ -225,7 +225,7 @@ VSCode
      Python Debugger (Microsoft) <Instalar>
 ```
 
-#12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
+## 12_ Instalando o Python 3 e VSCode no Microsoft Windows 10<br>
 ```bash
 #download do Python 3 para Microsoft Windows
 Link de download do Python 3: https://www.python.org/downloads/windows/
@@ -242,11 +242,12 @@ Abrir a Pasta de Download
     Install Now <Clicar>
       Deseja permitir que este aplicativo faça alterações no seu dispositivo? <Sim>
   <Close>
+```
 
+**OBSERVAÇÃO IMPORTANTE:** RECOMENDADO SEMPRE UTILIZAR A OPÇÃO DE DOWNLOAD DA INSTALAÇÃO DO VSCODE SYSTEM INSTALLER (INSTALAÇÃO DE SISTEMA), NÃO RECOMENDO USAR A OPÇÃO USER INSTALLER (INSTALAÇÃO DE USUÁRIO).
+
+```bash
 #Download do VSCode para Microsoft Windows
-#OBSERVAÇÃO IMPORTANTE: RECOMENDADO SEMPRE UTILIZAR A OPÇÃO DE DOWNLOAD DA INSTALAÇÃO DO VSCODE
-#SYSTEM INSTALLER (INSTALAÇÃO DE SISTEMA), NÃO RECOMENDO USAR A OPÇÃO USER INSTALLER (INSTALAÇÃO
-#DE USUÁRIO) 
 Link download: https://code.visualstudio.com/download
   Windows (Windows 10 e 11)
     System Installer: x64 (clicar em cima do x64 para fazer o download do arquivo)
@@ -272,7 +273,7 @@ Abrir a Pasta de Download
   <Concluir>
 ```
 
-#13_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode no Windows<br>
+## 13_ Instalando as Extensões do Português Brasil e Dicionário PT-BR e US no VSCode no Windows
 ```bash
 #instalação da extensão PT-BR do VSCode
 Portuguese (Brazil) Language Pack for Visual Studio Code
@@ -292,7 +293,7 @@ Manter selecionado a extensão: Brazilian Portuguese - Code Spell Checker
               shellscript, python, markdown, etc...
 ```
 
-#14_ Configurações básicas do VSCode para funcionar perfeitamente no Windows<br>
+## 14_ Configurações básicas do VSCode para funcionar perfeitamente no Windows
 ```bash
 #configurações básicas do VSCode para funcionar no Windows
 Gerenciar
@@ -312,11 +313,11 @@ Gerenciar
       Files: Eol: \n (LF)
 ```
 
-#15_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Windows<br>
-```bash
-#A melhor extensão para Python no VSCode é a Python Extension da Microsoft. Ela oferece:
-#Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.
+## 15_ Instalando as Extensões do Python 3 no VSCode (Visual Studio Code) no Windows
 
+**OBSERVAÇÃO IMPORTANTE:** A melhor extensão para Python no VSCode é a *Python Extension da Microsoft*. Ela oferece: *Autocompletar e IntelliSense, Depurador, Linting, Execução de testes e Jupyter Notebooks.*
+
+```bash
 #Instalando as Extensões do Python 3 no VSCode
 VSCode
   Extensões

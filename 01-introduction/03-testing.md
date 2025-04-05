@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 15/10/2024<br>
-#Versão: 0.09<br>
+#Data de atualização: 05/04/2025<br>
+#Versão: 0.10<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
@@ -20,25 +20,25 @@ Conteúdo estudado nessa aula:<br>
 #07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
 #08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
 
-OBSERVAÇÃO IMPORTANTE: COMENTAR NO VÍDEO TESTE DO PYTHON 3 SE VOCÊ CONSEGUIU FAZER OS TESTES COM A SEGUINTE FRASE: Testes do Python 3 realizado com sucesso!!! #BoraParaPrática
+**OBSERVAÇÃO IMPORTANTE:** COMENTAR NO VÍDEO TESTE DO PYTHON 3 SE VOCÊ CONSEGUIU FAZER OS TESTES COM A SEGUINTE FRASE: *Testes do Python 3 realizado com sucesso!!! #BoraParaPrática*
 
 #boraparapratica #boraparaprática #vaamonde #robsonvaamonde #procedimentosemti #python3 #devops #desafiovaamonde #desafioboraparapratica #desafiopython3 #desafiovscode
 
-Python3 é o interpretador padrão Python geralmente é instalado em: /usr/local/bin/python3.x nas máquinas onde está disponível. Os recursos de edição de linha do interpretador incluem edição interativa, substituição de histórico e conclusão de código em sistemas que suportam a biblioteca GNU Readline.
+**O QUE É E PARA QUE SERVER O PYTHON3:**O Python3 é o interpretador padrão Python geralmente é instalado em: /usr/local/bin/python3.x nas máquinas onde está disponível. Os recursos de edição de linha do interpretador incluem edição interativa, substituição de histórico e conclusão de código em sistemas que suportam a biblioteca GNU Readline.
 
-IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
+**O QUE É E PARA QUE SERVER O IPYTHON:** O IPython é um console interativo avançado para Python. Ele oferece recursos como: Autocompletar, Sintaxe aprimorada, Execução de comandos do sistema, Ferramentas de depuração e Integração com Jupyter Notebook.
 
-BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe, Histórico de comandos e Inserção de argumentos.
+**O QUE É E PARA QUE SERVER O BPYTHON:** O BPython é um intérprete interativo para Python, similar ao IPython, mas com foco em simplicidade e usabilidade. Algumas características incluem: Autocompletar avançado, Destacar erros de sintaxe, Histórico de comandos e Inserção de argumentos.
 
-IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
+**O QUE É E PARA QUE SERVER O IDLE:** O IDLE (Integrated Development and Learning Environment) é um ambiente de desenvolvimento integrado para Python, que é fornecido com a linguagem desde a versão 2.3. É completamente escrito em Python usando o kit de interface gráfica Tkinter. É uma IDE multiplataforma: Windows, Unix e, MacOS. Ele não é incluso no pacote Python presente em muitas distribuições Linux.
 
-O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
+**O QUE É E PARA QUE SERVER O VSCODE:** O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código.
 
 [![Testes do Python 3](http://img.youtube.com/vi/uODrdZP4y78/0.jpg)](https://www.youtube.com/watch?v=uODrdZP4y78 "Testes do Python 3")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=uODrdZP4y78
 
-#01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint<br>
+## 01_ Testando o Shell (Prompt) Padrão (Default) do Python 3 no Linux Mint
 ```bash
 #Utilizando o Prompt Shell Padrão do Python 3
 python3
@@ -94,7 +94,7 @@ Eu sou: Robson Vaamonde          #mais o valor da variável estática vaamonde
 >>> 
 ```
 
-#02_ Testando o Shell (Prompt) IPython 3 do Python 3 no Linux Mint<br>
+## 02_ Testando o Shell (Prompt) IPython 3 do Python 3 no Linux Mint
 ```bash
 #Utilizando o Prompt Shell do IPython 3 
 ipython3
@@ -148,7 +148,7 @@ Eu sou: Robson Vaamonde
 In [9]:
 ```
 
-#03_ Testando o Shell (Prompt) BPython do Python 3 no Linux Mint<br>
+## 03_ Testando o Shell (Prompt) BPython do Python 3 no Linux Mint
 ```bash
 #Utilizando o Prompt Shell do BPython 
 bpython
@@ -199,7 +199,7 @@ Eu sou: Robson Vaamonde
 >>>
 ```
 
-#04_ Testando IDLE do Python 3 no Linux Mint<br>
+## 04_ Testando IDLE do Python 3 no Linux Mint
 ```bash
 #Utilizando IDLE do Python 3
 idle-python3.12
@@ -269,7 +269,7 @@ Run
   Run Module (F5)
 ```
 
-#05_ Testando um arquivo Python 3 com Extensão .py no VSCode (Visual Studio Code)<br>
+## 05_ Testando um arquivo Python 3 com Extensão .py no VSCode (Visual Studio Code)
 ```bash
 #A extensão .py indica um arquivo de script Python. Esses arquivos contêm código-fonte
 #escrito na linguagem Python e podem ser executados pelo interpretador Python para
@@ -297,7 +297,7 @@ Ctrl+F5
 #Localização do arquivo de script em Python: ScriptsPython
 ```
 
-#06_ Testando um arquivo Python 3 com Extensão .py no Terminal<br>
+## 06_ Testando um arquivo Python 3 com Extensão .py no Terminal
 ```python
 #Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl+N
 #Cálculo simples da área de um retângulo utilizando as funções INT(), INPUT() e PRINT()
@@ -332,7 +332,7 @@ ipython3 02-area_retangulo.pyy
 bpython 02-area_retangulo.py
 ```
 
-#07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal<br>
+## 07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal
 ```bash
 #Mais precisamente, uma linha shebang consiste de um cerquilha e um ponto de exclamação
 #("#!"), em seguida, opcionalmente, qualquer quantidade de espaços em branco, seguidos 
@@ -374,7 +374,7 @@ chmod -v +x 03-idade_simples.py
 ./03-idade_simples.py
 ```
 
-#08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3<br>
+## 08_ Atualizando o Repositório Remoto do Github com os novos arquivos do Python 3
 ```bash
 #verificando as atualizações no repositório remoto do Github
 #Documentação oficial do Git: https://git-scm.com/docs/git-pull
