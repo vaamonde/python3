@@ -7,7 +7,7 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 05/04/2025<br>
+#Data de atualização: 07/04/2025<br>
 #Versão: 0.10<br>
 
 Conteúdo estudado nessa aula:<br>
@@ -62,12 +62,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 3 + 4   #Cálculo de Aritmética simples de adição (símbolo + mais)
 7           #Resultado da adição
 >>> 
+```
 
+**OBSERVAÇÃO IMPORTANTE:** VOCÊ PODE USAR *ASPAS SIMPLES ' ' (CONHECIDO COMO APÓSTROFO)* OU *ASPAS DUPLAS " " (NÃO CONFUNDIR COM DUAS ASPAS SIMPLES)* PARA DEFINIR **STRINGS** NO PYTHON EM VARIÁVEIS SIMPLES, IDENTIFICADORES OU ATRIBUTOS É INDICADO USAR *ASPAS SIMPLES*, PARA TEXTOS LONGOS *ASPAS DUPLAS* QUE PERMITI O USO DE ASPAS SIMPLES DENTRO DO TEXTO.
+
+```python
 #Terceiro exemplo: digitando strings de texto
-#OBSERVAÇÃO IMPORTANTE: VOCÊ PODE USAR ASPAS SIMPLES ' ' (CONHECIDO COMO APÓSTROFO) OU
-#ASPAS DUPLAS " " (NÃO CONFUNDIR COM DUAS ASPAS SIMPLES) PARA DEFINIR STRINGS NO PYTHON,
-#VARIÁVEIS SIMPLES, IDENTIFICADORES OU ATRIBUTOS É INDICADO USAR AS SIMPLES, PARA TEXTOS 
-#LONGOS ASPAS DUPLAS QUE PERMITI O USO DE ASPAS SIMPLES DENTRO DO TEXTO.
 >>> "Robson Vaamonde"   #Enviando dados na saída padrão do valor da String de Texto 
 'Robson Vaamonde'
 >>>
@@ -333,11 +333,9 @@ bpython 02-area_retangulo.py
 ```
 
 ## 07_ Utilizando o Shebang no arquivo Python 3 com Extensão .py no Terminal
-```bash
-#Mais precisamente, uma linha shebang consiste de um cerquilha e um ponto de exclamação
-#("#!"), em seguida, opcionalmente, qualquer quantidade de espaços em branco, seguidos 
-#pelo endereço (absoluto) para o interpretador.
-```
+
+Mais precisamente, uma linha **shebang** consiste de um cerquilha e um ponto de exclamação __`("#!")`__, em seguida, opcionalmente, qualquer quantidade de espaços em branco, seguidos pelo endereço (absoluto) para o interpretador.
+
 ```python
 #Criando o arquivo de script em Python 3 no VSCode (mais simples): Ctrl + N (New)
 #Cálculo simples de idade utilizando as funções INT(), INPUT() e PRINT()

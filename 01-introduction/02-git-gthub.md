@@ -7,7 +7,7 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 02/09/2024<br>
-#Data de atualização: 05/04/2025<br>
+#Data de atualização: 07/04/2025<br>
 #Versão: 0.07<br>
 
 Conteúdo estudado nessa configuração:<br>
@@ -187,10 +187,12 @@ code .
   Você confia nos autores dos arquivos nesta pasta?
     (ON) Confiar nos autores de todos os arquivos na pasta pai 'vaamonde'
       <Sim, confio nos autores>
+```
 
-#OBSERVAÇÃO IMPORTANTE: Você também pode abrir o projeto utilizando o Gerenciador de
-#arquivos Nemo clicando com o botão direito do mouse no diretório de projeto do python
-#e escolhendo a opção: Abrir com o VSCode na lista de opções.
+**OBSERVAÇÃO IMPORTANTE:** Você também pode abrir o projeto utilizando o *Gerenciador de arquivos Nemo* clicando com o **botão direito do mouse** no diretório de projeto do python3 e escolhendo a opção: *Abrir com o VSCode na lista de opções*.
+
+```bash
+#abrindo o VSCode no repositório local do Python3
 Selecionar o diretório: python3
   Clicar com o botão direito do mouse
     Selecionar: Abrir Com depois: Visual Studio Code
@@ -329,10 +331,11 @@ code .
   Você confia nos autores dos arquivos nesta pasta?
     (ON) Confiar nos autores de todos os arquivos na pata pai 'vaamonde'
       <Sim, confio nos autores>
+```
 
-#OBSERVAÇÃO IMPORTANTE: Você também pode abrir o projeto utilizando o Gerenciador de
-#arquivos Explorer clicando com o botão direito do mouse no diretório de projeto do python
-#e escolhendo a opção: Abrir com o VSCode na lista de opções.
+**OBSERVAÇÃO IMPORTANTE:** Você também pode abrir o projeto utilizando o *Gerenciador de arquivos Nemo* clicando com o **botão direito do mouse** no diretório de projeto do python3 e escolhendo a opção: *Abrir com o VSCode na lista de opções*.
+
+```bash
 Selecionar o diretório: python3
   Clicar com o botão direito do mouse
     Selecionar: Abrir Com depois: Visual Studio Code

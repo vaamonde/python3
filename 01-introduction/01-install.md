@@ -7,7 +7,7 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 15/07/2024<br>
-#Data de atualização: 05/04/2025<br>
+#Data de atualização: 07/04/2025<br>
 #Versão: 0.15<br>
 
 Conteúdo estudado nessa aula:<br>

@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 18/08/2024<br>
-#Versão: 0.05<br>
+#Data de atualização: 07/04/2025<br>
+#Versão: 0.06<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Função Print() do Python 3 no Linux Mint<br>
@@ -30,13 +30,14 @@ F) A função round() retorna um número de ponto flutuante que é uma versão a
 
 G) A função str() converte o valor especificado em uma string (Texto).
 
-#01_ Função Print() do Python 3 no Linux Mint<br>
+## 01_ Função Print() do Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_strings.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_print.asp
-```python
-#Pressione: Ctrl + L para limpar o Shell do Python 3 facilitando a digitação
-#Você pode utilizar o TAB (Tabulador) para facilitar a digitação das funções
 
+**Pressione:** *Ctrl + L* para limpar o Shell do Python 3 facilitando a digitação, Você pode utilizar o *TAB (Tabulador)* para facilitar a digitação das funções
+
+```python
 #Primeiro exemplo: utilizando o função print()
 #Imprimindo os dados na saída padrão do valor da função PRINT() e criando uma nova linha
 >>> print("Robson Vaamonde")
@@ -49,10 +50,12 @@ Robson Vaamonde
 Robson Vaamonde>>>
 ```
 
-#02_ Função Input() do Python 3 no Linux Mint<br>
+## 02_ Função Input() do Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/ref_func_print.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_input.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_strings.asp
+
 ```python
 #Terceiro exemplo: utilizando variável dinâmica e a função input()
 #Criando a variável dinâmica e recebendo o argumento da função INPUT()
@@ -78,12 +81,14 @@ São Paulo
 >>>
 ```
 
-#03_ Funções Int() e Float() do Python 3 no Linux Mint<br>
+## 03_ Funções Int() e Float() do Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/ref_func_print.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_input.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_strings.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_int.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_float.asp
+
 ```python
 #Quinto exemplo: utilizando variáveis dinâmica junto com as funções int(), input() e print()
 #Atribuindo o valor inteiro/numérico na variável anoatual
@@ -118,7 +123,8 @@ Troco:  -9.5
 >>>
 ```
 
-#04_ Funções ROUND() e STR() do Python 3 no Linux Mint<br>
+## 04_ Funções ROUND() e STR() do Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/ref_func_print.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_input.asp<br>
 Link de apoio: https://www.w3schools.com/python/python_strings.asp<br>
@@ -126,6 +132,7 @@ Link de apoio: https://www.w3schools.com/python/ref_func_int.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_float.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_round.asp<br>
 Link de apoio: https://www.w3schools.com/python/ref_func_str.asp
+
 ```python
 #Sétimo exemplo: utilizando variáveis constante/dinâmica com as funções float(), input(), 
 #print(), str(), round() e int()

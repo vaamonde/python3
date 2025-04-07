@@ -7,8 +7,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 16/07/2024<br>
-#Data de atualização: 18/08/2024<br>
-#Versão: 0.04<br>
+#Data de atualização: 07/04/2025<br>
+#Versão: 0.05<br>
 
 Conteúdo estudado nessa aula:<br>
 #01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
@@ -27,8 +27,10 @@ B) Operadores Aritméticos Python: Operadores aritméticos são usados ​​com
 
 C) Precedência do Operador Python: A precedência do operador descreve a ordem em que as operações são executadas.
 
-#01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint<br>
+## 01_ Cálculo de Adição (Somar +) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```bash
 #Utilizando o Shell Prompt Padrão do Python 3
 python3
@@ -40,8 +42,10 @@ python3
 >>>
 ```
 
-#02_ Cálculo de Subtração (Subtrair -) no Python 3 no Linux Mint<br>
+## 02_ Cálculo de Subtração (Subtrair -) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Subtrair dois valores utilizando o caractere: - (menos)
 >>> 15 - 15
@@ -49,8 +53,10 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#03_ Cálculo de Multiplicação (Multiplicar *) no Python 3 no Linux Mint<br>
+## 03_ Cálculo de Multiplicação (Multiplicar *) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Multiplicar dois valores utilizando o caractere: * (asterisco)
 >>> 15 * 15
@@ -58,8 +64,10 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#04_ Cálculo de Divisão (Dividir /) no Python 3 no Linux Mint<br>
+## 04_ Cálculo de Divisão (Dividir /) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Dividir dois valores utilizando o caractere: / (barra oblíqua)
 >>> 15 / 4
@@ -67,8 +75,10 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#05_ Cálculo de Divisão (Dividir //) do Número Inteiro (Quociente) no Python 3 no Linux Mint<br>
+## 05_ Cálculo de Divisão (Dividir //) do Número Inteiro (Quociente) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Dividir dois valores utilizando os caracteres: // (duas barras oblíqua)
 >>> 15 // 4
@@ -76,8 +86,10 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#06_ Cálculo de Divisão (Dividir %) do Resto (Módulo) no Python 3 no Linux Mint<br>
+## 06_ Cálculo de Divisão (Dividir %) do Resto (Módulo) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Dividir dois valores utilizando o caractere: % (porcentagem)
 >>> 15 % 4
@@ -85,8 +97,10 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#07_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint<br>
+## 07_ Cálculo de Exponenciação/Potenciação (Elevar **) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Valor base elevado pelo expoente (2=quadrado) utilizando os caracteres: ** (dois asterisco)
 >>> 15 ** 2
@@ -94,8 +108,10 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint<br>
+## 08_ Cálculo de Precedência Matemática no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Utilizar sempre os caracteres: () (parênteses) para quebrar a ordem da precedência
 #Matemática, 1=divisão, 2=multiplicação e 3=adição (IGUAL AO MICROSOFT OFFICE EXCEL)
@@ -104,8 +120,10 @@ Link de apoio: https://www.w3schools.com/python/python_operators.asp
 >>>
 ```
 
-#09_ Regra de Sinais (Positivo + e Negativo -) no Python 3 no Linux Mint<br>
+## 09_ Regra de Sinais (Positivo + e Negativo -) no Python 3 no Linux Mint
+
 Link de apoio: https://www.w3schools.com/python/python_operators.asp
+
 ```python
 #Sinal Positivo (mais) + Sinal Positivo (mais) = Positivo (mais)
 >>> +10 + +10
