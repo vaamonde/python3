@@ -130,10 +130,10 @@ idle-python3.12
 ```
 
 ## 07_ Baixando o Microsoft Visual Studio Code VSCode para o Linux Mint
-```bash
-Link download: https://code.visualstudio.com/download
+
+Link de download do VSCode: https://code.visualstudio.com/download<br>
   Versão: .deb x64 (Debian, Ubuntu 64 Bits) <Salvar aquivo>
-```
+
 
 ## 08_ Instalando o Microsoft Visual Studio Code VSCode utilizando o Gdebi-Gtk no Linux Mint
 ```bash
